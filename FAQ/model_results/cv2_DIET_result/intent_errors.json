@@ -1,0 +1,10 @@
+[
+  {
+    "text": "How to find out where is my order?",
+    "intent": "faq_missing_item",
+    "intent_prediction": {
+      "name": "faq_track_delivery",
+      "confidence": 0.729682445526123
+    }
+  }
+]

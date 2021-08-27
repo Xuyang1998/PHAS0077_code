@@ -1,0 +1,3443 @@
+version: '2.0'
+nlu:
+- intent: faq_fur
+  examples: |
+    - What kind of fur do you use?
+    - What type of fur do you use?
+    - What kind of fur do you like to use?
+    - What kind of fur does one use?
+    - Does your company use real fur?
+    - Do companies use real fur?
+    - Does your company uses fur?
+    - Do you use real fur?
+    - Does your company have real fur?
+    - Does my company use real fur?
+    - Is your company using real fur?
+    - Do your company employ real fur?
+    - Does a company use real fur?
+    - Does my company use fake fur?
+    - Does your company really use real fur?
+    - Is your fur cruelty free?
+    - Is fur cruelty free?
+    - Is my fur cruelty free?
+    - How is fur cruelty free?
+    - Is Fur cruelty free?
+    - How safe is fur?
+    - Are all your furs cruelty free?
+    - Are some pets cruelty free?
+    - Are your pets cruelty free?
+    - How cruel is fur?
+    - How are pet stores cruelty free?
+    - Are your products made of real animal fur?
+    - Are your products made with real animal fur?
+    - Are your products made with real fur?
+    - Are all of our products made of 100% animal fur?
+    - Is it true that your products are made of real fur?
+    - Are all our products made from real animal fur?
+    - Is there any possibility of using real fur in your products?
+    - Are all my products made of real animal fur?
+    - Are all of your products made of fur?
+    - Is there any proof of fur?
+    - Is fur your product?
+    - Does your product contain real fur?
+    - Do some of your products contain fur?
+    - Is there real fur in products?
+    - Does fur exist in food?
+    - Does the products contain real fur?
+    - Does our fury line have real fur?
+    - Does your product have real fur?
+    - Do you think your product contains real fur?
+    - Is fur really real?
+    - Does your pet shampoo or conditioner contain fur?
+    - Does any of your products have real fur?
+    - Is the fur on your product real?
+    - Is the fur on the product real?
+    - Is fur on clothing real?
+    - Does fur actually exist in animal products?
+    - Is fur real?
+    - Is fur on your products real?
+    - Do people think the fur on their dog is real?
+    - Is the fur on your products real?
+    - Is fur really real?
+    - What makes the fur of my product fake?
+    - How is fur actually made?
+    - Is your fur fake?
+    - Does your fur fake?
+    - Is fur fake?
+    - What is the fur you use to fake it?
+    - How fake is your fur?
+    - Why is my fur fake?
+    - Does fur fake?
+    - Is my fur fake?
+    - Is it really a fake fur?
+    - Does my fur look fake?
+    - How much fake fur is on my chest?
+    - Is your fur real?
+    - Is fur real?
+    - Is my fur fake?
+    - Are fur coats fake?
+    - Does fur really exist?
+    - Is fur real or fake?
+    - Does fur actually exist?
+    - Are dogs fur real?
+    - How can you make a fake fur?
+    - Is your fur fake?
+    - How do you tell if a dog is real?
+    - Does your company use real fur?
+    - Does your company use genuine fur?
+    - Is the fur of my company fake?
+    - Is your company using real fur?
+    - Do companies use real fur?
+    - Do you use real fur?
+    - Do your companies use real fur?
+    - Does your company uses real fur?
+    - Does your company have a real fur collection?
+    - Do company use real fur?
+    - Is there any actual fur used in a company?
+    - Is your fur cruelty free?
+    - What is the best way to be cruelty free in fur?
+    - Are furs cruelty free?
+    - Is fur cruelty free?
+    - Are your furs cruelty free?
+    - What are your opinions on fur cruelty free?
+    - Is my fur cruelty free?
+    - Is our fur cruelty free?
+    - What is cruelty free fur?
+    - What are the benefits of being cruelty free in your fur?
+    - How does your fur really look?
+- intent: faq_delivery_slot
+  examples: |
+    - I need my parcel to arrive on a specific day (UK)
+    - I need my parcel to arrive on a specific day (UK) Is it possible?
+    - I have to deliver a parcel to London today, and I want it to arrive on the next
+      day. I don't know what day I need it to be. What are some ways I can help you?
+    - When do I need my parcel delivered?
+    - I need my parcel to arrive on a specific day (UK) for an express delivery.
+    - Is it urgent to pick up my parcel from school or get it at airport?
+    - I want a parcel to arrive the same day (UK) and don't want to waste my money if
+      I can't send it. Is it possible?
+    - I need my parcel to arrive on a specific day (UK). I need my parcel to arrive
+      on a specific day. I can have my parcel by the same day in a UK address.
+    - I have a specific order for an parcel in UK, so I need to arrive on that day.
+      I need to go to a local UPS store.
+    - How can I get my parcel in the UK on time?
+    - I need my parcel to arrive on a specific day (UK) If I haven't received my parcel
+      in 2 days then how can I track it?
+    - I need my parcel to arrive on a specific day (International)
+    - I need to order my parcel on a specific day (international) Is this possible?
+    - Why does my parcel arrive on a particular day?
+    - "I need my parcel to arrive on a specific day (International) I can\u2019t send\
+      \ a parcel for one week. Please help!"
+    - How can I check for my parcel before I leave for India?
+    - How do I order a parcel for a specific day?
+    - When should a parcel be delivered?
+    - I need to receive my parcel on the same day (international) I need it to arrive
+      on the same day for the next order to be shipped. How can I get it?
+    - How can I order an Express Mail parcel online for a specific day (international)?
+    - Do you need your parcels to arrive on a specific day (International)?
+    - I need my parcel to arrive on a specific day (International)?
+    - I need my parcel to arrive on a specific date
+    - I want to get a parcel delivered on a specific date. What should I do?
+    - What is the best way to arrange for a parcel to arrive on the same day?
+    - I need my parcel to arrive on a specific date. I want my parcel to arrive on a
+      specific date. I need to make sure that I get it within 30 days. I can't travel
+      during this time.
+    - I need my parcel to arrive on a specific date to get my parcel. I need to have
+      delivery on a specific date. Is there a reason for this?
+    - I need my parcel to arrive on a specific date. I have a parcel I want to deliver.
+    - When will you deliver your parcel?
+    - When do I need my parcel?
+    - Do I need my parcel to arrive on a specific date?
+    - I want my parcel to arrive at a specified time. I can't do it myself.
+    - I need to pick up my parcel from work and be on time, and then we will get it
+      done. I can't afford to delay a few days as the parcel is delivering it a week
+      later.
+    - I need my parcel to arrive on a specific time
+    - I want my parcel to arrive on time but I don't want to waste time. How can I do
+      that?
+    - Why do I need to receive my parcel on a certain day or I need to receive an email
+      from the courier who will deliver my parcel to me in one week?
+    - I need to receive a parcel within 30 days from delivery. I'm interested in getting
+      the parcel to the destination location for delivery. Can I collect it or do it
+      myself?
+    - I want my parcel to arrive on a specific time, but I can't wait to get it home.
+      What should I do?
+    - I need a parcel to arrive at a specified time. Can someone help me?
+    - I need my parcel to arrive on a specific time. Is there a plan?
+    - What is the best way to send your parcel on a certain date?
+    - How do I place an order for a parcel to arrive on a specific day?
+    - How do I ensure that my parcel is delivered on time?
+    - I need my parcel to arrive at a specific time. I want to ship it by Friday at
+      1am. I cannot send it to another location.
+    - I need my parcel to arrive on a specific time on a specific day
+    - How can I deliver a parcel on a specific day?
+    - I need my parcel to arrive on a specific time on a specific day. I can't live
+      without this.
+    - How do I get my parcel on time and on budget?
+    - How can I find a parcel that is delivered on a specific day and time?
+    - How do I make a parcel to arrive at a specific time on a specific day?
+    - How do I order my parcels and it will arrive on a specific day?
+    - I need my parcel to arrive on a specific day and at a specific time. I need a
+      parcel to arrive on the same day if I am unable to send it. I have to keep the
+      delivery date, so that I can place the delivery date. Can you give me a phone
+      number?
+    - How do I schedule delivery of my parcel to my house on a specific day?
+    - Do you need a parcel to arrive on a specific day?
+    - Why do I need my parcel to arrive at a specific time on a specific day?
+    - I will be out of the country on delivery date, can you deliver on another date?
+    - Can you deliver on another date?
+    - Will you deliver to another country if I am out of the country on delivery date?
+    - If I am out of the country for delivery can you deliver on another date?
+    - Will you deliver on another date if you're out of the country?
+    - Can you deliver a product on another date and leave it out of country?
+    - Will I be out of the country on delivery date, can you deliver on another date?
+    - Can you deliver a delivery on another date?
+    - Can you deliver on another delivery date?
+    - I am in the country. Will you deliver on another date?
+    - Can you deliver on another date and time if I have to be out of country for delivery
+      date?
+    - Can you deliver my parcel on a specific date?
+    - How can I deliver my parcel on a specific date?
+    - Can you deliver a parcel on a specific date?
+    - Will you deliver my parcel on a specific date?
+    - Can you deliver your parcel on a specific date?
+    - Can you deliver your parcel on a certain date?
+    - Can you deliver my parcel in a specific date?
+    - Can you deliver my parcel in the morning?
+    - How long will it take for delivery to be processed for my parcel?
+    - I have a parcel for delivery by tomorrow. Will you deliver the parcel to me on
+      that date?
+    - How do I get your parcel to arrive at your door on a specific date?
+    - Can you deliver my parcel on a specific date and time?
+    - How can I send a parcel on a specific date and time?
+    - Can you deliver my parcel within 48 hours?
+    - Can you deliver a parcel at a specific date?
+    - Can you deliver your parcels on a particular date?
+    - Can you deliver my parcel at a specific time?
+    - Can you deliver a parcel to your doorstep on a specific date?
+    - Can you deliver my parcel to a specific time and date?
+    - Can you deliver my parcel on a specific day and time?
+    - Is there any service where I can get a delivery service on a specific date and
+      time?
+    - Can you deliver a parcel on a specific date and time?
+- intent: faq_delivery_address
+  examples: |
+    - I have changed my address, can you update it?
+    - How do I change my address?
+    - I have changed my address but I can not change my email address. How can I get
+      back my old address?
+    - Is there a way to update an address if I've changed the email address?
+    - How do I update my email address?
+    - How can I update my address if I change my phone number?
+    - How do I update an address to my address?
+    - Can you change your address?
+    - I am at my current address and want to change it. How can I do that?
+    - How can I update my email address when I have changed my phone number?
+    - I want to change my address can you update it?
+    - I was sent the wrong item how can I have it delivered to another address?
+    - Is it possible to send the wrong items to another address?
+    - Is there any way to get the wrong item to be delivered to another address?
+    - How do I get the item to be delivered to another address?
+    - How do I get the package I was sent to the wrong address?
+    - How do I return a package to the same address where it was sent?
+    - How do I return the wrong items to an address?
+    - I was sent the wrong item how can I get it delivered to another address?
+    - How do I get the item delivered to another address if I was sent the wrong item?
+    - How can I send the wrong item to another address?
+    - How do I re-order a wrong item and have it delivered to a different address?
+    - How do I have my order delivered to a different address?
+    - How do I send my order to a different address?
+    - How do I get my order delivered to a different address?
+    - Can you send your order to a different address?
+    - How do I have my order delivered to another address?
+    - Can you deliver your order to a different address?
+    - How can I make my order to be delivered to a different address?
+    - What is the best way to order from my current address?
+    - How do I get my order to be delivered to a different address?
+    - How can I have my order delivered to another address?
+    - How do I get an order delivered to a different address?
+    - I want to change my address
+    - Can I change my address?
+    - I want to change my email address. How can I do that?
+    - What do you do if you want to change your address?
+    - How do I change my address?
+    - How do I change my email address?
+    - I want to change my email address and email. I d like to change my current address,
+      would you like to change my current address?
+    - I want to change my address. What should I do?
+    - How do I change my address on my phone?
+    - I want to change my address. Can you please change your address?
+    - I want to change my address. I want to change my current address.
+    - I want to change my delivery address
+    - How can I change delivery address?
+    - I want to change my delivery address. What is the best way to do this?
+    - How do I change my delivery address on a refurbished parcel?
+    - I want to change my delivery address. How can I change it?
+    - Can I change my delivery address?
+    - How do I change delivery address in DHL?
+    - How do I change delivery address in gmail?
+    - I want to change my delivery address. What is the best way?
+    - How can I change my delivery address?
+    - I want to change my delivery address but I don't know what address to use. What
+      should I do?
+    - I want to ship my order to my friends house
+    - I want to ship my order to my friends house. I don't want to sell. Can I make
+      it to my friends house?
+    - I want to ship my order to my friend house. Please email or phone me with details.
+    - I want to ship my order to my friends house. I want to ship to the house. I want
+      to ship my order to a neighbor house. I will ship to my friend house for delivery.
+    - I want to ship my order to my friend house. I will he deliver to their house.
+    - I want to ship my order to my friend's house. I want to ship my order to them
+      house but I am very concerned that it is gonna get lost if I can't make it.
+    - I want to ship my order to my friend's house. I will wait until I get back my
+      order.
+    - I want to ship my order to my friends house.
+    - I want to ship my order to my friend's house. I want to ship my order to her house,
+      I want to do a pick up from work. Please help.
+    - I want to ship my order to my friends house and I just want to get it in the mail.
+      My email is junk mail. I'm a novice. I want to ship to a friend house. I want
+      to ship my order to my friend's house. I want to ship to my friends house. I want
+      to ship to my friends house.
+    - I want to ship my order to my friend house. I have a box and I want to ship to
+      her house. Please send it to me via email.
+    - I want to ship my order to my daughter's address
+    - How do I ship my orders to my daughter's address?
+    - I want to ship my order to my daughter's address, what do I do?
+    - I want to ship my order to my daughter's address. My daughter's name is mk1. I
+      wish to ship to my daughter's address, but I am unable to have my order shipped.
+      I don't want to charge her any additional fees.
+    - How do I ship my order to my daughter's address?
+    - How can I ship my order to my daughter's address?
+    - I want to ship my order to my daughter's address. If my daughter's address is
+      off-state, I can't ship to her, my daughter's address is in Kansas. If I have
+      a place for my order, I can't ship my order.
+    - How do I ship an order to my daughter's address?
+    - I want to ship my order to my daughter's address. Can I please ship my order to
+      her address?
+    - I want to ship my order to my daughter's address but can not ship to my child's
+      address. My daughter's address is not. She doesn't know what I want to ship. She
+      asks for me to email her address and I want to receive her payment. Is it possible?
+    - I want to ship my order to my daughter's address. This is a personal matter.
+    - I want to ship my order to my parents house
+    - I want to ship my order to my parents house. I can't seem to do it myself. I am
+      trying to sell an item. I can't imagine how a home delivery will work. I'm in
+      a residential property. What do I need to do?
+    - I want to ship my order to my parents house. I want to ship my order to my parents
+      house.
+    - I want to ship my order to my parents house. I want to ship to my parents house.
+      I am sorry, but I can't do this.
+    - I want to ship my order to my parents house. I have a son to make an order. I
+      want to ship to my parents house. I want to ship my order back to them. I want
+      them to meet my order. I will ship my order to them.
+    - I want to ship my order to my parents house. My order is $450 and I have a couple
+      who are buying a new house. I have a house that I want to move to. I don't want
+      to ship to them. I want to ship my order to them. I want them to pay. I can't
+      ship to my parents house.
+    - I want to ship my order to my parents house. What are some steps to take?
+    - I want to ship my order to my parents house in California. I want to take my orders
+      to my parents house. I want to send an e-mail to them. I also have to make a cancellation
+      of an order for a new item.
+    - I want to ship my order to my parents house. I have not been able to get their
+      order to ship before this date. What are the other options?
+    - Can I ship my order to my parents house?
+    - My order will be delivered to my parents house. I want to ship it to them. I want
+      to get an express shipping quote for the order. I want to ship it to my parent
+      house, but the shipping charge is prohibitive. I'm a 13 year old male. I have
+      to make it home with the order to be delivered to my parents house.
+- intent: faq_return_prohibited_items
+  examples: |
+    - I bought a perfurme with an offer of three freebies and I don't like them can
+      I return them
+    - I got the Perfurme app with three freebies and they were great. Can I return them?
+    - I bought a perfurme with an offer of three freebies can I return them?
+    - I bought a Perfurme with an offer of three freebies and I don't like them can
+      I return them?
+    - Can I return Freezes on Perfurme after I buy one?
+    - How do I refund a freefurme I bought if the delivery wasn't free?
+    - I bought a Perfurme with an offer of three freebies. I don't like them can I return
+      them?
+    - I bought a perfurme with an offer of freebies and I don't like them can I return
+      them?
+    - I purchased a perfurme with an offer of freebies and I don't like them can I return
+      them?
+    - I purchased a Perfurme with an offer of three freebies and I don't like them can
+      I return them can I find other deals?
+    - Can I return free giveaways I bought on Furme.com with an offer of freebies?
+    - I am not happy with this perfume, can I return it?
+    - What is the best way to return a perfume that you have purchased?
+    - Can I return this perfume?
+    - How do I return my perfume?
+    - How can I return perfume to original seller?
+    - I'm not happy with this perfume, can I return it?
+    - Can I return perfume?
+    - I am unhappy with this perfume. Can I return it?
+    - Can I return my perfume I ordered?
+    - How do I return a perfume?
+    - How do I return perfume?
+    - I didn't like this perfume can I send it back?
+    - What should I do if I don't like my perfume?
+    - Is it possible to send back a perfume I bought?
+    - What do you do with a perfume that you didn't like?
+    - I don't like this perfume can I send it back?
+    - Is it possible to send a perfume back to a customer that didn't like it?
+    - Can you send me the perfume I like back?
+    - Can I send this perfume back?
+    - If I don't like the scent, can I send it back?
+    - Can I send my girlfriend a refund if I didn't like this perfume?
+    - I like my perfume. Is there any way I can get it back?
+    - I am not happy with this perfume can I send it back?
+    - Is it possible to send back a perfume after receiving it?
+    - How do I send back my perfume I bought?
+    - Can I return a perfume I bought?
+    - I'm not happy with this perfume, can I send it back?
+    - Is it okay to send back my perfume?
+    - If I am not happy with my new perfume, can I send it back?
+    - How do I send a unused perfume back?
+    - I am not happy with this perfume. Can I send it back?
+    - Can I send a return for this perfume?
+    - If I am not happy with this perfume, can I send it back?
+    - I want to return this perfume
+    - I want to return this perfume. I will opportunite to buy again.
+    - I want to return this perfume. I want to return it. I just returned it. I am having
+      no scent. I have a few other scents. I want to go back to buy the perfume and
+      I haven't tried it before.
+    - I want to return this perfume, I want to return this cream.
+    - I want to return this perfume I just bought in Japan. I want to return it. I want
+      to return it.
+    - I want to return this perfume.
+    - I want to return this perfume. I am sorry, I am a perfume addict.
+    - I want to return this perfume. What are some ways to get rid of this perfume?
+    - I want to return this perfume to a friend.
+    - What can I do to return this perfume?
+    - I want to return this perfume. I want to give it to friends who are really disappointed.
+    - I don't like this perfume can I send it back?
+    - Can I send back perfume I like?
+    - Can I send a return label for the perfume I have bought?
+    - I like this perfume, can I send it back?
+    - Can I send back my own perfume that I didn't like?
+    - Can I send back my perfume?
+    - Can I send my lost perfume back?
+    - Can I send a different perfume to a girl who didn't like my perfume?
+    - What is the best way to send back a perfume?
+    - Can I send back the perfume I'm wearing?
+    - Is it possible to send back a perfume that I never like?
+    - I'd like to return this perfume as the lid has come off and the scent is no longer
+      as strong
+    - What do you think of the perfume, as the lid has come off and the scent no longer
+      as strong as the original perfume?
+    - I'd like to return this perfume as the lid has come off and the scent is no longer
+      as strong as before.
+    - I'd like to return this perfume as the lid has come off and the smell is no longer
+      as strong as it was when I opened it. I don't want to return it, but it is an
+      effort.
+    - I am a new perfume fan and wish to return this fragrance. I would like to return
+      this perfume as the lid has come off and the scent is no longer as strong as it
+      was before.
+    - I just bought this perfume and it still smells like it. I would like to return
+      it to you as it is now smeared. The lid has come off and the scent is no longer
+      as strong as it once was.
+    - I have no idea whether I'd like to return this perfume as the lid has come off
+      and the scent is no longer as strong as I'd like.
+    - I have a perfume that has come off and the scent has gone off. Can I return it?
+    - I want to return this perfume as the lid has come off and the scent is no longer
+      as strong as it used to be.
+    - I would like to return this perfume as the lid has come off and the scent is no
+      longer as strong.
+    - I have returned a bottle of perfume. It has come off. The scent is no longer strong.
+      I'd like to return the bottle.
+    - I don't like this perfume can I send it back?
+    - Can I send my perfume back?
+    - How can I return a perfume I bought that I liked?
+    - Can I send my empty perfume back?
+    - How do I send my ex back the perfume I received?
+    - I love perfumes. Can I send it back?
+    - If I don't like this perfume can I send it back?
+    - What is the best way to send a perfume back?
+    - What should I do if I don't like this perfume?
+    - I like the perfumes but it can't be sent back to me. How can I send the perfume
+      back to me?
+    - Can I send a perfume back?
+- intent: faq_exchange_item
+  examples: |
+    - I would like to exchange my item for a different size
+    - If I wish to exchange an item for a different size, I'm unsure what size to exchange
+      it for.
+    - I want to exchange my item for a different size.
+    - I would like to exchange an item for a different size - a more expensive item
+      that is in the same condition. I have an issue. I'm wearing it for a month and
+      I would like to return it in the same condition for another. I have an image of
+      the item and would like to return it in the same condition.
+    - Is it possible to exchange an item for a new size?
+    - I would like to exchange my item for a different size. I am 24 years old. I can't
+      wear it anymore. I have a full head size. I want to change my item but I would
+      like it to fit. I can't change my size, I will be forced to return it. I am 16
+      years old.
+    - I want to exchange my item for a different size. Please help.
+    - I want to exchange my item for a different size but i don't want to return it.
+      I know a different size. Can you help me with the pricing?
+    - I want to exchange my item for a different size. What are the reasons?
+    - If I want a different size, I'll exchange it with another.
+    - I would like to exchange my item for a different size. I have a normal size, so
+      I would like to exchange my item for a different size.
+    - I would like to exchange my item for a different style
+    - I would like to exchange my item for a different style. I've been on a holiday
+      for 5 years now and I wanted to upgrade.
+    - I would like to exchange my item for a different style. I have a new item I bought.
+      Please allow a few days to arrive for a different style.
+    - I would like to exchange an item for a different style. I have only one piece.
+      I can't wear it anymore, would I just exchange it?
+    - I want to exchange my item for a different style. I am a young man. I can't afford
+      to pay for a new pair. I need a new pair. I want to exchange my old pair. Can
+      you do it?
+    - I would like to exchange my item for a different style. My item is already in
+      stock.
+    - I would like to exchange my items for a different style. I have a new Item I bought
+      for it's first generation. I would like to exchange my item for a new item.
+    - I would like to exchange my item for a different style. I am in the US and I can't
+      fit in any other place. I can't return it to IKEA.
+    - If I'm in love with something, I would like to exchange my item for a new one.
+      I want to get a new one. I just have a new one. I'm not good at it. Will it fit
+      in my shoes?
+    - I would like to exchange my item for a different style. I want to sell my outfit
+      but I don't want to change it.
+    - I am a girl, I want to exchange my old item for another. I would like to exchange
+      for a new one. I'd like to change my old item for a new one.
+    - I want to exchange for a different item
+    - I want to exchange for a different item. I want to exchange for another item.
+      What is the exchange procedure?
+    - I want to exchange for a different item. I want to exchange for another item.
+    - I want to exchange for a different item. I want to exchange for another item.
+      I want to buy it in new condition. I can't use the item anymore. I can't use it
+      again.
+    - I want to exchange my phone for another one, and I'm trying to change it. Which
+      item I've bought?
+    - I want to exchange for a different item and I want to exchange for another item.
+      I want to exchange for another item, but I don't have a brand name. I want to
+      change it for something different. I don't want to exchange for something else.
+      I want to exchange for a different item.
+    - I want to exchange for a different item. I want to exchange for a different item.
+      Please be patient.
+    - I want to exchange for another item. I am stuck with the old item I was expecting
+      to exchange. What is the best way to exchange for another item?
+    - I want to exchange a similar item for a different item. What do I need?
+    - I want to exchange an item for another. What do I need?
+    - I want to exchange for another item. I want to exchange for another item.
+    - I would like to return the item and exchange for a different size
+    - How can I exchange a specific size or make a different order?
+    - I would like to return the item and exchange for a different size. If I don't
+      want the size I wanted I'm going to return it. Please give me an alternative.
+    - I'm having a big bump in my back. I'd like to return the item for a different
+      size. I have been offered an exchange price but I was not given a refund. I would
+      like to return it, but I will get a different size. I will exchange it again.
+    - I want to return the item and exchange for a different size. I'm in a 6'1", I
+      am 4'2 and would like to return the item again.
+    - I would like to exchange a pair of earrings I bought for the same price. If you
+      are available, you can still send me the original size.
+    - I would like to exchange my iPhone for a different size and would like to return
+      the item to a different company. If the item is faulty, I'll send it back to the
+      original owner.
+    - "I want to return this item and exchange for a different size. I am 16 years old\
+      \ male. I'm 16 years old female. I have a normal size and want a bigger size.\
+      \ I can\u2019t. I'm very jealous of him, so I\u2019m thinking of buying it again!"
+    - I would like to return the item and exchange for a different size. If the size
+      is the same as the size on the package, then I can exchange for a different size.
+    - I want to return a certain size of item and exchange for a different size. Can
+      I exchange it?
+    - If an item is the same size as a size 8 I would like to exchange it for a different
+      size. I would like to return the item and exchange it for a different size.
+    - I would like to return and exchange for a different size
+    - I'd like to return and exchange for a different size. I have a 13" x 10" thigh
+      and I would like to change it for a bigger size. I want to return and exchange
+      for a different size.
+    - I would like to return and exchange for a different size.
+    - I would like to return and exchange for a different size, I would like to exchange
+      for a different size, I would like to have more clothes for me.
+    - I would like to exchange my size for another. I have a small.13" I would like
+      to return and exchange for a different size.
+    - I would like to exchange my old sunglasses for a different size. I am in a wheelchair.
+    - I would like to return and exchange for a different size if I am not happy with
+      the size. I have a size 5 and have an 8 ounce backpack. I am an 18 year old girl.
+    - If I want to exchange my jeans for a different size, I would like to return and
+      exchange for a different size.
+    - I want to return and exchange for a different size. I am an 16 year old male and
+      want to change my hair shape but don't want to return it. I would like to exchange
+      it for a different size.
+    - I would like to return and exchange for a different size if I are more petite.
+    - I would like to return and exchange for a different size. I have 2 different sizes
+      and I want to exchange them. Please send pictures.
+    - I would like to return the item and exchange for a different size
+    - I would like to exchange a size 6 item for a new one. I can't. I just want the
+      same size to be returned.
+    - How do I exchange my old shoes for a new one?
+    - I want to return the item and exchange for a different size. I am 1 year old.
+      I am getting my size 5 for the same size. I want to change my size. I need to
+      return it for size 5. I would like to return it for a different size. Is there
+      anyway to exchange the item?
+    - I am currently having a very small hip. I want to exchange the same item and return
+      it for another size. I have bought one from an other store. I would like to exchange
+      it for another size.
+    - I want to exchange an item for a different size. I would like to return the item
+      and exchange for a different size. I don't like to use any product in retail stores.
+    - I have a different size. I would like to return the item and exchange for a different
+      size.
+    - I would like to exchange the item for a different size. I have a 5 inch, 15.5"
+      waist. I have a 16" X 13" waist. I have a 15" waist. I would like to return the
+      item and exchange for a different size.
+    - I would like to exchange an item for a different size, which is similar to my
+      regular size. What can I do?
+    - I would like to return the item and exchange for a different size. I want to return
+      the item and exchange for a different size.
+    - If an item is wrong for a different size, I would like to return it and exchange
+      it for a different size. I would like to exchange.
+    - I want to exchange my item for a different size
+    - I want to exchange my items for a different size. Is it possible to exchange the
+      item for a different size?
+    - If I want to exchange my item for a different size then I can order a different
+      size.
+    - I want to exchange an item I bought for a different size, but my new one is the
+      same size as my old one. I want to exchange it for a new one.
+    - I want to exchange my item for a different size. I need to change the size. Please
+      allow 10 days.
+    - I want to exchange an item for another item in the same size. Can I exchange it
+      for another?
+    - I want to exchange my item for a different size. Is there a good exchange policy?
+    - What do you mean when you ask for a different size of an item?
+    - Can I exchange my original size for a different size?
+    - If you are unsure what size to exchange for a different size, don't worry!
+    - I want to exchange an item for a different size. I am a 5 year old. I wish to
+      keep my product. I'm not in a hurry. Can someone tell me how to exchange it for
+      a different size?
+    - I would like to swap my item for a different size
+    - I want to swap my item for another size. I would like to swap my item for a different
+      size. I would like to replace it with a new size.
+    - I would like to exchange my item for a different size. I have a ninja, but I can't
+      change it. I want to swap my item. I am really upset. I want a new one. I would
+      like to exchange it for a different size.
+    - I would like to exchange my item for a different size. I'm not really into art.
+      I have to go to work and shop. Can I swap a size?
+    - How do I swap my item for another size?
+    - I would like to exchange my item for a different size, but I have no money to
+      exchange.
+    - I would like to swap an item for a different size, I would like to swap my item
+      for a different size. I am not a student or student so I'd like to exchange my
+      item. I would like to swap something in the factory size. I have the wrong size.
+      I don't want to give you the wrong size.
+    - I would like to swap my item for a different size, I don't want to use it. My
+      item will be different size.
+    - I would like to swap my item for a different size, I am buying a different size.
+      I need a different size and I would like to exchange my item for a different size.
+    - I would like to swap my item for a different size. Please ask.
+    - I want to change my item for a different size. What size should I choose?
+- intent: faq_return_multiple_orders
+  examples: |
+    - Can I return multiple orders in the same parcel?
+    - Can I send multiple orders in the same parcel?
+    - How do I return multiple orders in a single package?
+    - Can I return multiple orders?
+    - How do I return multiple orders in the same parcel?
+    - How can I return multiple orders to the same address?
+    - Can I return two orders in the same delivery?
+    - Can you cancel multiple orders on the same parcel?
+    - Can I order more than one order in a single parcel?
+    - Can I return two orders in the same time?
+    - Can I order multiple parcels and receive them the same day?
+    - Can I send multiple returns in one bag?
+    - How do I send multiple returns in one bag?
+    - Is it possible to send multiple returns in one bag?
+    - Can you send multiple returns in a bag?
+    - How do you send multiple returns in one bag?
+    - Can I send multiple returns in the same bag?
+    - Can you send multiple returns in one bag?
+    - How can I send multiple returns in one bag?
+    - Can I return multiple orders in one parcel?
+    - Can I return multiple orders at the same time?
+    - Can I return multiple orders in one package?
+    - Is it possible to return multiple orders?
+    - How can I return multiple orders in one parcel?
+    - Is it possible to return multiple orders in a single shipment?
+    - How do I return multiple orders at the same time?
+    - Can I send multiple orders in a single parcel?
+    - Is it possible to cancel multiple orders in one parcel?
+    - Can you send multiple orders in one parcel?
+    - How do I send multiple orders in one delivery?
+    - Can I combine multiple orders in one parcel?
+    - Can I combine multiple orders in one package?
+    - How can I combine multiple orders in one parcel?
+    - Can I combine multiple orders into one parcel?
+    - How do you combine multiple orders in one parcel?
+    - Can you combine multiple orders in one parcel?
+    - How do I combine multiple orders in one parcel?
+    - How do you combine multiple orders in one order?
+    - How do I combine multiple orders in one package?
+    - Can you combine multiple orders in one shipment?
+    - Can I combine multiple orders in a single parcel?
+    - Is it OK to combine returns?
+    - Is it legal to combine returns?
+    - What is the benefit of combining returns?
+    - Is it okay to combine returns?
+    - Is it safe to combine returns in forex?
+    - Is it really allowed to combine returns?
+    - Should I combine returns?
+    - Can I combine my returns?
+    - Is it wrong to combine returns?
+    - Is it right to combine returns?
+    - Can we combine returns?
+    - Can I send multiple returns in one parcel?
+    - How do I send multiple returns in one parcel?
+    - Can I send multiple returns in one package?
+    - How do you send multiple returns in one package?
+    - Is it possible to send multiple returns in one parcel?
+    - How can I send multiple returns in one package?
+    - Is it possible to send multiple returns in one package?
+    - Can you send multiple returns in a single parcel?
+    - Can I send multiple returns in a single parcel?
+    - How do I send multiple returns in one package?
+    - How do I send multiple returns?
+    - Do you allow combined returns?
+    - Can you allow combined returns?
+    - Do you allow combining returns?
+    - Do you allow combine returns?
+    - Will you allow combined returns?
+    - Will I be able to allow combined returns?
+    - Can you create and submit combined returns?
+    - Is there any way for a bank to allow a combine return?
+    - What are the benefits of combined returns?
+    - Will you allow merged returns?
+    - Do you allow the combination of returns?
+    - Can I send more than one order back in one parcel?
+    - Can I send multiple orders in one shipment?
+    - How can I send two orders in one parcel?
+    - Can you send multiple orders in one order?
+    - Is it possible to send back multiple orders?
+    - Can you ship more than one order in one parcel?
+    - Can I send two orders in a single parcel?
+    - Can you send more than one parcel?
+    - Can I send back multiple orders in a single parcel?
+    - Can you send more than one order in a single parcel?
+    - How do I send more than one order with the same parcel?
+- intent: faq_track_delivery
+  examples: |
+    - How do I know if my purchase has been shipped?
+    - How do I know if a product has been shipped?
+    - How can I tell if my order has been shipped?
+    - How do I know if my order has been shipped?
+    - How do you know if your order has been shipped?
+    - How can I know my order has been shipped?
+    - How do I know that my order has been shipped?
+    - How do you know if a product has been shipped?
+    - How do I know if my order is on hold?
+    - How can I know if my order has been shipped?
+    - How do I know if my order is shipped?
+    - How can I track my order?
+    - How do I track an order?
+    - How can I track my order online?
+    - How can I track my orders?
+    - How can you track an order?
+    - How do you track orders?
+    - How do I track my order on the web?
+    - How do I track a product order?
+    - How can I track a lost order?
+    - How do I track orders?
+    - How do I track my orders online?
+    - How long does it take to get my purchase?
+    - How long does it take to get my product back?
+    - How long does it take for the order to be received?
+    - How long does it take to receive my purchase?
+    - How long does it take to receive a product?
+    - How long does it take to get my order?
+    - How long does it take to get my product?
+    - How long does it take to get my items?
+    - How long does it take to order a product?
+    - How long does it take to get a product?
+    - How long does it take to get my purchase mailed to you?
+    - How do I get updates on my order?
+    - How do I get a notification on an order?
+    - How do I get an update on my order?
+    - How do I get an email confirmation when my order is pending?
+    - How do I get updates on my orders?
+    - How do I receive updates on my orders?
+    - How can I get status on my order?
+    - How do I receive information about a purchase on Amazon?
+    - How do I get all the updates about my order?
+    - How can I get updates on my order status?
+    - How can I get a notification on my order?
+    - What is the tracking number to my order?
+    - How can I find my parcels tracking number?
+    - What is the tracking number for my order?
+    - What is tracking number for my order?
+    - What is tracking number?
+    - What is the tracking number of an order?
+    - What is the tracking number of my order?
+    - How can I find my order tracking number?
+    - How do I find out the tracking number of an order?
+    - What is my tracking number for an order?
+    - What is my tracking number?
+    - What time will my order arrive?
+    - When will my order arrive?
+    - How long will it take for a package to arrive?
+    - How much time does it take for an order to arrive?
+    - What time do orders arrive?
+    - How often does your order arrive?
+    - What is the expected delivery time of a customer's order?
+    - What time will your order arrive?
+    - How many days after your order is received is the tracking number for your shipment?
+    - How long will my order take to arrive?
+    - How soon will my order ship?
+    - When will my order come?
+    - When will my order arrive?
+    - When is my order due?
+    - When does my order come?
+    - How can I order online?
+    - How do I get an order in days?
+    - When does my order ship?
+    - When does my order will arrive?
+    - When do orders come?
+    - How do I get an order to pay?
+    - When will your order come?
+    - When will my order be delivered?
+    - When will you deliver your order?
+    - How soon will my order be delivered?
+    - What is the best way to pay for an order?
+    - When will my order be shipped?
+    - How many days are there until an order is processed?
+    - When will I receive my order?
+    - How do I track the time and time that my order will be delivered?
+    - How can I order now?
+    - How long will it take for a package to arrive and how?
+    - How do I know when my order will be delivered?
+- intent: faq_enquire_premier
+  examples: |
+    - Why is my parcel not being delivered next day with premier?
+    - Why is my parcel not delivered next day?
+    - Why is my parcel not delivered next day with Premier?
+    - Why is my parcel not delivered next day on prime?
+    - Why is my parcel not delivered next day with Prime?
+    - Why was my parcel not delivered next day with premier?
+    - Why was my parcel not delivered on day 2?
+    - Why my parcel is not delivered on time with Premier?
+    - Why does my parcel not arrive the next day with Premier?
+    - How come my parcel is not delivered on day one?
+    - Why isn't my parcel delivered on the next day with Premier?
+    - What happens if my items are returned with premier?
+    - What happens if you return an item with Premier?
+    - What happens if I return my items with Premier?
+    - What happens to a return item that was returned with Premier?
+    - What happens to an item when it's returned with premier?
+    - What happens if your item is returned with Premier?
+    - What happens if I return my item with Premier?
+    - What happens if your items are returned to Premier?
+    - What happens if I return an item with Premier?
+    - What happens to items returned to premier?
+    - What happens to my items returned to Premier?
+    - Are there any premier delivery restrictions?
+    - Is there any Premier delivery restriction?
+    - Are there any delivery restrictions for premiere deliveries?
+    - What are the Premier delivery restrictions?
+    - Are there any Prime delivery restrictions?
+    - Are there any restriction on delivery?
+    - What are some premier delivery restrictions?
+    - What are some of the Premier Delivery restrictions?
+    - What are some Prime Delivery restrictions?
+    - What is the Premier delivery restriction?
+    - Is there any Premier Delivery restrictions?
+    - I am a premier customer will I be able to use my discount code?
+    - If I am a Premier customer will I be able to use my discount code?
+    - How do I redeem a discount code when I am using the Premier discount code?
+    - I am a Premier customer how can I use discount code?
+    - Can a customer use the Premier discount code when they buy products online?
+    - Can I use my discount code when I am a Prime customer?
+    - If I have a Premier account will I be able to use my discount code?
+    - Is it possible to use a Premier customer discount code?
+    - Can I use the discount code when registering a premier customer?
+    - How do I get my discount code for Premier customer?
+    - How do I get a free Premier Credit card?
+    - I am a premier customer but I have not received my premier discount code?
+    - What is the best way to get my premier discount code?
+    - I am a Premier customer and I have not received my discount code. What is your
+      secret code for VIP Rewards?
+    - I am a Premier customer but I have not received my discount code?
+    - I am a Premier customer but I have not received my premier discount code. How
+      can I get a replacement code?
+    - I am a premier customer but I have not received my discount code?
+    - How can I use my Premier discount code in multiple payment options?
+    - I am a Prime customer but I have not received my discount code?
+    - I am a Premier customer. Is there any chance that I will never receive a premier
+      discount code?
+    - What are some of the premium rewards codes that I should receive when I apply
+      my discount?
+    - How can I get a discount code for my Premier email?
+    - Can I get my premier delivery for free?
+    - Where can I get a premier delivery for free?
+    - How can I get my first delivery for free?
+    - How can I get Premier delivery for free?
+    - Where can I get Premier delivery for free?
+    - Where can I get a free Premier delivery?
+    - How can I get my premier delivery for free?
+    - Where can I get my premier delivery for free?
+    - Can I get Prime Delivery free?
+    - How do I get Prime delivery for free?
+    - How can I get Premier Delivery for Free?
+    - How do I pay for delivery with premier?
+    - How do you pay for deliveries with Premier?
+    - How do I pay for delivery through Premier?
+    - How can I pay for delivery with Premier?
+    - How do I pay for delivery in premier?
+    - How do I pay for delivery on Premier?
+    - How can I pay for delivery with premier?
+    - How do I pay delivery on Premier?
+    - How do I pay for delivery in prime?
+    - How can I pay for delivery at premier?
+    - How do you pay for delivery through premier?
+    - Can I have my items delivered on a specific day with premier?
+    - Can you have your product delivered on the same day with Premier?
+    - Can you get your item delivered within a specific time period with Premier?
+    - How do you get your items delivered on time at Premier?
+    - Can you have your items delivered on a specific day with premier?
+    - Can I order goods in a specific day at premier?
+    - Is it possible to order an item online on a particular day with premier?
+    - Can you have items delivered on a specific day with Premier?
+    - Can I have my items delivered in a specific day with premier?
+    - How do I have my items delivered on a specific day with Premier?
+    - Can I get my orders delivered on a specific day with Premier?
+- intent: faq_responsible_shopping
+  examples: |
+    - What are ASOS doing to tackle the issue of fast fashion?
+    - How will ASOS address the issue of fast fashion?
+    - What are the ways that ASOS can fight against fast fashion?
+    - What is ASOS doing to tackle the issue of fast fashion?
+    - What is the solution to the issue of fast fashion in ASOS?
+    - How does ASOS solve the problem of fast fashion?
+    - How is ASOS doing about fast fashion?
+    - What is your take on fast fashion?
+    - What are ASOS's actions on fast fashion?
+    - What are ASOS's efforts to solve the issue of fast fashion?
+    - What is ASOS doing to tackle fast fashion issues?
+    - Do you have a sustainable fashion policy?
+    - What are sustainable fashion policy?
+    - What is sustainable fashion?
+    - How do you implement a sustainable fashion policy?
+    - Do you have sustainable fashion policy?
+    - What is your sustainable fashion policy?
+    - Do you have sustainable fashion policies?
+    - Is sustainable fashion a sustainable fashion policy?
+    - Is sustainable fashion possible in our country?
+    - Is there a sustainable fashion policy?
+    - Is sustainable fashion a good policy?
+    - Do you know what recycling is?
+    - Do you know what is recycling?
+    - What does recycling mean?
+    - What is recycling?
+    - How do you define recycling?
+    - What should I do with my old clothes?
+    - What can I do with my old clothes?
+    - What should I do with old clothes?
+    - What should you do with old clothes?
+    - What can you do with old clothes?
+    - What do you do with your old clothes?
+    - What can I do with old clothes?
+    - What can you do with your old clothes?
+    - What is the best way to use old clothes?
+    - What is the best way to reuse old clothes?
+    - What do I do with old clothes?
+    - How does ASOS dispose of unsold inventory?
+    - What does ASOS do with unsold inventory?
+    - What is the best way to dispose of unsold ASOS inventory?
+    - What is the best way to dispose of unworn inventory on Amazon?
+    - How does ASOS dispose of unsold items?
+    - How does Asos dispose of unsold stock?
+    - What is the best way to dispose of unsold inventory in ASOS?
+    - How does ASOS dispose of unopened inventory?
+    - How does Amazon dispose of unsold items?
+    - What is the process for removing unsold items from ASOS?
+    - Why can't I return my used items to your stores?
+    - Why can't I return a used item?
+    - Why can't I return used items to your stores?
+    - How can I return used items to your stores?
+    - Why can't I return used items to you?
+    - How can I return a used item to you?
+    - Why can't I return a used item to you?
+    - How can I return my used product to your store?
+    - Why can't I return my used items to you?
+    - Why can't I return my used item to you?
+    - Why can't I return my used items?
+    - How do you recycle your packaging?
+    - How do you recycle cardboard boxes?
+    - What are some ways to recycle packaging?
+    - How can you recycle a can of packaged food?
+    - What are some ways to recycle your packaging?
+    - What is the best way to recycle packaging?
+    - How can we recycle waste packaging?
+    - What are some ways to recycle plastic?
+    - How do you recycle packaging?
+    - How do I recycle my packaging?
+    - What is the best way to recycle recyclable packaging?
+    - Can I recycle my packaging?
+    - What is the best way to recycle your packaging?
+    - Is it possible to recycle any kind of packaging?
+    - What are some ways to recycle packaging?
+    - What are some ways to recycle paper and plastic packaging?
+    - How can I recycle packaging?
+    - How can I recycle my boxes?
+    - Can we recycle packaging?
+    - How do I recycle packaging?
+    - Can you recycle your packaging?
+    - Can I recycle my plastic packaging?
+- intent: faq_refund_delivery_charge
+  examples: |
+    - Can I send something back to you and you refund the delivery?
+    - Can you send something back to you and you refund the delivery?
+    - Can I send you something back and you refund the delivery?
+    - Can you return something you sent back to you and you refund the delivery?
+    - Can you send back the item that you sent back and you refund the delivery date?
+    - Is it possible to send back a payment without refunding the receipt of the payment?
+    - I want to send a package back to you, can I cancel the order?
+    - Can I send a package back to you and you refund the delivery?
+    - Can I send back the goods I received back from you and you refund it?
+    - How can I send something back to you and you refund the delivery?
+    - How do I send something back to you and you refund the delivery?
+    - Can I return something and you refund the delivery payments?
+    - How can I return my order to you and you refund the delivery payment?
+    - How can I return a product I bought for a delivery and you refund the payment?
+    - Can I return something I have ordered and you refund the delivery payments?
+    - Can I return a product without a refund or exchange of delivery fees?
+    - Can I return a product that I ordered and you refund the delivery?
+    - Is it possible to return something that you have ordered and you will refund the
+      delivery payment?
+    - Is it possible to return your delivery payment?
+    - Can I return something and you refund delivery payments?
+    - Can I return something that you delivered and you refund the delivery payments?
+    - Can I return an item and you refund the delivery price?
+    - Do you pay the delivery charges if I send you my items back?
+    - Do you pay delivery charges if I send you my items back?
+    - Is it possible to cancel a contract if I send you an item back?
+    - Do you pay delivery charges if you send me a return item?
+    - What if you can't pay delivery charges?
+    - How do I pay the delivery charges?
+    - Is there a cost for delivery if I send you back an item?
+    - Is it legal to pay delivery costs if you send your goods back?
+    - How much do you pay delivery charges for items that you send back?
+    - Do you pay delivery charges if you send your items back?
+    - If you send me back my return item do you pay the delivery charges?
+    - How much is it to return my items?
+    - How much is it to return my goods?
+    - How much does it cost to return my clothes?
+    - What is the amount of returns on items?
+    - How much does it cost to return a purchased item?
+    - How much is the cost to return a household item?
+    - How much can I return a new item?
+    - How much is it to return an item?
+    - How much is it to return your product?
+    - How much does it cost to return my items?
+    - How much is it to return your item?
+    - I want to return my items but don't want to pay the return fees
+    - I don't want to pay the return fee for this item. I just want it to be back to
+      you. I want to return it for a refund.
+    - I want to return my items but don't want to pay the return fees. I want to return
+      the items and pay the return fee, I have a new one. I want to return it and can't
+      come back to return it. I will return the item without any reason.
+    - I want to return my item but don't want to pay the return fees.
+    - I want to return my items but don't want to pay the return fees. I will refund
+      my money if I return it.
+    - How do I return items I purchased online for free?
+    - I want to return my items but don't want to pay the return fees. I just want to
+      return them to them. What is the best way to do that?
+    - I want to return my item, but don't want to pay the return fees. I'm a returning
+      customer. If I want to return my item I want to get a refund.
+    - I want to return my items but don't want to pay the return fees. I don't want
+      to pay the return fees. How do I do it?
+    - I want to return my item but don't want to pay the return fees. I can't afford
+      it. Is this fair?
+    - I want to return my items but don't want to pay the return fees. I like the results.
+      I can't seem to find the reason.
+    - I only want to return one item!
+    - How do I return an item?
+    - Can I return only one item?
+    - I want only one item to return. What will I need to do?
+    - I have only one item to return, I have to return another. How do I return that
+      item?
+    - I want only one item and I want to return it. What is the best way to do this?
+    - I want to return a single item, I just want to return it. How do I do it?
+    - I want to return only one item!
+    - Why would I want to return one item?
+    - I want to return only one item but I didn't want to return any other item. What
+      should I do?
+    - Why can't I return only one item?
+    - What is the return policy?
+    - What is return policy?
+    - What is a return policy?
+    - What is the return policy of a student?
+    - What is the return policy of an international student?
+    - Can I return something and you pay the postage?
+    - Can you return something and pay postage?
+    - Can I return something for the same price and pay for postage?
+    - Can you return a framed picture and you pay the postage?
+    - Can I return a package and pay for postage?
+    - Can I return a product after paying the postage?
+    - How can I return a product without paying postage?
+    - Can you send me back an item after paying the postage?
+    - Can I return something with you paying postage?
+    - Can I return something and you pay postage?
+    - How can I return the item to you and pay the postage?
+- intent: faq_return_received
+  examples: |
+    - I'm waiting for my money, please check if its with you
+    - I'm waiting for my money, please check if its with you. I'm waiting for my money.
+    - I'm waiting for my money, please check if its with you. I'm not paying for my
+      money.
+    - I'm waiting for my money, please check if its with you. If if my phone doesn't
+      ring, I will get my money.
+    - I'm waiting for my money, please check if its with you. I'm waiting for my money,
+      please check if its with me.
+    - I'm waiting for my money. please check if its with you. I'm waiting for my money.
+      Please get my money if you want it.
+    - I'm waiting for my money, please check if its with you. I'm waiting for my money.
+      I'm waiting for my money. I'm waiting for my money.
+    - I'm waiting for my money, please check if its with you. I'm waiting for my money,
+      please check if its with you.
+    - I'm waiting for my money. Please check if it's with you. I'm waiting for my money.
+    - I'm waiting for my money, please check if its with you. I'm waiting for my money,
+      please pay.
+    - I'm waiting for my money, please check if its with you, please. I'm waiting for
+      my money, please check if its with you.
+    - I want to check if my return was received
+    - Is my return has been received?
+    - Is there any way to check if my return was received.
+    - How can I check if my return has been received?
+    - Is my return receipt a good return?
+    - I forgot my DD number and return from post office. I want to check the accuracy
+      of my return. I don't know where I can find my information. I call to verify.
+    - How do I check whether my return was received?
+    - How can I check my returns online if my return was received by my employer?
+    - How can I check if my return is received?
+    - How do I check if my return was received?
+    - How do I check my return status to check if I received it?
+    - I have returned my items more than 14 days ago, can you check if its with you?
+    - I have returned my items less than 14 days ago, can you check if its with you?
+    - I returned my items more than 14 days ago, can you check if its with you?
+    - I've returned my items more than 14 days ago, can you check if its with you?
+    - How can I find out if a product was returned to me for a refund or a exchange?
+    - I have returned my items over the phone. Is it ok to check with you?
+    - How can I see whether my order was returned more than 14 days ago?
+    - I've returned my item less than 14 days ago, can you check if its with you?
+    - I have returned my item more than 14 days ago, can you check if its with you?
+    - Is it possible to check if your item was returned after 14 days?
+    - I have returned my items, can you check if its with you?
+    - Are you holding any of my returns?
+    - Can you hold any of my return?
+    - Do you hold any of my returns?
+    - Is the IRS holding any of my returns?
+    - Is the original return holding my returns?
+    - Is there a holding on my return?
+    - Are you holding my returns?
+    - What are you holding any of my return emails?
+    - Do you have any of my returns?
+    - Is your business holding any of my returns?
+    - Is it possible to recover my original returns?
+    - I want to check if any of my returns are with you
+    - I don't know if my return is in a bank, I want to check with you if I haven't
+      seen your emails or my refund. I can't't. I want to tell you what I found in my
+      previous bank statements, I want to send it back to you. Is there still a refund?
+    - I want to check if any of my returns are with you. Is there any reason I didn't
+      get a refund?
+    - What is your receipt?
+    - How do I check my return to you if I have one of my last days in bank?
+    - I want to check if my returns are with you. I have been through returns process.  0.
+      Is it still my fault?
+    - What are some things you want to check to see if your returns are in a current
+      state?
+    - I want to check if any of my returns are with you. I want to check if any of my
+      returns are with you. I can't fax it to you!
+    - I have not received my return information. How do I check if it is with you?
+    - I want to check if any of my returns are with you. Any refunds should be done
+      to you.
+    - I want to check if any of my returns are with you. I want to pay your returns
+      at your expense. I need to make some changes or I need to file for a refund on
+      time.
+    - What does "awaiting collection" mean
+    - What does "awaiting collection" mean?
+    - What does awaiting collection mean?
+    - What does waiting collection mean?
+    - What does the term "awaiting collection" mean?
+    - What does the word "awaiting collection" mean?
+    - What does the word awaiting collection mean?
+    - I haven't received my refund on my account
+    - What did you do when you received a refund from the bank?
+    - I haven't received my refund on my account.
+    - I didn't get my refund on my account until now. How can I recover my account?
+    - I don't have a refund on my account, I got a new email and my refund is late.
+      How can I get a refund?
+    - Is there any refund on my account?
+    - How can I get my refund on my credit card?
+    - I've got my refund email but I haven't received it. How can I do it?
+    - I haven't received my refund on my account. I am frustrated. I have an old card
+      and I can't cancel my account.
+    - My account has been suspended and I haven't received a refund. I canceled my account
+      and now have a new one. I will be able to file a refund claim on my account. I'm
+      still waiting on the refund date.
+    - I still haven't received my refund on my account. I haven't received a refund
+      letter from the bank.
+    - I returned my stuff more than 14 days ago, where is my refund
+    - I returned my stuff in 10 days and am still without my refund policy. Where can
+      I get my refund?
+    - Is it possible to get a refund if I returned my items more than 14 days ago?
+    - What do you get if you refunded your money (e.g. money back, credit card, money
+      back) more than 14 days ago?
+    - I returned my stuff from home more than a week ago, and I can't find my refund
+      information. Will I be able to get back the stuff I ordered?
+    - How can I get my refund after I've returned my stuff?
+    - I returned my stuff for a refund less than 14 days ago. Where is my refund information?
+    - What is my refund policy if I returned my goods a few days ago?
+    - What are my refund options for things I returned a few days ago?
+    - I returned my items I bought less than 14 days ago, where is my refund?
+    - I sent in my refund amount more than 14 days ago, now where is my refund?
+- intent: faq_return_slip
+  examples: |
+    - How can I get a new returns note?
+    - How can I get a new return note?
+    - How do I get a new return note?
+    - How can I get my new return note?
+    - How do I get a new returns note?
+    - What is the best way to get a new return note?
+    - How do I get new returns note?
+    - How can I get a new Return note?
+    - How do I get a new refund note?
+    - How do I get my new returns note?
+    - How do I get my returns note?
+    - I need a new return slip
+    - I need a return slip. How can I get one?
+    - I need a return slip, I need a return slip to file a refund order in my local
+      store. What should I do?
+    - I want a return slip. What are the options?
+    - I need a new return slip.
+    - I need a new return slip for new school. I need one as per law.
+    - I need return slip. What should I do?
+    - What are the reasons why you need a return slip?
+    - What do I do if I need to replace return slip?
+    - What do I need to get my return slip back?
+    - What do I do if I don't have my return slip?
+    - I have not received my return slip
+    - I have not received my return slip from UPS. I have sent it in to the following
+      address.
+    - I don't have a return slip. I will get the one back soon.
+    - I have not received my return slip. I sent a copy of my return slip to the mail
+      address. How can I get it?
+    - I have not received my return slip. How can I get it?
+    - "I have not received my return slip. I have checked it, but I can\u2019t find\
+      \ it."
+    - Is my return slip still valid?
+    - I am disappointed that I have not received my return slip. What do I do?
+    - How come I have not received the return slip I sent to mnpa.gov.in but i have
+      sent it to an mnpa. I am unable to get the slip back.
+    - I don't have a return slip. What do I do?
+    - Is it possible to return a return slip?
+    - I have not received a returns label
+    - I haven't received a return label. Does this mean that I still haven't received
+      a receipt?
+    - I have not received a return label yet, despite a quick Google search.
+    - I have not received a returns label from Microsoft. I don't want it back. Please
+      contact Support.
+    - Is there a return label that comes with the box?
+    - I have not received a return label for my original email. Is there a label for
+      it?
+    - I have not received a return label from the postal service. I am an international
+      student. I have a returned number. I just returned my box. Is it a problem with
+      the returns label?
+    - I have not received a returns label. Why?
+    - Is there a label that says I have to return your items to the company?
+    - Is it possible to get a return label from an airline?
+    - I have received a return label but I still cannot return it.
+    - I did not receive my returns slip
+    - I lost my refund slip on the previous month. What is your reason for missing the
+      returns slip?
+    - I did not receive my returns slip I filed with the IRS. I am a FIRM MAN. I have
+      an AFRRANCE and my return is in full.
+    - I did not receive my returns slip. I am an Indian and I am a qualified tax payer.
+      How can I prove it?
+    - I did not receive my returns slip. I need more money in a couple of months and
+      am not sure if I can still apply. I can't return my money now. I just filled the
+      returns slip and sent it to the bank.
+    - I did not receive my returns slip when I filled the form and the form online.
+      What do I do?
+    - I did not receive my return slip. I hope I should have it on file and then post
+      it on my website.
+    - I forgot my return slip for 2016 and was told the refund slip was not sent. How
+      do I contact them?
+    - Is it possible to return the slip on E-Check?
+    - I received my returns slips but did not receive them. Why?
+    - I didn't receive my return slip. Did you get one?
+    - Can I get a new return slip?
+    - How do I get new return slip?
+    - How do I get a new return slip?
+    - How do I get my return slip?
+    - How do I get my return slip back?
+    - Can I get a return slip without a return slip?
+    - How do I get a return slip?
+    - How can I get my new return slip?
+    - How can I get a new return slip?
+    - What is the process to get return slip?
+    - How do I get a new return slip from the IRS?
+    - How can I get a new returns note?
+    - How do I get a new return note?
+    - How can I get a new return note?
+    - How do I get a new note?
+    - How do I get new returns note?
+    - How do I get new return note?
+    - How do I get a new Return Note?
+    - How do I get my new refund note?
+    - How can I get new returns note?
+    - How do I get a new returns note?
+    - How do I get a new refund note?
+    - Can I get a new return slip?
+    - How do I get my return slip back?
+    - How do I get my return slip scanned?
+    - How can I get a new return slip?
+    - Can I get my return slip?
+    - What are the best ways to get a return slip?
+    - How do I get a new return slip?
+    - How do I get my return slip?
+    - How do I get new return slip?
+    - What are some ways of obtaining a return slip?
+    - How can I get my return slip?
+- intent: faq_payment_options
+  examples: |
+    - Can I pay with Mastercard?
+    - Is it possible to pay with Mastercard?
+    - Is it possible to pay with a Mastercard?
+    - Can I pay with my Mastercard?
+    - How can I use Mastercard for shopping?
+    - How do I pay with Mastercard?
+    - How do I pay with a Mastercard?
+    - Can I pay with a Mastercard?
+    - Can I pay using a Mastercard?
+    - How do I pay using MasterCard?
+    - Can I buy with Mastercard?
+    - Can I pay with a debit card?
+    - Can you pay with a debit card?
+    - How can I pay with a debit card?
+    - Can I pay with debit card?
+    - Can I pay with my debit card?
+    - Can I pay using debit card?
+    - How do I pay with a debit card?
+    - Can I pay by credit card?
+    - How do you pay with a debit card?
+    - Can I pay with a credit card?
+    - Can I pay by debit card?
+    - Can I pay with my Maestro card?
+    - Can I pay with Maestro card?
+    - How do I pay by Maestro card?
+    - Is it possible to pay with Maestro card?
+    - How can I pay with my Maestro card?
+    - How do I pay using my Maestro card?
+    - How can I use my Maestro card?
+    - Can you pay with Maestro Card?
+    - Can I pay using Maestro card?
+    - How do I pay with Maestro card?
+    - Can I pay via Maestro Card?
+    - What payment methods do you have?
+    - Which are the best payment methods?
+    - What are the payment methods for Amazon?
+    - What are the easiest payment methods?
+    - What are some payment methods?
+    - What are the most efficient payment methods for online payments?
+    - Which payment methods do you prefer?
+    - What are the different payment options?
+    - What payment options do you have?
+    - What payment methods do you use?
+    - What are some good payment methods?
+    - What payment method do you accept?
+    - Which payment method do you accept?
+    - What payment methods do you accept?
+    - What payment methods are accepted?
+    - Which payment method is accepted by PayPal?
+    - What payment method does khecs accept?
+    - What payment options do you accept?
+    - Which payment option are accepted?
+    - What payment method are you accepting?
+    - Which payment method are you accepting?
+    - Which credit card do you accept?
+    - Which credit card is accepted in Canada?
+    - What credit cards do you accept?
+    - What credit card do you accept?
+    - Which credit cards do you accept?
+    - Which credit cards are accepted by the merchant?
+    - Which credit card is accepted?
+    - Which credit card are you using?
+    - Which credit card is accepted by your business?
+    - What is the credit card you accept?
+    - What credit card does it accept?
+    - Can I pay with MoneyGram?
+    - How can I pay with MoneyGram?
+    - How do I pay online with MoneyGram?
+    - How do I pay via MoneyGram?
+    - What are the ways to pay with MoneyGram?
+    - How do I pay through MoneyGram?
+    - What is the best way to pay using MoneyGram?
+    - Can I pay through MoneyGram?
+    - How can we pay with MoneyGram?
+    - How do I pay by MoneyGram?
+    - Can I pay using MoneyGram?
+    - Can I pay with Postepay?
+    - Can I pay through PayPal?
+    - Can you pay via Postepay?
+    - Can I pay by postepay?
+    - How do I pay with Postepay?
+    - How do I pay with postpay?
+    - How can I pay by postepay?
+    - Can I pay via postpay?
+    - What is the best way to pay with Postepay?
+    - Can you pay by Postepay?
+    - How can I pay with Postepay?
+- intent: faq_unsubscribe_email
+  examples: |
+    - I want to stop getting the emails!
+    - Why am I getting so many emails?
+    - How do I stop receiving emails from people?
+    - I want to stop receiving emails!
+    - How do I stop getting emails?
+    - How can I stop getting emails?
+    - How do I stop getting spam emails?
+    - How can I stop getting emails from people that e-mail me?
+    - How do I stop receiving emails from people who hate me?
+    - How can I stop getting the emails I like?
+    - How do I stop getting emails from people?
+    - please unsubscribe me from asos emails.
+    - Can I unsubscribe from receiving emails from asos?
+    - Why do you unsubscribe from asos?
+    - Please unsubscribe from asos email. I can't download anything. Please do a clean
+      copy.
+    - How do I unsubscribe from ASOS emails?
+    - What are some reasons to unsubscribe from asos emails?
+    - I want to unsubscribe from ASOS email. Please check this link.
+    - How can I unsubscribe from ASOS email?
+    - How do I unsubscribe from asos emails?
+    - If you want to unsubscribe from email notifications, please send me one.
+    - I will not be able to unsubscribe from your emails as we are always getting spam
+      emails. How?
+    - I want to stop receiving emails from ASOS
+    - I can't stop receiving emails from ASOS. How do I get them to stop sending me?
+    - I want to stop receiving emails from ASOS. What should I do?
+    - I want to stop getting emails from ASOS. I want to do this. I have no experience
+      receiving emails from ASOS.
+    - How do I stop receiving emails from ASOS?
+    - How can I stop receiving emails from ASOS?
+    - How do I stop getting email from ASOS?
+    - How can I stop getting emails from ASOS?
+    - I want to stop receiving emails from ASOS. Is there any way to get rid of my spam?
+    - I want to stop receiving emails from ASOS. How can I do that?
+    - Why do I get so many emails from ASOS?
+    - I don't want to get emails anymore
+    - I don't want to get any emails anymore. Is there a way to stop me from getting
+      them?
+    - Why don't I get any emails anymore?
+    - Why don't I get email anymore?
+    - How do I stop receiving emails from you?
+    - I don't want to get emails anymore. Is there a way to delete my email account?
+    - Why don't people want to see my old emails anymore?
+    - I don't want to be sent emails anymore. What do I do?
+    - I don't want to get emails anymore, and now I have a computer. I've done this.
+      Please correct me if I don't want any emails anymore.
+    - I can't get email anymore, but I want to. I am still in a relationship with the
+      site and I want to unsubscribe.
+    - I don't want to get any emails anymore. Why?
+    - stop sending me emails from ASOS
+    - Why do people stop sending me emails from asos.com?
+    - Stop sending me emails from ASOS.com
+    - Why don't I get my email from ASOS?
+    - Would you stop sending me a notification if I purchased a new ASOS?
+    - How do I stop receiving emails from Asos?
+    - Why does it help me to stop getting emails from ASOS?
+    - If you are a YouTube user, stop sending me emails from asos.com and then delete
+      the email account.
+    - Should I stop getting emails from ASOS?
+    - I want to stop sending emails from ASOS.
+    - Why are I not getting emails from Asos?
+    - can you stop sending me emails
+    - How do I stop you from sending me emails?
+    - Can you stop me from sending you emails?
+    - How can I stop you from sending me e-mails?
+    - How do I stop sending unwanted email?
+    - How do I stop sending me emails?
+    - How do you stop sending me email?
+    - How can I stop email from being sent to you?
+    - How do you stop sending me emails?
+    - Can you stop sending me email?
+    - Why do I keep getting emails from you?
+    - I no longer wish to receive emails from ASOS
+    - I no longer want to receive emails from ASOS. I wish to discontinue my subscription.
+    - I want to unsubscribe from email marketing for ASOS. I don't want to be in a spam
+      folder. How do I do that?
+    - I no longer wish to receive emails from Asos. I want to ask my password or e-mail
+      to my friend who used my email to sign up.
+    - I am not a member of the ASOS mailing list. I no longer want to receive emails
+      from them. I can no longer use the ASOS email addresses.
+    - I no longer want to receive email from ASOS. I wish to cancel my account.
+    - How do I prevent myself from being emailed from ASOS?
+    - Is it safe to unsubscribe and not receive email from ASOS?
+    - Is it acceptable to be banned from receiving emails from ASOS?
+    - I want to unsubscribe from receiving emails from ASOS, but no longer need any
+      email from them. Will this change?
+    - Why do I not receive email from ASOS?
+    - I don't want to receive emails from ASOS
+    - I don't want to receive emails from ASOS, can I.I.N.E.S. / ASOS.I.N.Y.?
+    - I don't want to receive emails from ASOS. I want a personal account. I don't want
+      to be bombarded with emails.
+    - How do I get a notification when I don't want to receive emails from asos.com?
+    - I don't want to receive emails from ASOS. I will have to pay. What should I do?
+    - Why can't I stop receiving email from ASOS?
+    - I don't want to receive email from ASOS, I want it deleted from my email list.
+      How do I contact Asos?
+    - I don't want to receive emails from ASOS anymore. What should I do?
+    - I don't want to receive emails from ASOS. I just want to be anonymous. I just
+      don't want to receive emails from asos. I have an email account with a Yahoo account.
+      Is it just me?
+    - I don't want emails from ASOS, so I can't e-mail them.
+    - I don't want to receive emails from Asos.
+- intent: faq_payment_currency
+  examples: |
+    - I am in the UK and want to pay in dollars
+    - I am a student studying in UK and want to pay in Dollars. What is the best way
+      to pay?
+    - I live in the UK and want to pay in US dollars. How can I do it?
+    - What are the ways to pay in pound sterling in the UK?
+    - I am in the UK and want to pay in dollars. I want to buy a hotel in the United
+      Kingdom. I want to pay a little more money than that but am just doing my dissertation.
+      I want to be a British citizen. I can't afford to pay a lot more money, I can
+      pay more money.
+    - I am in the UK and want to pay in US dollars. I am not in the UK. I would like
+      to pay in US dollars. I am not in the UK. I live in Canada, and I would like to
+      pay in the US.
+    - I am in the UK and want to pay in US dollars. I'm a US citizen. I want to pay
+      in pound. I can't pay for a passport. Is this possible?
+    - I live in the UK and want to pay in dollars. Why?
+    - I want to pay in pounds in the UK. I am from russia and based in Russia. I'm from
+      the UK and live in the UK. I'm interested in the UK. I will go to the UK for my
+      visa in the UK.
+    - I want to pay in dollars. I live in the UK. How do I pay in dollars?
+    - I am in the UK and want to pay in US dollars. I am having an error. Is it ok?
+    - I am in Germany and want to pay in Euros
+    - I want to pay in Euros. I live in Germany. I want to pay in EUR. Can you offer
+      me some examples?
+    - I am in Germany and want to pay in Euros. I want to do it in Germany. How do I
+      go about this?
+    - I live in Germany and want to pay in Euros. I want to pay by phone. I pay in Euros.
+    - I am in Germany and want to pay in Euros. Is this a scam?
+    - I am in Germany and want to pay in Euros. How?
+    - I'm in Germany and want to pay in Euros. I don't have an option. Can you suggest
+      a way to pay in Euros?
+    - What is the best way to pay in Euros if I live in Germany?
+    - I am in Germany and want to pay in Euros. I want to pay in Euros. What do you
+      do?
+    - I am in Germany and want to pay in Euros. What can I do to pay in Euro?
+    - I am in Germany and want to pay in Euros. I am an international student in Germany.
+      I am not sure what to pay for but would prefer to pay in Euros. Is there any option
+      on Paypal?
+    - How do I pay in dollars
+    - How do I pay in dollars?
+    - How do I pay with dollars?
+    - How do I pay for a car in dollars?
+    - What are the ways to pay in dollars?
+    - How do you pay in dollars?
+    - How can I pay in dollars?
+    - What are the easiest ways to pay in dollars?
+    - What is the best way to pay in dollars?
+    - What are some ways to pay in dollars?
+    - How do I pay dollars in the US?
+    - I am in the USA and would like to pay in US dollars
+    - How can I pay in US dollars?
+    - I'm in the USA and would like to pay in US dollars. How do I pay in US dollars?
+    - I'm in the USA and I would like to pay in US dollars. How do I do this?
+    - I am from US and would like to pay in US dollars.
+    - I am in the USA and would like to pay in US dollars.
+    - I live in USA and I would like to pay in US dollars. How can I make it in US dollars?
+    - If I am in the USA and would like to pay in US dollars, I could pay in Bitcoin.
+      I am not an Indian. I am in Japan. I have spent over a month in Peru.
+    - I am in the USA and would like to pay in US dollars. Please send me your payment
+      details.
+    - How do I pay in US dollars?
+    - If I'm in USA I would like to pay in US dollars. I am in Russia and have money
+      in Indonesia and Switzerland. I would like to pay in US dollars. I'm not foreigner.
+    - I am in China and would like to pay in China yuan
+    - I am in China and would like to pay in China yuan.
+    - I am in China and would like to pay in China yuan. I am in the currency of China
+      and would like to pay in China yuan. What is the best way to get paid?
+    - I am in China and would like to pay in China yuan. In my own country, I am here
+      for 2 days. What do you do?
+    - I am Chinese and would like to pay in China yuan. I am from China. I live in India.
+      I have no choice. I would like to pay in Chinese.
+    - I am in China and would like to pay in China yuan. I will be able to pay by post
+      in it.
+    - I am in China and would like to pay in China yuan. I am Chinese.
+    - I am in China and would like to pay in China yuan - Yuan. I am Chinese yuan, I
+      am Chinese. I am not Chinese.
+    - I am in China and would like to pay in China yuan. I have an rs100 and I have
+      a 100. I want to be cheap. I am in India but I am not.
+    - I am in China and would like to pay in China yuan. I will get a payment from China.
+    - I am in China and would like to pay in China yuan.I'm not Chinese, I am Chinese.I
+      am in US.I.W.W. and would like to buy.I.S. from China.I think I have the currency.Do
+      I have to buy a CZN?
+    - I am in US and would like to pay in US dollars
+    - I am in USA and would like to pay in US dollars. How to pay it?
+    - I am in the US and would like to pay in US dollars.
+    - I am in US and would like to pay in US dollars. I am in USA and would like to
+      pay in US dollars.
+    - I am in US and would like to pay in US dollars. I am in UK. I am in India. I want
+      to pay in US dollars. I am in the US, would you mind paying in US dollars?
+    - If I'm in US, would like to pay in US dollars?
+    - I am a US citizen and would like to pay in US dollars. I am a US citizen. I would
+      like to buy something in USD. I would like to buy a car with me if i pay by the
+      name of my country or in the US Dollars.
+    - I'm in US and would like to pay in US dollars. I would like to pay in US dollars.
+    - I am in US and would like to pay in US dollars.
+    - I'm in US and would like to pay in US dollars. I am a Canadian and I live in the
+      US.
+    - I am in USA and would like to pay in US dollars.
+    - I am in Ireland and would like to pay in Euro
+    - I live in Ireland and would like to pay in Euro. I am Irish and I have no access
+      to European banking.
+    - I live in Ireland and would like to pay in Euro. I'm going to pay in Euro, I haven't
+      heard of this for some time, so I will leave Ireland.
+    - I am in Ireland and would like to pay in Euro. I am a student.
+    - How can I pay in Euro. I'm from Ireland. I want to live in a good country and
+      would like to pay in the Irish currency.
+    - I am in Ireland and would like to pay in Euros. I am not an Irishman. I am from
+      Denmark. I would like to pay in Euros but in Irish currency. I'm not a native
+      Irishman. I want to pay in Euros but I would like to pay in Euros.
+    - I am in Ireland and would like to pay in Euro. If I live in Europe I would like
+      to use this currency.
+    - I am from Ireland and would like to pay in Euro. How can I do this?
+    - I am in Ireland and would like to pay in Euro. I live in Ireland and would like
+      to pay in Euro.
+    - I am from Ireland and would like to pay in Euro. I can send a letter to my wife.
+    - I am from Ireland and would like to pay in Euro. I'm not sure what currency I
+      should be paying for my service. I would like to pay Euro. How do I pay in Euro?
+    - I am in US and would like to pay in US dollars
+    - I am in US and would like to pay in US dollars. I am in Korea and I am China.
+    - I'm in US and would like to pay in US dollars. I will send payment to my bank,
+      but I will get a credit card.
+    - I am a US citizen and I would like to pay in US dollars. How can I pay in US dollars?
+    - I am in US and would like to pay in US dollars. I am a Canadian and pay in American
+      dollars.
+    - I am in US and would like to pay in US dollars.
+    - I am in the US and would like to pay in US dollars.
+    - I am in US and would like to pay in US dollars. What are some suggestions?
+    - I am in USA and would like to pay in US dollars. I am in USA and would like to
+      pay in US dollars.
+    - I am in USA and would like to pay in US dollars. I am not going to speak in US
+      dollars.
+    - I am in the US and would like to pay in US dollars. I am in Pakistan and I am
+      also a foreigner.
+- intent: faq_return_format
+  examples: |
+    - How do I return with Hermes?
+    - How do I return to Hermes?
+    - How can I return to Hermes?
+    - How do I return my Hermes account?
+    - How do I return my hermes luggage?
+    - How can I return with Hermes?
+    - How do I return with DPD?
+    - How do I return to DPD?
+    - How can I return with DPD?
+    - What is the process of return of DPD?
+    - How can I return to DPD?
+    - How can I get a full DPD?
+    - How do I return DPD after RPK?
+    - What is the best way to return from DPD?
+    - How do I get back from DPD?
+    - How do I return DPD?
+    - How can I return from DPD?
+    - I want to return something. How can I do this?
+    - How can I return something?
+    - How do I return a payment?
+    - How can I return my email?
+    - How do you return something?
+    - What is the best way to return a item?
+    - How do I return something?
+    - I want to return a product or a service. What should I do?
+    - What is the best way to return something?
+    - I want to return something. What can I do?
+    - What should I do to return something?
+    - How do I return to ASOS?
+    - How can I return to ASOS?
+    - How do I get back to ASOS?
+    - How can I return to Amazon?
+    - How can I get back in asos?
+    - How do I go back to ASOS?
+    - How can I return to asos?
+    - How do I return to my ASOS account?
+    - How do I get back into ASOS?
+    - How can I return to ASOS?
+    - How do I return to asos?
+    - How do I get back to ASOS?
+    - How do I return to ASOS?
+    - What is the best way to return to Amazon?
+    - How can I go back to asos?
+    - How can I get a refund in ASOS?
+    - What is the best way to return to ASOS?
+    - How can I return to my ASOS?
+    - What is the best way to return to asos?
+    - How can I return to my ASOS account?
+    - Can I return with Hermes?
+    - Can you return with Hermes?
+    - Can you return to Hermes?
+    - Can I return to Hermes?
+    - Is it possible to return to Hermes?
+    - How do I return to Hermes?
+    - How do I return with Hermes?
+    - Can I return Hermes?
+    - How long does it take to return with Hermes?
+    - How does it feel to be back in hermes?
+    - Can I return with DPD?
+    - How can I return to DPD?
+    - How do I return with DPD?
+    - Can I return to DPD?
+    - Is it legal to return to DPD after you leave the DPD?
+    - Is there any possible way to return to DPD?
+    - Is it possible to return with DPD?
+    - What are the best ways to return from DPD?
+    - Is it possible to return to DPD?
+    - How do I return from DPD?
+    - Can I return DPD?
+    - How do I return an item to DPD?
+    - How can I return an item to DPD?
+    - How do I return a product to DPD?
+    - How do I return items to DPD?
+    - How can I return a product to DPD?
+    - How do I return a damaged item to DPD?
+    - How do I return my item to DPD?
+    - How do you return an item to DPD?
+    - How do you return items to DPD?
+    - What is the process to return an item to DPD?
+    - How do I return a vehicle to DPD?
+- intent: faq_gift_voucher
+  examples: |
+    - My voucher code hasn't been used, I have a discount code
+    - My voucher code hasn't been used, I have a discount code.
+    - My voucher code hasn't been used, I have a discount code. Can you send me a check
+      to see if I have used my voucher code before using my discount code?
+    - My voucher code hasn't been used, I have a discount code for my online purchase.
+    - My voucher code hasn't been used, I have a discount code. What should I do?
+    - My voucher code hasn't been used, I have a discount code for a store.
+    - My voucher code hasn't been used, I have a discount code, I have a coupon code
+      for this, I can't use it anymore.
+    - If my voucher code hasn't been used, I have a discount code. I have to find a
+      valid code to redeem.
+    - I haven't used my voucher code, I have a discount code. My voucher code hasn't
+      been used, I have a discount code.
+    - My voucher code hasn't been used, I have a discount code. How do I find my voucher
+      code?
+    - My voucher code hasn't been used, I have a discount code!
+    - My voucher code says it's already been used
+    - My voucher code says it's already been used. If not, how can I get my code back?
+    - My voucher code says I've already been used. I will need to enter it again.
+    - What's the code? When did it get used?
+    - My voucher code says it's already been used. Please correct my code!
+    - My voucher code says it's already been used. What should I do?
+    - I'm not sure what my voucher code is. But it's already been used. I don't know
+      what code I should use.
+    - My voucher code says it's already been used. I have a recent voucher code for
+      a shopping trip.
+    - My voucher code says it's already been used.
+    - My voucher code says it's already been used. When will it be used again?
+    - What if my voucher code was already used?
+    - My gift voucher has expired
+    - My gift voucher is now expired. How do I redeem my voucher?
+    - My gift voucher has expired. Is it valid for future use?
+    - My gift voucher is expiring. What are the reasons for this error?
+    - My gift voucher has expired. How can I use my gift voucher?
+    - My gift vouchers have expired. What should I do?
+    - My gift voucher has expired. Can you send a replacement voucher to the customer?
+    - My gift voucher is revoked. Can you tell me when your voucher has expired?
+    - My gift voucher has expired. What do I do?
+    - My gift voucher has expired. What are you doing?
+    - My gift voucher is a gone. Can you redeemed it?
+    - My voucher has already been used, I have a discount code
+    - My voucher has been used, I have a discount code.
+    - My voucher code is already used, I can use the discount code for a future purchase.
+    - My voucher code has already been used, I have a discount code. How can I redeem
+      it?
+    - My voucher has already been used, I have a discount code.
+    - My voucher has been used and I have a discount code. I have already redeemed my
+      voucher.
+    - My voucher code has already been used, I have a discount code. My voucher has
+      already been used, I have a voucher code.
+    - My voucher code has already been used, I have a discount code.
+    - My voucher code has been used, I have a discount code. How can I avoid a duplicate
+      discount when a new voucher is used?
+    - My voucher has already been used, I have a discount code?
+    - My voucher has already been used, I have a discount code, and can I use it again?
+    - My voucher code has been used but I havent bought anything
+    - My voucher code has been used but I havent bought anything yet.
+    - My voucher code has been used but I havent bought anything.
+    - My voucher code has been used but I haven't bought anything since I received it.
+    - My voucher code has been used but I haven't bought anything. I can't find the
+      code.
+    - My voucher code has been used but I haven't bought anything. I have to contact
+      the tech support team to get them.
+    - My voucher code has been used but I haven't bought anything. I'm doing it because
+      I didn't use it. If it doesn't work I can't get my refund or my credit card.
+    - My voucher code has been used but I haven't bought anything else. What do I do?
+    - My voucher code has been used but I haven't bought anything.
+    - I've received my voucher code from a bank. Then I haven't used it for the product.
+      Can you help me?
+    - My voucher code has been used but I havent bought anything. I don't have a credit
+      card or a debit card.
+    - My discount code does not get recognized
+    - My coupon code is not recognized. I forgot my discount code but my purchase will
+      be.
+    - My discount code doesn't get recognized.
+    - My discount code does not get recognized as an ISP.
+    - Why is my discount code not recognized?
+    - How do I get my discount code back?
+    - What discount code does not get recognized?
+    - My discount code doesn't get recognized. How can I improve it?
+    - What are the best ways to use a discount code that was already expired?
+    - When I try to use a discount code I never get it. I don't know how to change it!
+    - My discount code is not recognized on Quora. Is there a way that it can be used
+      to obtain my discount code?
+    - My discount code isnt working
+    - My discount code is not working. How can I fix this?
+    - My discount code doesn't work. How can I get it back?
+    - My coupon code isn't working. What could I do?
+    - My discount code isn't working. It doesn't work.
+    - My discount code isn't working. How do I get my code?
+    - My coupon code isn't working. My promo code isn't working. Please fix this.
+    - My discount code doesn't work. How do I fix it?
+    - My discount code is not working. Why?
+    - How can I get a discount code if my coupon code doesn't work?
+    - My discount code is not working. How can I get it back?
+    - I am a new customer and I want to use my discount code
+    - I am a new customer. I want to use my discount code. I would like to use a discount
+      code as a new customer. I want to use a discount code if you can do that?
+    - I am new customer and I want to use discount code. I want to use code and promo
+      code. How can I do this?
+    - How do I use a discount code for my website?
+    - How can I use my discount code when I am a new customer?
+    - What does it take to use your discount code when you're a new customer?
+    - I want to use my discount code and save 50% to 80% of my retail prices. If I like
+      it, I will sign up for the Discount Code, but I cannot because I don't want to
+      make money. What should I do?
+    - I am new customer and want to use discount code. I can't wait to buy my stuff.
+      What should I do?
+    - I am a new customer and I want to use my discount code but I am a new customer.
+    - I want to use my discount code, but I forgot my code for the order. What are some
+      of the ways I can use this code?
+    - I am a new customer. I want to use my discount code. Can you help me?
+- intent: faq_next_day_delivery
+  examples: |
+    - How much does next day delivery cost?
+    - How much does it cost for next day delivery to take care of your business?
+    - What are the estimated costs for next day delivery?
+    - How much does a next day delivery cost?
+    - How much does it cost to ship in two days?
+    - How much does it cost to deliver next day?
+    - How much does the next day delivery cost?
+    - How much does a standard next day delivery charge?
+    - How much does it cost to deliver next day delivery?
+    - What is next day delivery?
+    - What is the delivery cost next day?
+    - How long does next day delivery take?
+    - How long does it take for a next day delivery to arrive?
+    - How long does the next day delivery take?
+    - How long does it take to deliver next day?
+    - How long does it take for a next day delivery?
+    - How long does it take to get a first class product, delivery on time and in stock?
+    - How long does a next day delivery take?
+    - How long does it take for same day delivery?
+    - How long does it take to ship same day?
+    - How long does it take for delivery to arrive the next day?
+    - How long does same day delivery take?
+    - Next day delivery tracking?
+    - What is next day delivery tracking?
+    - How do I track my parcel on Next Day Delivery?
+    - How do I get the next day delivery tracking?
+    - How can I track delivery from Canada using same day delivery tracking?
+    - How do you track a next day delivery?
+    - How do I track delivery on the same day?
+    - Can I get next day delivery tracking?
+    - How do I get a same day delivery tracking?
+    - What is Next day delivery tracking?
+    - Is it possible to get next day delivery on packages?
+    - Next day delivery price?
+    - What is next day delivery rate?
+    - Can I get Next Day delivery at home?
+    - What is the best price for next day delivery?
+    - What is next day delivery and how much would it cost?
+    - What is the next day delivery price?
+    - What is next day delivery?
+    - What are next day delivery prices?
+    - What are the best next day delivery rates?
+    - Can you give me a quote for next day delivery?
+    - Can we get next day delivery?
+    - What is next day delivery?
+    - What are next day delivery options?
+    - How is next day delivery?
+    - What are next day delivery services?
+    - What is the next day delivery?
+    - What are the features of next day delivery?
+    - How can I get same day delivery?
+    - What are the types of next day delivery?
+    - How can I know what is next day delivery?
+    - What are next day delivery plans?
+    - What are next day delivery rates?
+    - How much does next day delivery to Europe cost?
+    - How much does it cost to have next day delivery in Europe?
+    - How much does same day delivery cost to Europe?
+    - How much does a 3 day delivery in Europe cost?
+    - How much does it cost to ship your order next day in Europe?
+    - How much does next day delivery in Europe cost?
+    - How much does it cost to deliver next day to Europe?
+    - How much does a next day delivery cost?
+    - How much does the same day delivery cost in Europe?
+    - How much does next day delivery cost in Europe?
+    - How much does it cost to have a next day delivery service in Europe?
+    - Next day delivery tracking?
+    - How can I get same day delivery tracking?
+    - Can we deliver same day delivery?
+    - Can I order next day delivery?
+    - How do I get next day delivery tracking?
+    - What is the next day delivery tracking?
+    - How do you track a package for next day delivery?
+    - How do I locate my parcels on the next day?
+    - How do you get your packages shipped the next business day?
+    - How do I track my orders next day?
+    - How do you track delivery within 24 hours?
+    - How do I track my next day delivery parcel?
+    - How can I track my next day delivery?
+    - How can I track my parcels in the next business day?
+    - How do I track my next day delivery?
+    - How do I track my next day parcels?
+    - How do I track next day delivery delivery?
+    - How do I track my parcels on the next business day?
+    - How do I track a parcel that arrives the next business day?
+    - How can I track the delivery status on a parcel?
+    - How can I track my next day delivery in the USA?
+    - How can I track a parcel of a different product delivery to the same address?
+- intent: faq_account_sign_in
+  examples: |
+    - I've forgotten my password and I can't login into my account?
+    - I forgot my password and I can't login to my email account. How can I change it?
+    - How do I reset my password when I forget my email address and password?
+    - How do I reset my password when I don't remember my email and password?
+    - I forgot my password and I can't log in. How do I reset my password?
+    - I forgot my password to my account and I can't login to my account. How can I
+      do this?
+    - How can I reset my password to my email address and I can't access to my account?
+    - Can I recover my password and email if I forgot my email and password?
+    - How can I log in my account if I forgot my password and I can't access to the
+      account?
+    - I've forgotten my password and I can't log into my account?
+    - I don't remember my password or email address. How do I reset it?
+    - How do I get back into my account?
+    - How can I get back into my account?
+    - How do I get back into my bank account?
+    - How do I get back in my accounts?
+    - How can I get back my old account?
+    - How can I recover my account?
+    - How can I get back into my bank account?
+    - How do I get back into a bank account?
+    - How do I get back in my account?
+    - How can I get back my money in my account?
+    - How can I get back into my e-mail account?
+    - I can't get into my account
+    - I can't log into my bank account. Can I log in?
+    - Can someone get into my Facebook account?
+    - How do I get into my bank account?
+    - How can I log in to my bank account?
+    - Can I get a password to my email address or account?
+    - How can I get into my bank account?
+    - I can't get my password into my account. How can I get my password back?
+    - I can't get into my account. Why can't I get in?
+    - Can someone log in to my account if I have no email address or phone number?
+    - Can I access my mobile number and get my email?
+    - I can't sign in to my account
+    - I can't log in to my account. How can I fix this?
+    - I can't log in to my account. How do I do that?
+    - How do I log into an email when I can't access to a certain email address or password?
+    - I can't log in to my account. How can I log in?
+    - Can I sign in to my account?
+    - Why can't I log into my account?
+    - How do I log in to my Account?
+    - I can't log in to my account. How do I log in?
+    - I can't sign in to my account. How can I?
+    - How do I log in to an account if I can't get in to the account?
+    - I can't access my account
+    - I can't access my account if I forget my password and I don't remember the password
+      or email.
+    - How can I access my Yahoo account?
+    - How do I log into my bank account?
+    - How can I access my account password?
+    - I can't access my email account. How can I access my account?
+    - How can I view my new accounts?
+    - I can't access my emails or my email account. What should I do?
+    - I can't access my bank account and I need help. How can I fix it?
+    - How can I access my account?
+    - I can't access my email account. How do I get back that account?
+    - My account says it's blocked
+    - My account says it's blocked. How do I fix it?
+    - What do I do if my Account gets blocked?
+    - My account says it's blocked. Why do you think they have to fix this?
+    - My account says it is blocked. What do I do?
+    - Why my account says I'm blocked by an antivirus?
+    - My account says it is blocked, how do I retrieve it?
+    - I don't want to sign up again. My account says it is blocked. What should I do?
+    - I cant access to my instagram account. I can't login. How can I fix it?
+    - Why does my email account get blocked?
+    - Why are my account being blocked?
+    - how do i get into my account
+    - How do I get into my credit card?
+    - How do I get into my account without account?
+    - How do I get into my account?
+    - How can I log in my account?
+    - How do I get my account number?
+    - How can I get into my bank account?
+    - How can I get my free account back?
+    - How do I get into a new account?
+    - How can I get in to a bank account and get access?
+    - How do I get into my bank account?
+    - I can't login to my account
+    - How can I log in to My Account?
+    - I can't log in to my account. What should I do?
+    - I can't log into my Yahoo account. What should I do?
+    - I can't login to my account. How do I login?
+    - Why can't I log in to my email account?
+    - I am in a hacked password and I can't login. How can I login?
+    - I am not able to login to my Google account. How do I get back in my Google account?
+    - I can't login to my account. How can I fix this?
+    - Why can't I log in to my account?
+    - I'm not logged in my own account. How do I get back my password?
+- intent: faq_missing_item
+  examples: |
+    - How to find out where is my order?
+    - How do I find out where my order was placed?
+    - How can I find out what my order is?
+    - How do I find out where my order is?
+    - How can I find out who I ordered?
+    - How do you find out who sent you your order?
+    - How can I find out where my order is?
+    - How can I find out my order's location?
+    - How do you find out if your order was placed?
+    - How can I find out my order location?
+    - How can you find out where you placed an order?
+    - I'm missing an item from my order, what do I do?
+    - How do I get to get a replacement item on my order?
+    - I lost my order, what should I do?
+    - What should I do if I am missing something in my order?
+    - I am not happy with what I ordered, what can I do?
+    - What should I do if I get an item that is missing from my order?
+    - How do I fix an item I have on my order?
+    - Is there an item in my order that is missing? How can I fix it?
+    - What should I do if I'm missing an item in an order?
+    - How can I find out what items are missing in my order?
+    - What should I do if I am missing an item in my order?
+    - My shirt is missing from my order, help!
+    - How can I get my order to arrive with a missing tee from my order?
+    - My shirt is missing from my order, help?
+    - My order is missing my shirt, please help!
+    - How can I help if my order has disappeared?
+    - What can I do if my shirt is missing from my order?
+    - My order is missing from my order. How do I get it replaced?
+    - I am getting a shirt from my order and the shirt is missing. How do I find it?
+    - What are the reasons why my order is missing a shirt?
+    - My order for shirts is missing. I just ordered another one. What do I do?
+    - My order has arrived and my shirt is missing from my order, what can I do?
+    - Two items in my order are missing
+    - I've lost two items in my order.
+    - I want to return two items in my order but my order is missing two items. I can't
+      find the items in my order.
+    - Two items in my order are missing. Is this a normal problem?
+    - What should I do if two items are missing from my order?
+    - Two items are missing from my order. I can't find the item I bought.
+    - My order for a new pair of items is missing. What do I do?
+    - I have two items in my order that are missing. I am sure that I've seen some things
+      that are.
+    - Why are there no missing items in my order?
+    - Why are two items in my order missing?
+    - Two items in my order are missing. How can I get rid of them?
+    - The jeans are missing in my parcel!
+    - The jeans are missing in my parcel?
+    - Is the jeans missing in my parcel?
+    - Why do jeans miss in parcel?
+    - My jeans are missing from my parcel!
+    - Where did I get my jeans?
+    - Is it possible to lose jeans when your parcel is unopened?
+    - My parcel has lost my jeans. Why are they missing it?
+    - What's wrong with the jeans in the parcel?
+    - What's wrong with my parcel?
+    - My parcel is missing jeans. Is there a way to get them out?
+    - I received the t    -shirt and the socks but not the dress
+    - I received the dress I ordered but not the T Shirt. I received the socks and the
+      socks only.
+    - I received the t-shirt and the socks but not the dress. I'm not sure what I should
+      do.
+    - I received a t-shirt and socks but not the dress. I get my name and email but
+      not the address.
+    - I received the t -shirt and the socks but not the dress.
+    - I received the t shirts and the socks but not the dress.
+    - I received the dress but not the t-shirt. I received a dress which is black but
+      not white.
+    - I received the t-shirt and the socks but not the dress. I have the t-shirt but
+      not the socks. I don't have the dress. I don't have the dress.
+    - I received the shirt and the socks but not the dress. I have not received any.
+      I have received many since I was in school.
+    - I received a t-shirt and socks but not a dress. I have worn the same t-shirt and
+      socks all my life. I am getting a dress and the socks. I have a black dress with
+      a blue dress.
+    - I received the T Shirt and socks but not the dress.
+    - I havent' received my t    -shirt in my parcel
+    - I haven't received my t shirts in my parcel. I want to order some new clothes
+      but I can't get them in my home t-shirt store. I have been sent my first t shirts.
+    - Is there a problem to get my t-shirt back from parcel, it's the sms and my parcel
+      has not been returned for at least 3 days?
+    - I havent received my t shirts in my parcel. Will this mean a typo?
+    - Why haven't I received my t-shirt in my parcel?
+    - I've lost my t-shirt in my parcel, and I'm still waiting to see the back of the
+      parcel. I've notified the dispatcher that I don't have the item. Is there any
+      trace of it, in your parcel?
+    - I haven't received my T-shirt in my parcel. I sent two a t-shirt which is inside
+      my jacket. I'm thinking it's just me and my parcel is to be mailed out.
+    - How come my t-shirt is in my parcel but I still haven't received it?
+    - I haven't received my t shirts in my parcel and my parcel is to be returned after
+      3 days. I received the shirt on Saturday.
+    - I haven't received my t shirts in my parcel but I can't send them. What can I
+      do?
+    - I haven't received my parcel or my T shirts. I can't see the picture.
+    - I ordered a brand new coat with many other items, received everything but not
+      the coat
+    - I ordered a brand new coat and many other items and received everything but not
+      the coat. I received a brand new coat and many other items.
+    - I ordered a brand new coat with many other items, received everything but not
+      the coat. I wanted it in.
+    - I ordered a brand new coat with many other items, received everything but not
+      the coat. My jacket and my coat.
+    - I ordered a brand new coat and numerous other items, received everything but not
+      the coat, so the price was too high for me to cover the coat.
+    - I ordered a brand new coat with many other items, received everything but not
+      the coat. This is my first coat order and it is a great coat.
+    - I ordered a brand new coat with many other items, received everything but not
+      the coat. The coat I ordered will not be replaced.
+    - I ordered a brand new coat and other items, received everything but not the coat.
+      I have a very short coat.
+    - I ordered a brand new coat with many other items, received everything but not
+      the coat.
+    - I ordered a brand new coat with many other items, received everything but not
+      the coat. What can I do about it?
+    - I ordered a brand new coat with many other items, received everything but not
+      the coat, and not the jacket. Why?
+- intent: faq_change_password
+  examples: |
+    - I lost my login password
+    - I forgot my password and I just want to log in. How can I log in?
+    - How do I reset my password to my account when I don't remember my email and the
+      recovery information?
+    - I forgot my password to My Account and it is affecting my phone privacy. I can't
+      log in. How can I recover my password?
+    - I forgot my email and password. How can I reset my password?
+    - How do I reset my password to my account when I forgot my email and password?
+    - I lost my login password and email password. How do I recover my password?
+    - How can I recover my password to my account if I forgot my email and my recovery
+      information?
+    - How do I reset my password to e-mail without any reason?
+    - How can I reset my password and email?
+    - I lost my password to MySquare.com. I can't login anymore. What should I do?
+    - My password doesn't work
+    - My password doesn't work. I can't log into my account, why?
+    - How do I reset my password when I can't remember my email or password?
+    - How can I change my password?
+    - How do I reset my password to my Google account without any change?
+    - My password doesn't work. How do I reset it?
+    - My password doesn't work. How do I change it?
+    - My password doesn't work! Is it valid or illegal?
+    - My password doesn't work. How can I reset it?
+    - Why is my password not working?
+    - How can I recover my password if I forgot my old password?
+    - I can't log in
+    - How do I log in to my account?
+    - How do I log into MySecureOffice?
+    - I can't log in to my account, why can't I log in?
+    - Why can't I log into Quora?
+    - Can you log in to my account?
+    - I can't log into Quora. Help!
+    - Can you log in if it is too late?
+    - How can I log in to my gmail account?
+    - How can I log in to my account?
+    - How do I log into a website when I don't remember passwords or permissions?
+    - I can't log in to my account
+    - I can't log into my Apple account. How can I log into it?
+    - How do I get to my account when I can't log in?
+    - How do I log in to my account?
+    - I can't log into my account. How can I resolve this?
+    - I can't log in to my account. How do I log in?
+    - Why can't I log into my email account?
+    - How can I log in to a web.io account without my email or password?
+    - Why can't I log in to my account?
+    - How do I log into my account?
+    - Why can't I log in to my Apple Pay account?
+    - What is my passephrase
+    - What is my passephrase?
+    - What is passephrase?
+    - What is a passephrase?
+    - What is the Passphrase of my Passphrase?
+    - What is my Passphrase?
+    - What is the Passagephrase?
+    - What is your passephrase?
+    - What is your Passagephrase?
+    - What is the passphrase?
+    - What is the passphrase for my passephrase?
+    - I forgot my passphrase
+    - I forgot my Password. What should I do?
+    - I forgot my passphrase for a website. What is the reason for the problem?
+    - I forgot my passphrase, and I'm back to my old passphrase. How can I get it back?
+    - I forgot my passphrase in Password Finder. I cant find it anymore.
+    - I forgot my passphrase. Is it a scam?
+    - I forgot my passphrase in school. What should I do?
+    - I forgot my Passphrase.
+    - I forgot my passphrase. Is there any way I can get it back?
+    - I forgot my passphrase and password on a mobile. I cant find it in the search
+      box.
+    - I forgot my passphrase. How can I save my password?
+    - How do I update my passephrase
+    - How do I update my passephrase?
+    - How can I update my Passphrase?
+    - How do I update my Passage Password?
+    - How do I update my Password?
+    - How do I update my Passphrase?
+    - How can I update my Password?
+    - How do I update my Passphrase on my Quora account?
+    - How do I update my passephrase in WordPress?
+    - How can I update my passephrase?
+    - How do I update Password information on an iPhone?
+    - What is my pass phrase
+    - What is my pass phrase?
+    - What is a pass phrase?
+    - What is a pass phrase and why?
+    - What is pass phrase?
+    - What is the pass phrase?
+    - What are pass phrases?
+    - What are my pass phrase and what are they?
+    - What is the pass phrase in pass phrase?
+    - What is the pass phrase in the dictionary?
+    - What is the pass phrase for my passing phrase?
+- intent: faq_faulty_item
+  examples: |
+    - My t    -shirt is faded
+    - I just have a faded t -shirt. My shirt is so faded. My shirt is not soft enough
+      to cover it. I can't find my shirt.
+    - My t-shirt is faded. How can I fix it?
+    - My t -shirt is faded and cracked. I'm sorry to hear about it.
+    - My T Shirt is faded. I've replaced it with a new one. Is this my fault?
+    - My t-shirt is faded, is it good or not?
+    - My t-shirt is faded. I can't get it back. Why?
+    - My t-shirt is faded. Its no longer there. I am able to wear it again.
+    - My t-shirt is faded. I have worn it for 2 years. How do I fix it?
+    - My t-shirt is faded. I'm sorry for that.
+    - My t-shirt is faded.
+    - My jumper has a burn mark
+    - My jumper has a burn mark on it. My jumper has an exploded burn mark, how can
+      I get rid of it?
+    - My jumper has a burn mark and I cant put it back.
+    - My jumper has a burn mark. What can I do?
+    - What is the scar that a jumper has left on it that it was accidentally burnt?
+    - My jumper has a burn mark on it. What does this mean?
+    - My jumper has a burn mark and I want to make sure it is removed immediately.
+    - My jumper has a burn mark on it. What could be a cause?
+    - My jumper has a burn mark. It is a patch on it's knee. What should I do?
+    - My jumper has burn marks on it. I can't wear it anymore.
+    - My jumper has burn marks on it. The jumper is non-functional. Why?
+    - My underwired bra has broken wires
+    - My underwired bra is having broken wires. What are they?
+    - My underwired bra has broken wires. I have wires, but the bra is not wired.
+    - My underwired bra has broken wires. I have been to hospital for a month and now
+      I have to do this.
+    - My underwired bra has broken wires. Please fix this ASAP.
+    - My underwired bra has broken wires. The bra is unplugged, but I haven't changed
+      the wires.
+    - My underwired bra has broken wires. What should I do about this?
+    - My underwired bra has broken wires. I don't think I have a bra or bra bra that
+      can get twisted. What can I do?
+    - My underwired bra has broken wires. Please help.
+    - My underwired bra has broken wires. Is there a fix?
+    - My underwired bra has broken wires.
+    - I have a problem with my order
+    - What do I do when I get a problem with my order?
+    - Why does my UPS bill for the U.S. don't arrive on time?
+    - I have a problem with my order. What can I do?
+    - How do I fix my order with out the return money?
+    - I have a problem with my order. I have a different order.
+    - I have a problem with my order. I am stuck on a broken order. I would like to
+      get a refund.
+    - How can I stop a bad customer service email when they have no reason to contact
+      me with the problem.
+    - I'm a customer. I am having a problem with my order. Please help me.
+    - What is wrong with my order. And the shipping charge is not correct.
+    - How do I order from Amazon?
+    - My order was damaged
+    - My order was damaged and I had to return it. What can I do?
+    - My order was damaged by a UPS store, can you send replacement?
+    - My order was damaged. Will you contact me if I have any questions?
+    - My order was damaged when it was sent. Please rectify this.
+    - My order was damaged. What are the possible reasons why this is a case of returns?
+    - I'm getting the order returned and my product is damaged. How can I repair it?
+    - My order was damaged. Please fix the problem.
+    - How can I send my damaged order back?
+    - What is the reason my order was damaged?
+    - My order was damaged. How do I fix this?
+    - There is a mark on my product
+    - Is there a mark on my product?
+    - What are marks on product?
+    - What is the mark on my product?
+    - My product has a label on it but I can't see it.
+    - Where is the mark on a product that is not visible?
+    - What is a mark on my product?
+    - How do I know if there is a mark on my product?
+    - Why there is a mark on a product?
+    - Why does my product have a mark on it?
+    - I am not able to find the mark on my product. What should I do if I'm able to
+      find the mark on my product?
+    - I've received a faulty item, what should I do?
+    - How can I fix my faulty order?
+    - Is there any reason to be concerned about my faulty gift?
+    - What should I do if I received a faulty product?
+    - I got a faulty item and I have to exchange it. What should I do?
+    - I received a faulty item. What should I do?
+    - What should I do if I received a faulty item?
+    - I received a faulty item what should I do?
+    - How do I repair a faulty item?
+    - I received a faulty item, what should I do?
+    - What should I do if I've received a faulty product?
+    - What if my item is damaged?
+    - What happens to the item that has been damaged?
+    - What can I do if my item is damaged?
+    - What should I do if my item is damaged?
+    - What if my items are damaged?
+    - What happens if my item is damaged?
+    - What do I do if my item is damaged?
+    - What will happen if my items are damaged?
+    - What can I do if my goods are damaged?
+    - What happens if your item is damaged?
+    - What will happen if your item is damaged?
+- intent: faq_wrong_item_received
+  examples: |
+    - I received the wrong item
+    - I received the wrong item. I got the wrong item at the wrong time.
+    - I received the wrong item. I need the wrong item to make it a total failure.
+    - I got the wrong item at the wrong time, I can't re-order it.
+    - I received the wrong item. What should I do?
+    - I received the wrong item I asked for. How did you get it?
+    - I received the wrong item and was disappointed. Please contact the company for
+      refund. I received the wrong item and received the wrong product.
+    - I received a wrong product. What should I do?
+    - I received the wrong item. What was wrong with it?
+    - I got the wrong item when I ordered it.
+    - I received the wrong item, which is defective. I think that I am wrong. I have
+      my fault.
+    - The item is a different colour
+    - Objects are a different colour. Hence they are different colour.
+    - I have seen a different item in different colours. Is it an item that has a different
+      colour?
+    - The item is a different colour than the item in the picture.
+    - The item is a different colour. The item is a different colour.
+    - If you use an item in a different colour to a different item in the same shop
+      the item will not come in the same store.
+    - A different colour of an item will the item be marked in.
+    - The item is a different colour, as shown in the image.
+    - The item is a different colour than the item which is the item.
+    - If the item is a different colour from the colour of the item, then it is considered
+      "deserving" and "different".
+    - What should I do if the item is a different colour?
+    - I have an incorrect item
+    - I have an incorrect item. What is the item?
+    - I have an incorrect item. I am not familiar with how to write it?
+    - I have an incorrect item. I have a wrong item. What would that mean?
+    - I have an incorrect item. I just need a copy of the item I just got.
+    - I have an incorrect item. I will not change this. I am not sure.
+    - I have an incorrect item. Is there a way to correct this?
+    - I have an incorrect item on my computer. I can't see it anymore. I'm getting a
+      new item.
+    - I have an incorrect item. I have an correct item. I have an incorrect item. I
+      have an incorrect item. I have an incorrect item. I have an incorrect item. I
+      have an incorrect item. I have an incorrect item. Is there a valid item?
+    - I've got an incorrect item. Is this a problem?
+    - I have an incorrect item. Why do I have an incorrect item?
+    - I received the incorrect item
+    - I received the incorrect item in a store. Why is it important to return it?
+    - I received an incorrect product. How can I correct the error?
+    - I received an item wrong. I received an item wrong. I had the wrong item, but
+      did not receive it.
+    - What are some reasons I received an incorrect product?
+    - I received the incorrect item. I received the incorrect item. I will be notified
+      immediately.
+    - I received the incorrect item. I received an email and it was delivered right
+      away.
+    - I received the incorrect item in the mail. How do I fix this?
+    - I received the wrong item I need. How do I fix it?
+    - I received the wrong item and my email was delayed. I received a similar item.
+      I received the correct item and I have to pay the money back.
+    - What are the reasons why I received an incorrect item?
+    - I have received the wrong colour
+    - Is it wrong to buy a wrong colour?
+    - Is the colour wrong in my face?
+    - I've received a wrong colour from an Indian eye doctor. Can you help me?
+    - I have received the wrong colour. If I am in a 'happy' mood, I have received the
+      wrong colour. I have received the wrong colours.
+    - I received the wrong colour. Is it because my hair was so short?
+    - What colour is wrong when a colour is wrong?
+    - I received a different colour for my t-shirt. The colours are not the same as
+      the colour I ordered it.
+    - I have received a color that I don't like and it is wrong colour. What will I
+      do?
+    - What is wrong colour I received?
+    - If I have a wrong colour, how will I know what colour I have got.
+    - I have received the wrong size
+    - I have received a wrong size. I am a 25 year old woman and want to get a larger
+      one. I want to buy bigger. I have an O.S. I just received the wrong size.
+    - What is wrong with my size order?
+    - I have received the wrong size.
+    - I received the wrong size of sock. Can someone help me?
+    - What is the wrong size for my child?
+    - I have received the wrong size size I am not happy with.
+    - I received the wrong size. Please help.
+    - What size is the wrong size for me?
+    - I have received the wrong size. Please correct me
+    - I received the wrong size of t-shirt. It is a good size and its durable.
+    - I have received the wrong style
+    - I have received the wrong style of email. I have to pay for this wrong email!
+    - I received the wrong style from someone. What I need to do is make sure the person
+      on the internet doesn't copy my outfit.
+    - I received the wrong style.
+    - I received the wrong style letter. I am sorry.
+    - I have received the wrong style. I have received the wrong style. I have been
+      receiving the wrong style for a week now. I have received the wrong style.
+    - I have received the wrong style.. I have a good quality website.. I have got the
+      wrong style and they have not explained the design.. Is it correct?
+    - I have received the wrong style, please please.
+    - I received the wrong style from an older man. I will be able to continue to be
+      a 'funny' person.
+    - I have received the wrong style. I have received the wrong style. I have received
+      the wrong style. I have received the wrong type.
+    - I have received the wrong style, but I still have my shoes.
+    - I have received the incorrect item
+    - I received an incorrect item on the eBay. I don't want to send it back.
+    - I have received an incorrect item. How do I correct it?
+    - What is wrong with the package you received?
+    - I have received the incorrect item. The item was originally ordered. I had received
+      the wrong item with the wrong information. I have received the wrong item with
+      the wrong contents.
+    - I received the incorrect item. I have to return the item to the incorrect address.
+    - I received the incorrect item on my order. Please help.
+    - I received the wrong item and a package. I know it is for a very little reason.
+      Is there any problem?
+    - I am stuck on the wrong product and I have received an incorrect package. I can't
+      answer or change the item.
+    - I have received the wrong item. I have read the information correctly.
+    - I have received the incorrect item. What is the solution?
+- intent: faq_student_discount
+  examples: |
+    - I did not receive my validation email on my university mailbox
+    - I did not receive my validation email on my university mailbox. I have to pay
+      for the services.
+    - I don't remember my validation email email that I sent to my university mailbox.
+      I have just started up again.
+    - I had my validation email sent to me via e-mail but I have not received my email.
+    - How come I was not able to get my validation email at my university mailbox. Why?
+    - Is there a way to get my validation email from a university?
+    - I didn't get my validation email on my University mailbox. I don't receive email
+      validation email.
+    - How do I check my university for a valid validation email?
+    - I didn't get a validation email from my university mailbox. I can't sign up to
+      this service!
+    - I did not receive my validation email from my university mailbox. I checked my
+      email account on my incoming emails account, but I can't remember my University
+      email address. What are some good ways to check this out?
+    - I was getting a validation email from my university and I don't have a copy of
+      the email I received from my university. I did not receive my email on my university
+      mailbox. I should send an email.
+    - I have changed my email address but I have not received a new validation email
+    - I changed my email address but I still haven't received my validation email. How
+      do I get this done?
+    - My email address is invalid. I have to change my email address to get the email
+      that I just re-embedded. I'm getting a new email when I manually enter my new
+      email address. I can't get the email I am prompted to enter.
+    - I have changed my email address and I still have not received a new validation
+      email. I cannot receive a confirmation email or the mail that I received.
+    - I have changed my email address but I have not received a new validation email.
+      What do I do?
+    - I changed my email address but I still don't get the confirmation email. Is that
+      correct?
+    - How can I change email validation email?
+    - I changed my email address but I have not received a new validation email.
+    - I change my email address but I have not received a new validation email. Is there
+      a solution to this?
+    - I have changed my email address but have not received a new validation email.
+      What could I do?
+    - I have changed my email address but I have not received a new validation email.
+      Is there any software I could use to change this?
+    - I have changed my phone number but I have not received a new validation email
+    - I have changed my phone number but have not received a new validation email. Please
+      help.
+    - I changed my phone number but I have not received a new validation email.
+    - How do I change my mobile number when I get the new email?
+    - I've changed my phone number but I've not received a new validation email. How
+      can I make it work?
+    - I have changed my phone number but I have not received a new validation email.
+    - My phone number has changed and I haven't received a new email. I can't get a
+      new number but I have sent it back.
+    - I've changed my phone number but I have not received a new validation email. I
+      can't see what happened.
+    - I have changed my phone number but I have not received a new validation email.
+      I have reset it.
+    - My phone number is my new phone number and I still don't get the confirmation
+      email I got after I change it. I have a valid phone number but I haven't received
+      an email that I can validate it if I change my email address and name.
+    - I changed my phone number but still don't get confirmation email from SGS or Verizon.
+      Is this because of my mobile number?
+    - I am a student but my student email address is not validated
+    - My email address is not valid for a student account. Can you check if I am in
+      default email address?
+    - I am a student but my student email address is not validated. Is this my fault?
+    - How do I correct my student email when I don't know my student email?
+    - I am a student but my student email address is not validated. I am a registered
+      student.
+    - I'm a student but my student email is not validated. Why do I have to confirm
+      my email address for verification?
+    - I'm a student but my student email address is not validated. Can anyone help me?
+    - Is there any email address that is valid for students?
+    - I am a student and my student email isn't valid. How can I correct it?
+    - My student email address is not valid. I'm a student but my student email address
+      is not valid.
+    - My email address is valid but my student email is not. Why?
+    - I'm a student but I don't have the validation email
+    - I'm a student but I don't have the validation email to verify my email.
+    - I'm a student and I don't have the validation email. Is there a way to send my
+      email with the email that I don't have?
+    - I'm a student but I don't have the validation email email. I have changed my password
+      to my password several times now.
+    - I'm a student and I don't have the validation email I want. I'm a sophomore but
+      I don't have the validation email I got when I applied.
+    - I'm a student but I don't have the validation email. Is there anyway to get that
+      email?
+    - I'm a student but I don't have the validation email or my class email. I'm a student.
+    - I'm a student and I don't have the validation email I have for my new enrollment.
+      How can I get that email?
+    - I'm a student and I don't have the validation email. Is that a good thing?
+    - I'm a student, but I don't have the validation email. How do I get that email?
+    - I'm a student but I don't have the validation email that I need to submit my credit
+      card details. How can I update this to reflect this?
+    - I'm a student but I never received the validation email
+    - I'm a student and I never received the validation email. I have two years of service
+      to pay.
+    - I'm a student but I never received the validation email. Can someone please check
+      for me if I haven't received the email validation email?
+    - I'm a student but I never received the validation email email.
+    - I'm a student, but I never received validation email. I'm sorry but I should pay
+      attention.
+    - I'm a student but I never received the validation email I was provided in. Is
+      it a scam?
+    - I'm a student but I never received the validation email or my first college student
+      certificate. I am a new student but I'm on my last semester, I should go to University
+      Counseling.
+    - I'm a student but I never received the validation email. I'm really frustrated.
+    - I'm a student but I never received the validation email I requested. I need to
+      get my E-mail again.
+    - I'm a student but I never received the validation email. Hopefully I will get
+      that email back soon.
+    - I'm a student and I never got the validation email. So why didn't I receive it?
+    - I have been trying to login with my student discount code but I have not received
+      a validation email
+    - I'm using a discount code that I'm in for 2016 but I'm not able to log in. I still
+      need a valid email for my student discount code and must update my code for credit/debit
+      card.
+    - I forgot my student discount code and my password. Is there any link to get that
+      email?
+    - What can I do if I can't find my student discount email?
+    - What can I do if I forgot my student discount code but haven't received a confirmation
+      email?
+    - I have been trying to login with my student discount code but I have not received
+      a validation email. I'm not using my e-mail address or have my password.
+    - I have a discount code for a student discount but I have not received the validation
+      email. how do I login?
+    - What is my student discount code? I don't have access to it. How can I get the
+      code back?
+    - I have been trying to login with my student discount code but I have not received
+      an email validation email. I have a valid student discount code and I have the
+      code and the discount code is not reflected in the code I received. Is this really
+      a problem?
+    - I can login and use my student discount code but I have not received a confirmation
+      email.
+    - What is my student discount code?
+    - How do I get a student discount code
+    - How can I get a discount code for a student when a student is enrolled?
+    - How do I get a student discount code in the app?
+    - How can I get a discount code for my college students?
+    - What is the best way to get a discount code for a student?
+    - How can I get discount code for students?
+    - How do I get student discount codes?
+    - How do I get a student discount code from KFC?
+    - What are some ways to get a student discount code for my studies?
+    - How do I get discount code for a student?
+    - How can I get a student discount?
+- intent: faq_missing_comms
+  examples: |
+    - I am waiting for an order but I haven't heard anything from ASOS
+    - What are your views on waiting for an order from ASOS?
+    - I am waiting for an order and I haven't heard anything from ASOS yet. If you can't
+      help me, please give me an email and I will be placing my order.
+    - Is there any confirmation that I should order online from ASOS?
+    - I have an ASOS order but I don't get any notifications from them. How can I order
+      from them?
+    - I have an order but I haven't heard anything from ASOS yet. Is there any link
+      in my shopping cart?
+    - I am waiting for an order but I haven't heard anything from ASOS yet.
+    - I have an ASOS order, I have not heard from them so far. I am waiting for orders
+      and I can't afford to buy it yet.
+    - I'm awaiting for my order but I haven't heard anything from ASOS. I hope I have
+      a nice time.
+    - I'm waiting for an order but I've never heard anything from ASOS. I am curious
+      about the shipping cost but I want to pay in USD.
+    - I am waiting for an order but I haven't heard anything from ASOS. I am in India
+      and I'm just browsing through the website.
+    - ASOS isn't contacting me about my order
+    - I'm complaining that asos hasn't contacted me about my order. Will ASOS ever contact
+      me about it?
+    - I ordered online and ASOS is not contacting me anymore. How can I contact them
+      for questions or clarification?
+    - I ordered on ebay but ASOS doesn't contact me about my order. Is this a scam?
+    - Why isn't asos contacting me about my order?
+    - Why isn't Amazon contacting me to take back my order?
+    - I have ordered online and ASOS isn't contacting me about my order. How can I contact
+      them?
+    - What are the reasons for ASOS not contacting me about my order?
+    - Is it that ASOS isn't contacting me about my order?
+    - Why isn't ASOS contacting me about my order?
+    - Why does Amazon not contact me about my order?
+    - I haven't received an order confirmation email from ASOS
+    - I haven't received an order confirmation email from ASOS yet. What should I do?
+    - I have received a confirmation email for ordering from asos. Is it still available
+      to order?
+    - How do I get an order confirmation email from ASOS?
+    - Why hasn't a customer confirmation email been sent to me from ASOS?
+    - What is the reason I haven't received an order confirmation email from ASOS?
+    - I can't seem to get an email from Amazon confirming my order. What can I do?
+    - I haven't received an order confirmation email from ASOS yet. How can I get an
+      email with a shipping address?
+    - How can I get an email when I received an order confirmation from Asos?
+    - I haven't received an order confirmation email from ASOS. Why did I have to cancel
+      my order?
+    - I am on my way to ordering from Amazon but I haven't received an order confirmation
+      email from them. Why do I have to wait?
+    - I haven't received an order number for an order
+    - How do I get an order number if I don't have an order number?
+    - I haven't received an order number for an order. Is there a way to get a hold
+      of my order number?
+    - I have not received an order number for my order. Can I order a product from you
+      but don't know the number for the product?
+    - I have received no order number. How can I get one?
+    - I have an order number for an online store. I don't know what it is, nor have
+      I received it.
+    - I don't have an order number yet, can you send me the number?
+    - Is there an order number I have received for my product yet?
+    - I don't know the order number for an order. Can I still get an order number?
+    - What is the order number and I haven't received it yet?
+    - Is there an order number I can order online?
+    - I haven't received an order confirmation email
+    - Is there any confirmation email for a order I placed?
+    - I haven't received any order confirmation email. How can I get my order back?
+    - I still haven't received my order confirmation email. Can you post a new order?
+    - I can't find or get an order confirmation email. Can someone help me?
+    - Why haven't I received my order confirmation email?
+    - I haven't received my order confirmation email. How do I update my order confirmation?
+    - I haven't received my order confirmation email. I am in china.
+    - I have received a confirmation email from a retailer that I order products from.
+      I can't make it to the warehouse to place an order. Why?
+    - I have received no order confirmation email from the UPS. I haven't received an
+      order confirmation email from the UPS. I want to place an order with the UPS.
+    - I haven't received my order confirmation email. How can I get one?
+    - I haven't received a shipping confirmation email
+    - Why have I not received my shipment confirmation email?
+    - I don't have a shipping confirmation email. Will it happen to me soon?
+    - I haven't received shipping confirmation email from FedEx. Is there any tracking
+      number for this item?
+    - I still don't receive my shipping confirmation email. What do I do?
+    - I just received my shipping confirmation email from UPS. What is the reason why
+      I can't receive a refund or exchange?
+    - How come I haven't received a shipping confirmation email. I hope this means I
+      can't order again.
+    - I have not received a shipping confirmation email, why is it that I haven't received
+      my email?
+    - I haven't received an email from the carrier I was using, and can't send a shipping
+      confirmation. How can I get it?
+    - I can't send a shipping confirmation email. Is there a website that is able to
+      provide shipping confirmation to me?
+    - I haven't received any email confirmation emails. I just have a question that
+      can easily be answered by phone.
+    - I haven't received a payment confirmation email from ASOS
+    - I haven't received payment confirmation email from ASOS. I haven't received payment
+      confirmation email from ASOS. I don't have a password for ASOS. I want it to stay
+      safe.
+    - I have not received payment confirmation from ASOS, can you please post yours?
+    - Why I can't get a payment confirmation email from ASOS?
+    - I haven't received an email from ASOS confirming payment. Can they send me a refund
+      email?
+    - I have not received a payment confirmation email from ASOS. I don't have an email
+      address for my transaction. I can't log in to ASOS. I want to receive an email
+      from ASOS. I'm having some problems.
+    - Is there a way to get payment confirmation from ASOS if I have paid with a Paypal
+      account?
+    - I haven't received a payment confirmation email from ASOS. I am having issues
+      with my emails as I wait for the order confirmation email. How can I solve this?
+    - I haven't received payment confirmation email from ASOS. I am having trouble with
+      the phone connection. I'm in India and not paying. Why?
+    - I haven't received a payment confirmation email from ASOS. I haven't paid with
+      the ASOS. Is there a way to send me an email?
+    - What happens to a payment confirmation email that I received from ASOS?
+    - I haven't received a refund confirmation email from ASOS
+    - How can I find out what I paid for my subscription from ASOS?
+    - I haven't received a refund confirmation email from ASOS. I'm not happy. I don't
+      want to risk anything. What should I do?
+    - I don't have a refund confirmation email from ASOS. I can't email it to me but
+      I just want it sent to me by my friend.
+    - Why have I not received a refund confirmation email from Asos?
+    - I have not received a refund confirmation email from ASOS. I can't post online.
+      I have tried Google, but I don't understand how to receive refund email from Asos.
+    - I haven't received a refund confirmation email from ASOS. Is it a bug?
+    - I haven't received a refund confirmation email from ASOS confirming my purchase.
+      Is this a fake?
+    - I haven't received a refund confirmation email from ASOS. I haven't received a
+      refund email from ASOS. I have sent a refund email to both asos. I have an account
+      and the refund email is not going to work, I can't do it anymore.
+    - I haven't received a refund confirmation email from ASOS. I have tried two different
+      products and I haven't received any refund information. Please reply me.
+    - What is the reason I haven't received a refund confirmation email from ASOS?
+- intent: faq_payment_currency
+  examples: |
+    - accept euros?
+    - Which countries accept euros?
+    - Can I accept Euros?
+    - Can I accept Euro?
+    - Is it possible to accept euros?
+    - What is the cost of accepting Euro?
+    - What are the best ways to accept euros?
+    - Can you accept Euro?
+    - How can I accept Euro?
+    - Why does the IOT accept Euro?
+    - Why do people accept Euro?
+    - can I pay in Euros?
+    - How do I pay in Euros?
+    - Can I pay in Euro?
+    - Can we pay in Euros?
+    - How can I pay in Euros?
+    - What are the methods of payment in Euro?
+    - What is the best way to pay in Euros?
+    - How do I pay for a flight with a debit card in Euros?
+    - How do I pay in Euro?
+    - Where can I pay in Euros?
+    - How can I pay in Euro?
+    - do you accept British pounds?
+    - What is the best way to accept British pounds?
+    - Can people accept British pounds?
+    - Can I accept British Pounds?
+    - What are British pounds?
+    - Can I accept British pounds?
+    - Is British pounds accepted?
+    - Is it illegal to accept British pounds?
+    - Why do people accept British pounds?
+    - Does the US accept British pounds?
+    - Can you accept British pounds?
+    - can I pay in GBP?
+    - How can I pay in GBP?
+    - What is the easiest way to pay in GBP?
+    - How can I pay in GB?
+    - Where can I pay in gps?
+    - How do I pay in GBP?
+    - Can we pay in GBP?
+    - What are the ways to pay in GBP?
+    - What is the best way to pay in GBP?
+    - How can I pay with GBP?
+    - How do you pay in GBP?
+    - do you accept British pounds?
+    - Does anyone accept British pounds?
+    - Can I accept British pounds?
+    - What is the best way to accept British pounds?
+    - What is the cheapest way to accept the British pounds?
+    - Can we accept British pounds?
+    - Why can't you accept British pounds?
+    - What is British currency? How do I accept British currency?
+    - Is it OK to accept British Pounds?
+    - Why do some banks accept British pounds?
+    - What is the accepted British currency?
+    - you accept euros?
+    - Why do we accept Euros?
+    - Can you accept euros?
+    - Can you accept Euro?
+    - Do you accept Euro?
+    - How do you accept Euro?
+    - Is there a way to accept Euro?
+    - Do you accept euros?
+    - What is the easiest way to accept Euros?
+    - Does the bank accept Euros?
+    - Is it true that you accept Euros?
+    - pounds?
+    - What is the weight of pound?
+    - What are the basic statistics about pounds?
+    - What is the value of pounds?
+    - What are the differences between pounds and pounds?
+    - How many pounds are there in world?
+    - What is the most useful number for pounds?
+    - What is the best way to calculate pound?
+    - What is a pounds?
+    - What are some useful and interesting numbers to compare and contrast pounds?
+    - What is the weight?
+    - do you accept Indian Rupees?
+    - Will you accept Indian rupees?
+    - What is the best way to get rid of Indian Rupees?
+    - Do you accept Indian currency notes?
+    - Do you accept India's Rupees?
+    - Can we accept India's currency?
+    - How do I accept INR?
+    - How do I accept Indian Rupees?
+    - How much can you accept from India in the form of Rs. 1000 and Rs. 1000 notes?
+    - Do you accept rs2000?
+    - Can you accept Indian Rupees?
+- intent: faq_payment_card_refund
+  examples: |
+    - What happens to my refund if my card is no longer in use?
+    - What happens to my refund if my credit card is no longer in use?
+    - What happens to a credit card refund when the card is no longer in use?
+    - What happens to your refund if your card is no longer in use?
+    - What happens if a card is no longer in use?
+    - What happens to my refund when my card is no longer in use?
+    - What happens to your refund if you cancel your card?
+    - How will your refund be treated if your card is no longer in use?
+    - What happens if my refund is cancelled?
+    - What happens to your refund card if it is no longer in use?
+    - What happens if your credit card is no longer used?
+    - If my bank details change will you refund my order?
+    - How can I change my bank details and return my order?
+    - I want a refund if my bank details are changed?
+    - Will you refund my order if I have changed my bank details?
+    - Can you refund my order if my bank details change?
+    - Will you refund my order if I change my bank details?
+    - Can you refund a customer if the bank details change?
+    - Is it possible to change the details of your order in bank account?
+    - Can I change my bank details on order?
+    - Can I change my bank details to another country?
+    - How can I change my bank details and order number?
+    - Can I get a refund to a different card?
+    - Can I get a refund on another card?
+    - Can you refund a card you use and transfer it to another card?
+    - How can I get a refund for a new card?
+    - How can I get a refund on a different card?
+    - How do I get a refund for a debit card that I used instead of the one I used?
+    - How do I get a refund on my old credit card?
+    - Can I get a refund of my credit card?
+    - Can I get a refund to my old credit card?
+    - Is it possible to get a refund on a new card?
+    - Can I get a refund from a different card?
+    - What happens to my refund if my card is no longer in use?
+    - What happens to a refund after a card is no longer in use?
+    - What happens if your credit card is no longer used?
+    - What happens if I cancelled my refund in bank account after I received my refund?
+    - How do I refund my credit card if I no longer use my card?
+    - What happens to a refund that was made when your card is no longer in use?
+    - What happens to a credit card refund if the credit card is no longer in use?
+    - What happens if my credit card is no longer in use?
+    - What happens to my refund card when it's no longer in use?
+    - What happens to your refund if your card is no longer in use?
+    - What happens to a refund if the card is no longer used?
+    - If my bank details change will you refund my order?
+    - Can I change my bank details to an authorized supplier and will you refund the
+      order?
+    - If I change my bank details will you refund my order?
+    - Will you refund my order if my bank details change?
+    - Can you refund my order if my bank details change?
+    - Can I change my bank details and order?
+    - Can you refund an order when the details of the order are changed?
+    - If I change bank details I can refund my order?
+    - Can you refund my purchase if my bank details change?
+    - Can you refund my money if my bank details change?
+    - What happens if my bank details change?
+    - Can I get a refund to a different card?
+    - Can I get a refund on a different credit card?
+    - Can I get a refund if I don't remember my new credit card number?
+    - How can I get refund for a credit card that I canceled?
+    - Can I get a refund for my previous card?
+    - How do I get a refund from different bank for a different card?
+    - How can I get a refund on my old card?
+    - Can I get a refund on a different card?
+    - Is it possible to get a refund for a new credit card number?
+    - How can I get a refund on a card I bought with a different brand?
+    - How do I get a refund for a different card?
+    - What happens to my refund if my bank details have changed?
+    - How do I refund a refund without a change in my bank account?
+    - What happens if your bank details change?
+    - How can I change my bank account details if my refund amount has been changed?
+    - What happens if my bank details are changed?
+    - What happens to a refund if the bank details are changed?
+    - How do I recover my refund if my bank details have changed?
+    - What happens to a refund after the bank account details have changed?
+    - What happens if my bank details change?
+    - What happens if my bank details have changed?
+    - How do I refund a deposit after changing bank details?
+    - Can I change my card details after I have requested a refund?
+    - Can I change my card information after I have requested a refund?
+    - Can I change my credit card information after I have applied for a refund?
+    - How do I change my credit card information after I received the refund?
+    - How do I change my credit card details when I have requested a refund?
+    - Can I change my card details after I have asked for a refund?
+    - I have a previous card number which I need to change to get a refund?
+    - I forgot my credit card details after request for refund. How can I change my
+      card details again?
+    - Can I change my card information after I've received my refund?
+    - How do I change my information after request for refund?
+    - How do I change a credit card number after requesting refund?
+- intent: faq_animal_welfare
+  examples: |
+    - How do you ensure your products are cruelty    -free?
+    - What are the best ways to ensure your products are cruelty free?
+    - How can you ensure your products are cruelty free?
+    - What is the best way to make sure your products are cruelty free?
+    - How can I ensure that my products are cruelty free?
+    - How can you make sure that your products are cruelty-free?
+    - How can I be sure that my products are cruelty free?
+    - How do you ensure your products are cruelty free?
+    - How can I be cruelty free?
+    - How do I ensure my products are cruelty free?
+    - What is the best way to ensure your products are cruelty free?
+    - Do you use real leather in your products?
+    - Do you use real leather products?
+    - Why do some companies use faux leather in their products?
+    - Does leather real?
+    - Do you use leather in your products?
+    - Do you use genuine leather in your products?
+    - Does leather products have any real smell?
+    - Do you use genuine leather?
+    - Is it true that you use real leather in your products?
+    - Do you use real leather?
+    - Does leather leather products really work?
+    - Do you use real fur in your products?
+    - Do you use real fur in products?
+    - Do you use fur?
+    - Do you use real fur?
+    - Why do some hair products use fur?
+    - Does fur use in hair products?
+    - Do you use fur in your products?
+    - Is it safe to use real fur in clothing?
+    - Why do you use real fur?
+    - Do you use fur in cosmetics?
+    - Why does some brands use real fur?
+    - Do you use animal skin in your products?
+    - Does your company use animal skin in its products?
+    - Do you use animal skin in your product?
+    - Do you use animal skin in products?
+    - Do you use animal skin in cosmetics?
+    - Why do some people use animal skin?
+    - Do you use animal skin?
+    - Do you use animal skins in cosmetics?
+    - Why do we use animal skin?
+    - Does the meat skin in your products come from the animal?
+    - Do you use animal skin in food?
+    - Is your whole collection vegan?
+    - Is the collection vegan?
+    - Is your entire collection vegan?
+    - Are your items vegan?
+    - Are your collections vegan?
+    - Are your vast collection vegan?
+    - Is my collection vegan?
+    - Is my entire collection vegan?
+    - Is your collection vegan?
+    - Do you believe that my whole collection is vegan?
+    - Does your entire collection have any gluten or egg residue?
+    - Does ASOS use animal fur?
+    - Does Asos stock animal fur?
+    - Why does ASOS use animal fur?
+    - Does Amazon use animal fur?
+    - Does ASOS actually use animal fur?
+    - Does ASOS make use of animal fur?
+    - Is it true that ASOS sells animal fur?
+    - Is it illegal to buy sheep's fur on ASOS?
+    - Do most Amazon products use animal fur?
+    - Does ASOS use fur?
+    - Do the clothing lines in ASOS wear animal fur?
+    - Do you use animal skin in your products?
+    - Do you use animal skin in cosmetics?
+    - Does any company use animal skin in products?
+    - Do you use animal skin in products?
+    - Do you use animal skin in food?
+    - Do you use animal skin in your product?
+    - Do you use animal skin?
+    - Do you use animal skins in your products?
+    - Does perfume use animal skin?
+    - Is it safe to use animal skin in your product?
+    - Is it ethical to use animal skin in any product?
+    - Is ASOS vegan?
+    - Is Amazon Vegan?
+    - Is Amazon vegan?
+    - Is it vegan?
+    - Is it a vegan blog like ASOS?
+    - Why is ASOS Vegan?
+    - Does Asos Vegan?
+    - Does asos vegan?
+    - Is it vegan on ASOS?
+    - Is it true that ASOS is a vegan?
+    - Why is ASOS vegan?
+- intent: faq_returns_policy
+  examples: |
+    - Can I return something that I've worn once?
+    - Is it possible to return something you've worn before?
+    - Is it possible to return a dress I wore before?
+    - Can I return a dress I've worn once?
+    - Can I return an item that I have worn in a long time?
+    - Is it ok to return something I once worn?
+    - How can I return my worn item?
+    - Can I return something I've worn?
+    - Is it possible to return a piece of clothing that you have worn before?
+    - Can I return a piece I bought in the store that I've worn?
+    - Can I return a shirt I've worn?
+    - How long do I have the option to return my order?
+    - How long do I have to return my order?
+    - How long can I return a defective product?
+    - How long does it take to return an order?
+    - I have a 3 day order and I can return it. How long can I return it?
+    - How long do I have to return an item?
+    - How long does it take to return your order?
+    - Is it possible to return a product after an order is processed?
+    - How long does it take for you to return your order?
+    - How long do you have to return a product?
+    - How long does it take to return an item when it is marked as being in stock?
+    - Can I return some makeup after I've tried it?
+    - How do you return makeup after trying on?
+    - Can I return my makeup after trying it?
+    - Is it legal to return makeup after I've tried it?
+    - Can you return makeup after a few days?
+    - Can I return makeup after trying it?
+    - Can I return a makeup after I've tried it?
+    - Can I return makeup after I have tried it?
+    - Can I return my makeup after I have tried it?
+    - How can I return a makeup I have tried?
+    - Can you return makeup after try it?
+    - My dress ripped after one wear, can I return it as defective?
+    - How do I return a ripped dress?
+    - Can you return a dress that ripped after one wear?
+    - My dress has ripped after one wear, can I return it as defective?
+    - Can you return a dress that has ripped after one use and has become defective?
+    - My dress is ripped after one wear, is it okay to return it as defective?
+    - Can you return a dress you wear that is ripped after one use?
+    - My dress ripped after one wear. Can I return it as defective?
+    - How do I return a dress I bought ripped from one wear and has no reason to return
+      it?
+    - If a dress is ripped after one wear, can you return it as defective?
+    - If my dress ripped after one wear, can I return it as defective?
+    - How long can I return items for?
+    - How long is it acceptable to return an item?
+    - How long can I return an item?
+    - How long can I return my product?
+    - How long do I have to return an item?
+    - How long do you have to return a product for?
+    - How long does it take to return an item?
+    - How long can I return my products for?
+    - How long can I return something?
+    - How long does it take to return goods?
+    - How long does it take to return items?
+    - My item arrived damaged
+    - My item arrived damaged. I'll be sending it back later.
+    - I have a broken item. It arrived damaged. It is shipping a new item.
+    - My item arrived damaged. My item returned to me.
+    - What is the best way to replace a damaged item in the mail?
+    - My item arrived damaged. Please be patient when ordering.
+    - My item arrived damaged, e-mail is still in stock.
+    - I received my item damaged on my return shipping. What can I do?
+    - My item arrived damaged, my item will be mailed to you.
+    - My item arrived damaged but I can't repair it. Will I be able to use my current
+      item?
+    - I received my item and it arrived damaged.
+    - What can I do if an item doesn't fit me?
+    - What do I do when an item doesn't fit me?
+    - How do you tell if an item doesn't fit?
+    - What should I do if something doesn't fit me?
+    - What should I do if an item doesn't fit me?
+    - What should I do if a certain item doesn't fit me?
+    - What do I do if my current wardrobe doesn't fit me?
+    - How do I fix an item that doesn't fit me?
+    - What should I do if my item doesn't fit me?
+    - How do I replace an item that doesn't fit me?
+    - How do I find out that an item doesn't fit me?
+    - Do I need to return all items in an order?
+    - Do I have to return my entire order?
+    - Is it okay to return all items in an order?
+    - Do I have to return all items in order?
+    - Is it legal to return an order or product?
+    - Do you have to return a specific item?
+    - Is it normal to have to return the item in an order?
+    - Do I have to return an item in an order?
+    - Do I need to return a item after I order it?
+    - Do I need to return all items in order to refund items?
+    - Do I have to return everything in an order?
+- intent: faq_order_not_received
+  examples: |
+    - What happens if my order hasn't arrived yet?
+    - What happens to my order once it arrives?
+    - How do I avoid a situation when my order is not coming?
+    - How do I make an order that hasn't been shipped yet?
+    - What happens if an order doesn't arrive?
+    - What happens to a package that is delivered and/or opened but hasn't been shipped?
+    - What will happen if my order has not arrived yet?
+    - What happens if my order hasn't arrived?
+    - What happens if my order is not on Amazon yet?
+    - What will happen if I don't get my order yet?
+    - What happens to an order that has not arrived?
+    - What should I do if my order hasn't been delivered yet?
+    - What can I do if my order hasn't been delivered yet?
+    - What should I do if my order is not delivered yet?
+    - What do I do if my order is not delivered yet?
+    - What do I do when my order has not been delivered?
+    - My order hasn't been delivered yet. What should I do?
+    - My order has not been delivered yet. what should I do?
+    - How do I place an order if it has not been delivered yet?
+    - What should I do if my order has not been delivered yet?
+    - What do I do if my order hasn't been delivered yet?
+    - How do I check my balance if my order has not been delivered yet?
+    - when will my order arrive?
+    - How soon will my order be delivered?
+    - When is my order going to arrive?
+    - When will your order arrive?
+    - How do I get my order processed?
+    - When does your order arrive?
+    - When will order arrive?
+    - How will your order arrive?
+    - How do I check the date of my order?
+    - How can I know if my order has arrived and what time it will be?
+    - When will orders arrive?
+    - my order hasn't been delivered yet
+    - My order hasn't been delivered yet. My delivery address hasn't been confirmed
+      yet. What is the reason?
+    - My order hasn't been delivered yet. What should I do?
+    - My order hasn't been delivered yet, what should I do?
+    - My order has not been delivered yet. I can't restock the order for it.
+    - My order hasn't been delivered yet, what do I do?
+    - My order hasn't been delivered yet. How can I contact support?
+    - My order hasn't been delivered yet. Is there a reason behind this?
+    - My order has not been delivered yet. How can I get this resolved?
+    - My order hasn't been delivered yet. I can't log in, please help.
+    - My order has not been delivered yet, what are your expectations?
+    - what do i do if my order hasn't arrived?
+    - What should I do if my order has not arrived?
+    - What should I do if my order hasn't arrived?
+    - What should I do if my order hasn't been received?
+    - Why is my order not yet fulfilled?
+    - How do I make sure that my order has arrived?
+    - What do I do if my order isn't received?
+    - What should I do if my order is not received?
+    - How do I cancel an order when it hasn't arrived?
+    - What should I do if my order is delayed?
+    - How can I cancel an order when it is not received?
+    - how long does it take to get my order?
+    - How long does it take to receive an order?
+    - How long does it take to get my order to arrive?
+    - How long does it take for my order to arrive?
+    - How long does it take for my order to ship?
+    - How long does it take to order something?
+    - How long does it take to get my order shipped?
+    - How long does it take to get a product to ship?
+    - How long does it take to get my order delivered?
+    - How long does it take to get my order in?
+    - How long does it take to order a product?
+    - when will it get here?
+    - When will the 'World' finally get to its peak?
+    - When does the music get here?
+    - When will "The Film" arrive?
+    - When will this movie get here?
+    - When will the film "Come" arrive?
+    - When is gloom coming?
+    - When will the movie "Avengement" be released?
+    - When is it going to get here?
+    - When will the New Year arrive?
+    - When will the "Twins" come out?
+    - do i have to wait long for my order?
+    - Can you place a fast and reliable online order?
+    - Why do I have to wait for my order to be placed?
+    - Is it normal to have to wait for orders to be processed?
+    - Can I wait too long for my order?
+    - Why do I have to wait for hours for my order to be processed?
+    - Can I wait for an extended period to receive my order?
+    - Why do I have to wait so long for an order?
+    - How do I order online without waiting for hours on end?
+    - Why do I have to wait to receive my orders?
+    - Can I wait for the order confirmation email?
+- intent: faq_size_guide
+  examples: |
+    - I am a size XXL/6XL/14/16/18, what size should I order from ASOS?
+    - I am a size 12 in size XXL/14/16/18, what size should I order from ASOS?
+    - What size should I order on ASOS?
+    - I am a size XXL/14/16/18, what size should I order from ASOS?
+    - What size should I order from ASOS?
+    - I am a size 8XL, what size should I order on ASOS?
+    - What size should I order from Asos?
+    - I am a size XXL, what size should I order from ASOS?
+    - How do I order my size XXL from ASOS?
+    - Which size should I order on ASOS?
+    - What size should I order for XXL, 12-16/17?
+    - Where can I find out about your ASOS plus size range?
+    - Where can I find out more about the ASOS plus size range?
+    - What is the ASOS plus size?
+    - How do I find out more about the ASOS plus size range?
+    - Where can I get a quick peek at your ASOS plus size?
+    - What's the ASOS plus size range?
+    - How do I find out about the ASOS plus size range?
+    - Where can I find out more about your ASOS plus size range?
+    - How do I find out more about the ASOS plus size?
+    - Where can I find out more about plus size ASOS?
+    - How can I find out more about your ASOS plus size range?
+    - What is the difference between regular and plus size?
+    - What is the difference between a plus size and a regular size?
+    - What is the difference between plus size and regular size?
+    - What is difference between regular and plus size?
+    - What is difference between plus size and regular size?
+    - What's the difference between plus size and regular size?
+    - What is the difference between regular size and plus size?
+    - What is difference between regular size and plus size?
+    - What is the difference between a regular size and a plus size?
+    - What is the difference between plus and regular size?
+    - What is the difference between plus and regular sizes?
+    - Do you have any plus size tips?
+    - How can I get plus size?
+    - What are some tips to be a plus size?
+    - What are some plus size tips?
+    - What are some tips for plus size women?
+    - Do you have any tips for plus size?
+    - Do you have any tips to become a plus size girl?
+    - What are the tips for a plus size?
+    - Do you have any tips for plus size women?
+    - How do you work with plus size women?
+    - Do you have any tips on plus size?
+    - How can I make sure I order the right size?
+    - What are the best ways to order the right size?
+    - How do I order a perfect size?
+    - What are some ways to make sure I have the correct size?
+    - How can I make sure my order was correctly sized?
+    - How can I make sure I get the right size?
+    - What is the best way to order the right size?
+    - What are the best ways to get the right size?
+    - How do I find the right size?
+    - How do I order the right size?
+    - How do I order the correct size?
+    - Do you have US size guides?
+    - How do I get the US size guide?
+    - Do you have any US size guides?
+    - Does any e-book have sizes for the US?
+    - Does the US have size guides?
+    - What are some size guide?
+    - What are the US size guides?
+    - Is there any US size guide?
+    - Does the US have a size guide?
+    - Is there a metric size guide for the US?
+    - How do you find the US size guide?
+    - Do you have EU size guides?
+    - What is the size guide for the EU size?
+    - Does the EU have size guides?
+    - Do EU size guides exist?
+    - Are there EU size guides?
+    - Do you have EU size guide?
+    - Are there EU size guides for companies in India?
+    - Are there any EU size guides?
+    - What are the EU size guides?
+    - Do you have any EU size guides?
+    - Is it possible to know EU size guidelines?
+    - Where can I find specific details about sizing?
+    - Where can I get specific info on size?
+    - Where can I get specific info about sizing?
+    - How do I know about sizing?
+    - Where can I get exact measurements of a body?
+    - Where can I get more specifics about sizing?
+    - Where can I find specific information about sizing?
+    - Where can I find the most accurate sizing?
+    - Where can I find detailed information on sizing?
+    - How do you find information about sizing?
+    - Where can I get detailed information about sizing?
+- intent: faq_marketplace_app
+  examples: |
+    - Why doesn't ASOS have an app for marketplace?
+    - Why does ASOS don't have an app for Marketplace?
+    - Why doesn't ASOS have a marketplace?
+    - Why is it that there is no marketplace app in ASOS?
+    - How come ASOS has no marketplace app?
+    - Why isn't ASOS working on an app for marketplace?
+    - Why doesn't ASOS have an app for its marketplace?
+    - Why doesn't Amazon have an app for selling clothes?
+    - Is there an Android app for marketplace?
+    - Why doesn't ASOS have an app for marketplaces?
+    - Does ASOS have an app for a marketplace?
+    - Why there isn't an ASOS Marketplace app?
+    - Why doesn't Amazon Marketplace offer any app?
+    - Why doesn't ASOS have an online marketplace?
+    - Is there an ASOS marketplace app?
+    - Why is there no ASOS Marketplace?
+    - Why is there no Asos Marketplace app?
+    - Why doesn't there exist an ASOS Marketplace app?
+    - What are the gists of ASOS Marketplace?
+    - Why isn't there an ASOS Marketplace app?
+    - Why don't some websites allow a marketplace to have an app for their ASOS business?
+    - Is there an ASOS Marketplace app?
+    - Why is there no marketplace in the app?
+    - Is there marketplace in the iPhone App?
+    - Why is there no marketplace in GitHub?
+    - Why is there no marketplace on the app?
+    - Why is there no marketplace in android?
+    - Why is there no marketplace in the Android App?
+    - Why doesn't the app have a marketplace?
+    - Why isn't there a marketplace in android app?
+    - Why is there no marketplace for an Android app?
+    - Why doesn't Google have an app marketplace?
+    - Why are there no marketplaces in Android and iOS?
+    - Why isn't marketplace in the app?
+    - Is there a marketplace in the app?
+    - Why isn't the marketplace present on the app?
+    - Why is there no marketplace in the app?
+    - Why doesn't Google put marketplaces in its apps?
+    - Why isn't there a marketplace in the app?
+    - Why isn't there a marketplace in the App?
+    - Why does there is no marketplace in the app?
+    - Why is there no marketplace in Android?
+    - Why doesn't the Android Market exist?
+    - Why there's no marketplace on my phone?
+    - ASOS Why can't I find marketplace on the app?
+    - Is there a marketplace in ASOS?
+    - How do I get marketplace on asos?
+    - Where do I find the marketplace on my OS?
+    - How can I find the marketplace on my android phone?
+    - Why can't I find marketplace in the app?
+    - Why can't I find marketplace on my app?
+    - What are the issues that I am having with marketplace on ASOS?
+    - Why doesn't Amazon have a marketplace on the app?
+    - Why can't I find marketplace in my Android phone?
+    - Why can't I find marketplaces on apps like Amazon or eBay?
+    - Where is Market Place on the app?
+    - Where is Market Place on vCart?
+    - What is Market Place on the app?
+    - What is Market Place app?
+    - What is Market Place in the app?
+    - How do I find Market Place on the iPhone?
+    - Where is Market Place on mobile app?
+    - Where is Market Place in the App?
+    - How does Market Place work on the app?
+    - What is Market Place on my iPhone?
+    - Where is Market Place in App?
+    - I cant see market place on the app
+    - I cant see market place on the app app. I am trying to monetize a particular product
+      but cannot see the app market place, how does that work?
+    - I cant see market place on the app. My app will be mobile based. I hope this helps.
+    - I cant see market place on the app. I cant see market place on the app.
+    - I cant see market place on the app. I cant see market place. How can I improve
+      the app?
+    - I cant see market place on the app. I cant see market place on the app. I cant
+      see market place on the app. I cant see market place on the app. I have an Android
+      4.4.0 or higher version.
+    - I cant see market place on the app. I am a developer. I have an app that has two
+      digit serial numbers and is available in my Android device. Can you put a number
+      on a phone and give me the mobile version number?
+    - I cant see market place on the app. I want to test it again, I cant see market
+      place to build a website. Is there a market place for it?
+    - I cant see market place on the app. App Store.Marketplace.app store.app store.app
+      store.appstore.app store.appstore.appstore.appstore.appstore.appstore.appstore.appstore.appstore.appstore.appstore.appstore.appstore.appstore.appstore.appstore.appstore.appstore.appstore.appstore.appstore.appstore.appstore.appstore.appstore.appstore.appstore.appstore.app
+    - I cant see market place on the app, cant see mobile market place?
+    - I cant see market place on the app. I cant see market place on the app. I cant
+      see market place.
+    - Does the app have Market Place?
+    - What is Market Place?
+    - Does Market Place exist?
+    - Does the app have a Market Place?
+    - Does the app has Market Place?
+    - What are some market places for a website?
+    - Do apps have Market Place?
+    - Does a new mobile app have a Market Place?
+    - What is market place?
+    - Do YingApps have market place?
+    - Does my app have a market place?
+- intent: faq_stock
+  examples: |
+    - When are you getting more stock in?
+    - Why do you make more stock?
+    - Why are you getting more stock in?
+    - When do you get more stock in?
+    - What is the best way to get more stock in?
+    - How can I get more stock in my portfolio?
+    - How do I get more stock in?
+    - When do you get more stock?
+    - What is stock in? When are you getting more stock in?
+    - How do you get more stock?
+    - What are some ways to get more stock in?
+    - When will you get more in?
+    - How do I get more out of life?
+    - When do you get more in?
+    - How will you get more in?
+    - When will you get more?
+    - What will you do to get more out of a situation?
+    - When will I get more in?
+    - How can I get more in?
+    - When should I get more out?
+    - When will you get more of everything?
+    - What are the best ways to get more in?
+    - What's your next restock date?
+    - What is your next restock date?
+    - When are your next restocking dates?
+    - When will you restock your clothes?
+    - What is the next restock date?
+    - When will be the next restock date?
+    - What are your next restock dates?
+    - When is your next restock date?
+    - When is the next restocking date?
+    - When is your next replenishment date?
+    - When are your next restock dates?
+    - When are you getting more stock?
+    - When do you need to get more stock?
+    - When is the best time to gain more stock?
+    - When should I start getting more stock?
+    - How do I get more stock?
+    - What is the best way to get more stock?
+    - Why are you getting more stock?
+    - When do you get more stock?
+    - When do I get more stock?
+    - Why do you get more stock?
+    - When should I buy more stock?
+    - Do you know when you get more stock?
+    - How do you know when you get more stock?
+    - How can I get more stock?
+    - What do you know about stock?
+    - Do you know when you have more stock?
+    - How do you know if you get more stock?
+    - How do you know you get more stock?
+    - Do you know when you get more stocks?
+    - How do I know if I have more stock?
+    - When do you know you get more stock?
+    - Do you know if you get more stocks?
+    - When will you be getting more?
+    - When will you get more?
+    - How do I become more efficient at giving what you have?
+    - When will you start getting more?
+    - When do you feel like you are getting more?
+    - Why is getting more a thing?
+    - What is your answer to getting more?
+    - What are the moments when you can get more?
+    - When do you think you're going to be getting more?
+    - When do you expect to be getting more?
+    - How can we become more productive?
+    - Will you be getting more in?
+    - Will you get more in?
+    - Are you getting more and more?
+    - Do you get more in?
+    - Is there a formula to getting more in?
+    - How do I get more in?
+    - What can I do to get more into?
+    - What do you think about getting more out of it?
+    - Will you be getting more of something?
+    - Will you be getting more out?
+    - Do you feel like you are getting more?
+    - Do you know when you get more stock?
+    - How can I get more stock?
+    - What should I do if I want more stock?
+    - Do you know when you get more stocks?
+    - What are some ways to get more stock?
+    - How do you know when you get more stock?
+    - What is it like to get more stock?
+    - When do you know that you're going to get more stock?
+    - What are the best ways to get more stock?
+    - How do you know if you get more stock?
+    - How do you know if you have more stock?

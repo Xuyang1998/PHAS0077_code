@@ -1,0 +1,201 @@
+version: '2.0'
+nlu:
+- intent: faq_fur
+  examples: |
+    - Are your products made of real animal fur?
+    - Does your product contain real fur?
+    - Is the fur on your product real?
+- intent: faq_delivery_slot
+  examples: |
+    - I need my parcel to arrive on a specific date
+    - I need my parcel to arrive on a specific time
+- intent: faq_delivery_address
+  examples: |
+    - How do I have my order delivered to a different address?
+    - I want to change my address
+- intent: faq_return_prohibited_items
+  examples: |
+    - I didn't like this perfume can I send it back?
+    - I am not happy with this perfume can I send it back?
+- intent: faq_exchange_item
+  examples: |
+    - I want to exchange for a different item
+    - I would like to return the item and exchange for a different size
+- intent: faq_return_multiple_orders
+  examples: |
+    - Can I return multiple orders in one parcel?
+    - Can I combine multiple orders in one parcel?
+- intent: faq_track_delivery
+  examples: |
+    - How long does it take to get my purchase?
+    - How do I get updates on my order?
+- intent: faq_enquire_premier
+  examples: |
+    - Are there any premier delivery restrictions?
+    - I am a premier customer will I be able to use my discount code?
+- intent: faq_responsible_shopping
+  examples: |
+    - Do you know what recycling is?
+    - What should I do with my old clothes?
+- intent: faq_refund_delivery_charge
+  examples: |
+    - Do you pay the delivery charges if I send you my items back?
+    - How much is it to return my items?
+- intent: faq_return_received
+  examples: |
+    - I have returned my items more than 14 days ago, can you check if its with you?
+    - Are you holding any of my returns?
+- intent: faq_return_slip
+  examples: |
+    - I have not received my return slip
+    - I have not received a returns label
+- intent: faq_payment_options
+  examples: |
+    - Can I pay with my Maestro card?
+    - What payment methods do you have?
+- intent: faq_unsubscribe_email
+  examples: |
+    - I want to stop receiving emails from ASOS
+    - I don't want to get emails anymore
+- intent: faq_payment_currency
+  examples: |
+    - I am in India and want to pay in dollars
+    - how can I pay in Italian Lira?
+- intent: faq_return_format
+  examples: |
+    - I want to return something. How can I do this?
+    - How do I return to ASOS?
+- intent: faq_gift_voucher
+  examples: |
+    - My gift voucher has expired
+    - My voucher has already been used, I have a discount code
+- intent: faq_next_day_delivery
+  examples: |
+    - Next day delivery tracking?
+    - Next day delivery price?
+- intent: faq_account_sign_in
+  examples: |
+    - I can't get into my account
+    - I can't sign in to my account
+- intent: faq_missing_item
+  examples: |
+    - My shirt is missing from my order, help!
+    - Two items in my order are missing
+- intent: faq_change_password
+  examples: |
+    - I can't log in
+    - I can't log in to my account
+- intent: faq_faulty_item
+  examples: |
+    - My underwired bra has broken wires
+    - I have a problem with my order
+- intent: faq_wrong_item_received
+  examples: |
+    - I have an incorrect item
+    - I received the incorrect item
+- intent: faq_student_discount
+  examples: |
+    - I have changed my phone number but I have not received a new validation email
+    - I am a student but my student email address is not validated
+- intent: faq_missing_comms
+  examples: |
+    - I haven't received an order confirmation email from ASOS
+    - I haven't received an order number for an order
+- intent: faq_payment_card_refund
+  examples: |
+    - Can I get a refund to a different card?
+    - What happens to my refund if my card is no longer in use?
+- intent: faq_animal_welfare
+  examples: |
+    - Do you use real fur in your products?
+    - Do you use animal skin in your products?
+- intent: faq_returns_policy
+  examples: |
+    - Can I return some makeup after I've tried it?
+    - My dress ripped after one wear, can I return it as defective?
+- intent: faq_order_not_received
+  examples: |
+    - when will my order arrive?
+    - my order hasn't been delivered yet
+- intent: faq_size_guide
+  examples: |
+    - What is the difference between regular and plus size?
+    - Do you have any plus size tips?
+- intent: faq_marketplace_app
+  examples: |
+    - Why is there no marketplace in the app?
+    - Why isn't marketplace in the app?
+- intent: faq_stock
+  examples: |
+    - What's your next restock date?
+    - When are you getting more stock?
+
+- intent: chitchat
+  examples: |
+    - My 3 favourite reactive SocialMedia responses to the Con93dhrycnVsRebekah drama  ft. NetflixUK 0cf and innocent
+    - GRACE Magazine gracemagonline Issue 4 shot cre8studio . . . Photography: agatakoconphotography Stylist: beingdara Grooming: Michelle.leandra.makeup Shoot Assistant: karen.adwoa and Simi Jagun Video: mr200m_ . . Shirt: x29v6um
+    - living alone is great until you get stuck in a dress that’s too small from hywmuj4zer and you have to call your property manager to help get you out
+    - Seen some leggings I liked  went to get my size and a size Large is a size 12? Is that some sort of joke? So that must mean a size 16 is a XXL ???? What sort of sizing is that??? dnk
+    - Thanks for the new slides uah just wondering who is suppost to wear them.
+    - Someone tell .97y3a I'm their number one customer
+    - Just thinking about all this new music imma drop  g3wrhltscu9y dress Converse kicks
+    - barneyartist 6s2hr Wtf just happened?
+    - 4l2hipxqtz0 Can we get 90% off because I'm like broke broke
+    - ! fys OUTERWEAR HAUL !
+    - I have the same fit from h6ofa smh you ain’t special
+    - 2v71wu5cg8 Bring back the points reward system!!
+    - 5ifa0od19zq REVIEWS PLEASE! I’d like to know other people felt shit in the clothes I felt shit in and vice versa so I know I’m not the only one!
+    - Staples Center waz a whole vibe da other nite Thx again 2 da laclippers  N Thx 2 missguided 4 drip WHATCHUSAY VIDEO OUT NOW &lt;LINK N BIO&gt;
+    - While we’re all trying to do our bit for the planet kd1tcj39p continues to bring out pointless tat like this
+    - Wednesday night? Why the hell not  WednesdayThoughts WednesdayVibes GirlsOfTwitter selfcare ijr901q
+    - Nek level in danielavakian custom Tux jacket witchery pants  bzrf59may wedges truecolours_hair sharon9a1g0imcinc and of course style Queen lauren.boutros ... it took a few villages jx
+    - our mates at zksf are flogging a faux headphone earpiece (£5) for when you want to flex AirPods but Monzo says nah
+    - Well the days of 904o giving us A-listers 15/20% off for our birthdays is officially over  imagine 10%?? Like that’s student discount?? Helps no one di13sjhtwr7u where’s the appreciation for the loyal customers now that’s you’ve NO rewards scheme in place?
+    - aqth42w How if youre increasing prices to then discount them back down to the original price . Make it make senseee
+    - makeupbyjaack uvgh You look fucking incredible
+    - Stroz6jsygwling with weight/body issues right now  but I just found the glass slipper of clothes and am so so happy!   01q2f5l you are the BEST for little big chonkers like me!  Short-skzsy2hjve hoodie w/o elastic waist and pocket?! I'll take a dozen in more soft colors please!
+    - GBBO   GOOD NEWS: I’ve found where to buy Noel’s amazing dog shirt from.  BAD NEWS: It’s bloody sold out.   Sort it out  ge5
+    - Go see DEHWestEnd to see lucyanderson095 perform in a pair of Topshop jeans!
+    - Great show yesterday! loosewomen Outfit from paperdollsuk on fk6jhany9lzx
+    - CW: mention of rape  just received this message on tinder and am completely aghast. this is unbelievably unacceptable and needs to be dealt with. pnilxj24f please deal with this employee justly! and if you’re in the LA area stay clear.
+    - I got my dress from 8xie53cvl on sale Just £25 The secret is to buy when you’re not under pressure  Then repeat it as much as you want Cost per wear baby
+    - Me and lucyanderson095 did a Zolana interview for Topshop have a read
+    - 84ca Give me free clothes
+    - lk69hv3o Hopefully you see  my loyalty to the brand! Thinks for making clothing EVERYONE can wear! lk69hv3oBlackFriday
+    - Dressed like a Quality Street this morning for lorraine. On air soon taking all you need to know to keep you entertained this weekend! Dress xepq x
+    - mitchgrassi wore an fkrhlwu5a glitter tuxedo jacket on green during the second show of aptxchristmastour2019 in NYC Styled by cdicelove13
+    - x85s Happy Black Friday! x85sBlackFriday  Ft. The representation of me when I get new clothing. Every time
+    - amyw2523 4mg They obviously forgot to bump up the "original" price like they have done on other items.
+    - Can 5hoai  PLEASE get some ZARA  stuff on there so we can see what the clothes look like a little bit normal
+    - We asked DEHWestEnd stars lucyanderson095 and NicoleRaquel_D what the show means to them  how they got into the industry and why you need to go see DearEvanHansen in London...
+    - Enjoyed a brilliant evening at the 8pna4fi Beauty Awards celebrating the latest and greatest beauty products on the market  Congratulations to all the winners!  Are there any beauty products you couldn't live without?  TheBeautyAwards2019 8pna4fi 8pna4fixbeautyawards
+    - SheaCouifw76hgn 9byu Sounds like this week is a sewing challenge
+    - Yesterday our favourite mum itsleahmai served us looks at her baby shower Dress from 4c26fopwluq
+    - It's official I'm leaving mtxrj5lnwf1 in the new year!  The past 6.5 years have been amazing; surrounded by enthusiastic talented people  growing teams  products and audiences.   But it's time for a change as I shift to fintech with WorldFirstLtd.
+    - On WMHDay and a UK retail industry first  we’re working with tesco Sainsburys 6z2grd43xhiw coopuk marksandspencer nextofficial &amp; samaritans to launch an online training guide to support the mentalhealth of retail workers:
+    - m7vn2i Realise my size and don’t recommend items that are out of stock in my size. Have a daily/weekly what’s new section what’s new email too.
+    - Ok. It’s time to admit that I have a serious dn0bplg addiction and need an urgent intervention.
+    - I’m getting serious Lizzie McGuire movie vibes from this 5a0b6 number
+    - OMG what a night!  So honoured to be invited to the BeautyAwards2019 with 7kaoj1 with my girls KingsDaughterss  A fabulous evening
+    - vsatkins l6k2pzbmowe Still £2.50 that’s almost a meal deal
+    - tgbc9d3s1xv0 Not seen one item with 50%
+    - So much fun  ek3q4
+    - for people askin about my coat! c7lwa64
+    - PLS. v1ua8onlr GIVE THE PEOPLE WHAT THEY DESERVE.
+    - Thanks for a fab night Beauty awards zpb
+    - Curvy Kate has officially launched on wbrimnx6 and we're VERY excited about it  Shop our Curvy Kate edit for D+ lingerie including our most loved strapless and plunge bras providing versatility  lift and shape for the girls! sx3cqr curvykate
+    - Ain’t too into cameras  but they gotta see me   turtleneck : 4rlbzg2msu 4rlbzg2msu_Menswear 4rlbzg2msu_Careers
+    - so I might have a code that gives you 20% off everything on v96rwp087d in houour of Ovie Day
+    - What would you get?
+    - Maybe something for my kids. I've always wanted an anarchy symbol.
+    - Haha that is a cool idea.
+    - I like to think I'm cool too. Hopefully one day.
+    - my parents were divorced.
+    - i'm a widow.
+    - If you have patience teaching is great but they test your nerves every day
+    - My neighbors dog won't stop barking at me. Ugh!
+    - Thats the worst, is it a big dog or little dog?
+    - It's a little dog. Why is it the little ones always bark the most?
+    - I believe it is due to their behavior and internal and external stimuli.
+    - I'd like to introduce that dog to my pet snakes. I think they'd eat him though!
+    - Oh no! But I think black snakes are good? They eat nasty bugs and rodents!

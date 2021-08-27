@@ -1,0 +1,1106 @@
+[
+  {
+    "text": "are all ASOS products vegan?",
+    "intent_response_key_target": "faq/fur",
+    "intent_response_key_prediction": {
+      "name": "faq/animal_welfare",
+      "confidence": 0.9402077198028564
+    }
+  },
+  {
+    "text": "Can I pick the cheapest time for my order to arrive for delivery? If yes, what should I prepare for?",
+    "intent_response_key_target": "faq/delivery_slot",
+    "intent_response_key_prediction": {
+      "name": "faq/next_day_delivery",
+      "confidence": 0.20847633481025696
+    }
+  },
+  {
+    "text": "I want to ship a website purchase to my parents house. I wish to buy a shipper order. I have been confused for many years for my order.",
+    "intent_response_key_target": "faq/delivery_address",
+    "intent_response_key_prediction": {
+      "name": "faq/missing_item",
+      "confidence": 0.22990934550762177
+    }
+  },
+  {
+    "text": "I bought a kurangha with an offer of freebies, can I return them?",
+    "intent_response_key_target": "faq/return_prohibited_items",
+    "intent_response_key_prediction": {
+      "name": "faq/return_slip",
+      "confidence": 0.3737337589263916
+    }
+  },
+  {
+    "text": "Is it OK to combine returns?",
+    "intent_response_key_target": "faq/return_multiple_orders",
+    "intent_response_key_prediction": {
+      "name": "faq/return_received",
+      "confidence": 0.36853352189064026
+    }
+  },
+  {
+    "text": "i have a few things to return",
+    "intent_response_key_target": "faq/return_multiple_orders",
+    "intent_response_key_prediction": {
+      "name": "faq/refund_delivery_charge",
+      "confidence": 0.2788621187210083
+    }
+  },
+  {
+    "text": "I ordered this the next day but now I don't have a note that I can ship it yet.",
+    "intent_response_key_target": "faq/track_delivery",
+    "intent_response_key_prediction": {
+      "name": "faq/return_slip",
+      "confidence": 0.23831233382225037
+    }
+  },
+  {
+    "text": "Why is my parcel not being delivered next day in Prime?",
+    "intent_response_key_target": "faq/enquire_premier",
+    "intent_response_key_prediction": {
+      "name": "faq/delivery_slot",
+      "confidence": 0.7265599966049194
+    }
+  },
+  {
+    "text": "I only want to return one item!",
+    "intent_response_key_target": "faq/refund_delivery_charge",
+    "intent_response_key_prediction": {
+      "name": "faq/returns_policy",
+      "confidence": 0.48212930560112
+    }
+  },
+  {
+    "text": "What is the return policy?",
+    "intent_response_key_target": "faq/refund_delivery_charge",
+    "intent_response_key_prediction": {
+      "name": "faq/returns_policy",
+      "confidence": 0.5245410203933716
+    }
+  },
+  {
+    "text": "Is it free to return an order?",
+    "intent_response_key_target": "faq/refund_delivery_charge",
+    "intent_response_key_prediction": {
+      "name": "faq/returns_policy",
+      "confidence": 0.5104679465293884
+    }
+  },
+  {
+    "text": "I lost my return, what do I do?",
+    "intent_response_key_target": "faq/return_slip",
+    "intent_response_key_prediction": {
+      "name": "faq/refund_delivery_charge",
+      "confidence": 0.4546295404434204
+    }
+  },
+  {
+    "text": "how do i pay",
+    "intent_response_key_target": "faq/payment_options",
+    "intent_response_key_prediction": {
+      "name": "faq/payment_currency",
+      "confidence": 0.7475395202636719
+    }
+  },
+  {
+    "text": "Can I pay the bill with PostePay?",
+    "intent_response_key_target": "faq/payment_options",
+    "intent_response_key_prediction": {
+      "name": "faq/payment_currency",
+      "confidence": 0.835914671421051
+    }
+  },
+  {
+    "text": "I am in the Netherlands and want to change my address and currency in Euro, what currency would I need to change it?",
+    "intent_response_key_target": "faq/payment_currency",
+    "intent_response_key_prediction": {
+      "name": "faq/account_sign_in",
+      "confidence": 0.4059542119503021
+    }
+  },
+  {
+    "text": "Can I get the DPD again?",
+    "intent_response_key_target": "faq/return_format",
+    "intent_response_key_prediction": {
+      "name": "faq/payment_currency",
+      "confidence": 0.6795355677604675
+    }
+  },
+  {
+    "text": "I can't sign in to my account",
+    "intent_response_key_target": "faq/account_sign_in",
+    "intent_response_key_prediction": {
+      "name": "faq/change_password",
+      "confidence": 0.5291690230369568
+    }
+  },
+  {
+    "text": "I've forgotten my email address that I registered with",
+    "intent_response_key_target": "faq/account_sign_in",
+    "intent_response_key_prediction": {
+      "name": "faq/delivery_address",
+      "confidence": 0.5142651796340942
+    }
+  },
+  {
+    "text": "How long does the processing time for products change?",
+    "intent_response_key_target": "faq/missing_order",
+    "intent_response_key_prediction": {
+      "name": "faq/returns_policy",
+      "confidence": 0.4851609170436859
+    }
+  },
+  {
+    "text": "I haven't received my parcel. I really hate the way this feels. I can not donate yet.",
+    "intent_response_key_target": "faq/missing_item",
+    "intent_response_key_prediction": {
+      "name": "faq/return_received",
+      "confidence": 0.3255065083503723
+    }
+  },
+  {
+    "text": "My jeans ripped after 3 washes",
+    "intent_response_key_target": "faq/faulty_item",
+    "intent_response_key_prediction": {
+      "name": "faq/returns_policy",
+      "confidence": 0.413482666015625
+    }
+  },
+  {
+    "text": "My order was damaged",
+    "intent_response_key_target": "faq/faulty_item",
+    "intent_response_key_prediction": {
+      "name": "faq/returns_policy",
+      "confidence": 0.854835033416748
+    }
+  },
+  {
+    "text": "My T-shirt has faded. I don't want to get a new one. Is there still life for it?",
+    "intent_response_key_target": "faq/faulty_item",
+    "intent_response_key_prediction": {
+      "name": "faq/returns_policy",
+      "confidence": 0.26561424136161804
+    }
+  },
+  {
+    "text": "I know this shirt is the wrong colour. But the shirt is pretty much the same as the shirt. I found it too dark and then tried to change the shirt colour. I then got it back, but I did not want to waste my money.",
+    "intent_response_key_target": "faq/wrong_item_received",
+    "intent_response_key_prediction": {
+      "name": "faq/return_received",
+      "confidence": 0.42635029554367065
+    }
+  },
+  {
+    "text": "Im a student I did not receive a confirmation email for my coupon",
+    "intent_response_key_target": "faq/student_discount",
+    "intent_response_key_prediction": {
+      "name": "faq/missing_comms",
+      "confidence": 0.6432546973228455
+    }
+  },
+  {
+    "text": "I changed my email, I have received a validation email, I have not received a new email yet. I have been getting a confirmation email from my SSN.",
+    "intent_response_key_target": "faq/student_discount",
+    "intent_response_key_prediction": {
+      "name": "faq/missing_comms",
+      "confidence": 0.917889416217804
+    }
+  },
+  {
+    "text": "How long do I have to return products if I don't wish to buy a new product?",
+    "intent_response_key_target": "faq/payment_card_refund",
+    "intent_response_key_prediction": {
+      "name": "faq/returns_policy",
+      "confidence": 0.9569534063339233
+    }
+  },
+  {
+    "text": "My dress ripped after one wear, can I return it as defective?",
+    "intent_response_key_target": "faq/returns_policy",
+    "intent_response_key_prediction": {
+      "name": "faq/return_slip",
+      "confidence": 0.3819417655467987
+    }
+  },
+  {
+    "text": "do you guys do vanity sizing",
+    "intent_response_key_target": "faq/size_guide",
+    "intent_response_key_prediction": {
+      "name": "faq/animal_welfare",
+      "confidence": 0.7474210262298584
+    }
+  },
+  {
+    "text": "Why is my shipping address outdated? How can I fix it?",
+    "intent_response_key_target": "faq/order_amend",
+    "intent_response_key_prediction": {
+      "name": "faq/delivery_address",
+      "confidence": 0.9574968218803406
+    }
+  },
+  {
+    "text": "How do you ensure my details are safe?",
+    "intent_response_key_target": "faq/payment_secure",
+    "intent_response_key_prediction": {
+      "name": "faq/size_guide",
+      "confidence": 0.3055747449398041
+    }
+  },
+  {
+    "text": "Is your fashion line full of products made of real animal skin?",
+    "intent_response_key_target": "faq/fur",
+    "intent_response_key_prediction": {
+      "name": "faq/animal_welfare",
+      "confidence": 0.9241133332252502
+    }
+  },
+  {
+    "text": "Cosmetics: the cremes, makeups, and skin care: cosmetics & bathing: cosmetics have been considered extremely important.",
+    "intent_response_key_target": "faq/return_prohibited_items",
+    "intent_response_key_prediction": {
+      "name": "faq/faulty_item",
+      "confidence": 0.2135283499956131
+    }
+  },
+  {
+    "text": "I want to change my order to receive a different item. I wish to order a different item. What should I do?",
+    "intent_response_key_target": "faq/exchange_items",
+    "intent_response_key_prediction": {
+      "name": "faq/delivery_address",
+      "confidence": 0.5670301914215088
+    }
+  },
+  {
+    "text": "I nedd again 6e in 12 week old scn. I am yet to become a NDD..",
+    "intent_response_key_target": "faq/exchange_items",
+    "intent_response_key_prediction": {
+      "name": "faq/return_received",
+      "confidence": 0.1795024424791336
+    }
+  },
+  {
+    "text": "How can I find where my order is located?",
+    "intent_response_key_target": "faq/track_delivery",
+    "intent_response_key_prediction": {
+      "name": "faq/missing_order",
+      "confidence": 0.6334367394447327
+    }
+  },
+  {
+    "text": "Where can I get a website where I can order my products?",
+    "intent_response_key_target": "faq/track_delivery",
+    "intent_response_key_prediction": {
+      "name": "faq/missing_order",
+      "confidence": 0.8870030641555786
+    }
+  },
+  {
+    "text": "Can I have my items delivered on a specific day with premier?",
+    "intent_response_key_target": "faq/enquire_premier",
+    "intent_response_key_prediction": {
+      "name": "faq/delivery_slot",
+      "confidence": 0.5577327609062195
+    }
+  },
+  {
+    "text": "I would like to know more about the premiere?",
+    "intent_response_key_target": "faq/enquire_premier",
+    "intent_response_key_prediction": {
+      "name": "faq/next_day_delivery",
+      "confidence": 0.3049667775630951
+    }
+  },
+  {
+    "text": "Where is my return, and what's the way I should find out about it?",
+    "intent_response_key_target": "faq/return_received",
+    "intent_response_key_prediction": {
+      "name": "faq/returns_policy",
+      "confidence": 0.725591242313385
+    }
+  },
+  {
+    "text": "I haven't received a return label. I want a full refund if I don't know about it. Is that the case?",
+    "intent_response_key_target": "faq/return_slip",
+    "intent_response_key_prediction": {
+      "name": "faq/returns_policy",
+      "confidence": 0.29134854674339294
+    }
+  },
+  {
+    "text": "can I pay in GBP?",
+    "intent_response_key_target": "faq/payment_currency",
+    "intent_response_key_prediction": {
+      "name": "faq/delivery_international",
+      "confidence": 0.42058509588241577
+    }
+  },
+  {
+    "text": "I would like to return an item.",
+    "intent_response_key_target": "faq/return_format",
+    "intent_response_key_prediction": {
+      "name": "faq/refund_delivery_charge",
+      "confidence": 0.6270769834518433
+    }
+  },
+  {
+    "text": "Can I get the re-shipment of Hermes?",
+    "intent_response_key_target": "faq/return_format",
+    "intent_response_key_prediction": {
+      "name": "faq/track_delivery",
+      "confidence": 0.3520262837409973
+    }
+  },
+  {
+    "text": "I haven't received a password reset email",
+    "intent_response_key_target": "faq/account_sign_in",
+    "intent_response_key_prediction": {
+      "name": "faq/unsubscribe_email",
+      "confidence": 0.5225753784179688
+    }
+  },
+  {
+    "text": "How to find out where is my order?",
+    "intent_response_key_target": "faq/missing_order",
+    "intent_response_key_prediction": {
+      "name": "faq/track_delivery",
+      "confidence": 0.6847374439239502
+    }
+  },
+  {
+    "text": "The email said the i would be delievered now but I havent received it. I found it on POP4.",
+    "intent_response_key_target": "faq/missing_order",
+    "intent_response_key_prediction": {
+      "name": "faq/delivery_address",
+      "confidence": 0.20982013642787933
+    }
+  },
+  {
+    "text": "I lost an item from my website. What should I do?",
+    "intent_response_key_target": "faq/missing_item",
+    "intent_response_key_prediction": {
+      "name": "faq/returns_policy",
+      "confidence": 0.3257172405719757
+    }
+  },
+  {
+    "text": "I can't log in",
+    "intent_response_key_target": "faq/change_password",
+    "intent_response_key_prediction": {
+      "name": "faq/payment_options",
+      "confidence": 0.5044426918029785
+    }
+  },
+  {
+    "text": "I can't log in to my account",
+    "intent_response_key_target": "faq/change_password",
+    "intent_response_key_prediction": {
+      "name": "faq/account_sign_in",
+      "confidence": 0.9903320074081421
+    }
+  },
+  {
+    "text": "I forgot my email, password and Gmail address. I can't read the email, I forgot my password and Gmail.",
+    "intent_response_key_target": "faq/change_password",
+    "intent_response_key_prediction": {
+      "name": "faq/account_sign_in",
+      "confidence": 0.6287112832069397
+    }
+  },
+  {
+    "text": "What should I do, what should I do?",
+    "intent_response_key_target": "faq/faulty_item",
+    "intent_response_key_prediction": {
+      "name": "faq/missing_item",
+      "confidence": 0.8547528386116028
+    }
+  },
+  {
+    "text": "What should I do, what should I do?",
+    "intent_response_key_target": "faq/missing_comms",
+    "intent_response_key_prediction": {
+      "name": "faq/missing_item",
+      "confidence": 0.8547528386116028
+    }
+  },
+  {
+    "text": "Is your whole collection vegan?",
+    "intent_response_key_target": "faq/animal_welfare",
+    "intent_response_key_prediction": {
+      "name": "faq/faulty_item",
+      "confidence": 0.29189005494117737
+    }
+  },
+  {
+    "text": "Is your entire collection vegan?",
+    "intent_response_key_target": "faq/animal_welfare",
+    "intent_response_key_prediction": {
+      "name": "faq/unsubscribe_email",
+      "confidence": 0.3464258313179016
+    }
+  },
+  {
+    "text": "How long do I have to return products if I don't wish to buy a new product?",
+    "intent_response_key_target": "faq/returns_policy",
+    "intent_response_key_prediction": {
+      "name": "faq/payment_card_refund",
+      "confidence": 0.9397682547569275
+    }
+  },
+  {
+    "text": "How long can I return my favorite products?",
+    "intent_response_key_target": "faq/returns_policy",
+    "intent_response_key_prediction": {
+      "name": "faq/return_format",
+      "confidence": 0.2925017774105072
+    }
+  },
+  {
+    "text": "Is it the responsibility to return products in an order?",
+    "intent_response_key_target": "faq/returns_policy",
+    "intent_response_key_prediction": {
+      "name": "faq/account_sign_in",
+      "confidence": 0.2198106199502945
+    }
+  },
+  {
+    "text": "Is your fur cruelty free?",
+    "intent_response_key_target": "faq/fur",
+    "intent_response_key_prediction": {
+      "name": "faq/animal_welfare",
+      "confidence": 0.6908015012741089
+    }
+  },
+  {
+    "text": "I ordered this the next day but received an error message and the delivery was on the next day. Heeheeheet heeheehee. Is there any way of knowing when my order will be ready?",
+    "intent_response_key_target": "faq/delivery_slot",
+    "intent_response_key_prediction": {
+      "name": "faq/next_day_delivery",
+      "confidence": 0.8891293406486511
+    }
+  },
+  {
+    "text": "I want to return a perfume. I don't want to get addicted. I can not wear it. I have been getting some..",
+    "intent_response_key_target": "faq/return_prohibited_items",
+    "intent_response_key_prediction": {
+      "name": "faq/delivery_address",
+      "confidence": 0.22744600474834442
+    }
+  },
+  {
+    "text": "Can anyone get the resemblance of credit and loans?",
+    "intent_response_key_target": "faq/exchange_items",
+    "intent_response_key_prediction": {
+      "name": "faq/account_sign_in",
+      "confidence": 0.4482325613498688
+    }
+  },
+  {
+    "text": "Can I send more than one order back in one parcel?",
+    "intent_response_key_target": "faq/return_multiple_orders",
+    "intent_response_key_prediction": {
+      "name": "faq/delivery_UK_standard",
+      "confidence": 0.30721208453178406
+    }
+  },
+  {
+    "text": "Can you bundle the returned emails in the same bag?",
+    "intent_response_key_target": "faq/return_multiple_orders",
+    "intent_response_key_prediction": {
+      "name": "faq/return_received",
+      "confidence": 0.453372597694397
+    }
+  },
+  {
+    "text": "What is the delivery time for a product order?",
+    "intent_response_key_target": "faq/track_delivery",
+    "intent_response_key_prediction": {
+      "name": "faq/missing_order",
+      "confidence": 0.31539186835289
+    }
+  },
+  {
+    "text": "How does ASOS dispose of unsold inventory?",
+    "intent_response_key_target": "faq/responsible_shopping",
+    "intent_response_key_prediction": {
+      "name": "faq/delivery_UK_standard",
+      "confidence": 0.2808647155761719
+    }
+  },
+  {
+    "text": "Why can't I return my used items to your stores?",
+    "intent_response_key_target": "faq/responsible_shopping",
+    "intent_response_key_prediction": {
+      "name": "faq/returns_policy",
+      "confidence": 0.4601592719554901
+    }
+  },
+  {
+    "text": "Will I get the bill for delivering the food back if I get the delivery rolled back?",
+    "intent_response_key_target": "faq/refund_delivery_charge",
+    "intent_response_key_prediction": {
+      "name": "faq/next_day_delivery",
+      "confidence": 0.46520474553108215
+    }
+  },
+  {
+    "text": "I sent my return back to NS. I really hate the way I read it. I needed to respond back within 4 days of receipt.",
+    "intent_response_key_target": "faq/return_received",
+    "intent_response_key_prediction": {
+      "name": "faq/returns_policy",
+      "confidence": 0.26313215494155884
+    }
+  },
+  {
+    "text": "I didn't find the order paper for return",
+    "intent_response_key_target": "faq/return_slip",
+    "intent_response_key_prediction": {
+      "name": "faq/refund_delivery_charge",
+      "confidence": 0.8007301688194275
+    }
+  },
+  {
+    "text": "Which credit card do you accept?",
+    "intent_response_key_target": "faq/payment_options",
+    "intent_response_key_prediction": {
+      "name": "faq/size_guide",
+      "confidence": 0.439581960439682
+    }
+  },
+  {
+    "text": "Will you accept the rs 500 and rs 1000 denominations?",
+    "intent_response_key_target": "faq/payment_currency",
+    "intent_response_key_prediction": {
+      "name": "faq/return_received",
+      "confidence": 0.37770822644233704
+    }
+  },
+  {
+    "text": "How can I return to ASOS?",
+    "intent_response_key_target": "faq/return_format",
+    "intent_response_key_prediction": {
+      "name": "faq/returns_policy",
+      "confidence": 0.3814930021762848
+    }
+  },
+  {
+    "text": "I'm the Mainland UK customer. How do I return my order?",
+    "intent_response_key_target": "faq/return_format",
+    "intent_response_key_prediction": {
+      "name": "faq/returns_policy",
+      "confidence": 0.3626570701599121
+    }
+  },
+  {
+    "text": "Why is my discount code refused to receive a refund?",
+    "intent_response_key_target": "faq/gift_voucher",
+    "intent_response_key_prediction": {
+      "name": "faq/return_received",
+      "confidence": 0.6947401762008667
+    }
+  },
+  {
+    "text": "when will my order arrive?",
+    "intent_response_key_target": "faq/missing_order",
+    "intent_response_key_prediction": {
+      "name": "faq/track_delivery",
+      "confidence": 0.9125941395759583
+    }
+  },
+  {
+    "text": "When will orders arrive?",
+    "intent_response_key_target": "faq/missing_order",
+    "intent_response_key_prediction": {
+      "name": "faq/track_delivery",
+      "confidence": 0.9174642562866211
+    }
+  },
+  {
+    "text": "Why do I have to wait for my order to be processed?",
+    "intent_response_key_target": "faq/missing_order",
+    "intent_response_key_prediction": {
+      "name": "faq/returns_policy",
+      "confidence": 0.5391137003898621
+    }
+  },
+  {
+    "text": "What should I do, what should I do?",
+    "intent_response_key_target": "faq/missing_item",
+    "intent_response_key_prediction": {
+      "name": "faq/faulty_item",
+      "confidence": 0.6432913541793823
+    }
+  },
+  {
+    "text": "I can't log in to my Microsoft account. How can I get access to my information?",
+    "intent_response_key_target": "faq/change_password",
+    "intent_response_key_prediction": {
+      "name": "faq/account_sign_in",
+      "confidence": 0.9340230226516724
+    }
+  },
+  {
+    "text": "What should I do, what should I do?",
+    "intent_response_key_target": "faq/wrong_item_received",
+    "intent_response_key_prediction": {
+      "name": "faq/faulty_item",
+      "confidence": 0.6432913541793823
+    }
+  },
+  {
+    "text": "I am waiting for a website but I don't know what order I have gotten from Amazon yet. I have been waiting for 5 days for my order, it was already in my order queue but I did receive a notification that my order was incomplete, I can't add my order through asos because I can't seem to get it right yet. Can anyone advise me please?",
+    "intent_response_key_target": "faq/missing_comms",
+    "intent_response_key_prediction": {
+      "name": "faq/missing_order",
+      "confidence": 0.4546346962451935
+    }
+  },
+  {
+    "text": "Why isn't ASOS bothering me with my order?",
+    "intent_response_key_target": "faq/missing_comms",
+    "intent_response_key_prediction": {
+      "name": "faq/track_delivery",
+      "confidence": 0.25980159640312195
+    }
+  },
+  {
+    "text": "Do I need to return all items in an order?",
+    "intent_response_key_target": "faq/returns_policy",
+    "intent_response_key_prediction": {
+      "name": "faq/return_format",
+      "confidence": 0.555171012878418
+    }
+  },
+  {
+    "text": "I ordered an iPhone, and it arrived damaged. What was the cause?",
+    "intent_response_key_target": "faq/returns_policy",
+    "intent_response_key_prediction": {
+      "name": "faq/faulty_item",
+      "confidence": 0.5336343050003052
+    }
+  },
+  {
+    "text": "How can I get a correct size?",
+    "intent_response_key_target": "faq/size_guide",
+    "intent_response_key_prediction": {
+      "name": "faq/wrong_item_received",
+      "confidence": 0.6866544485092163
+    }
+  },
+  {
+    "text": "When should I start gaining more?",
+    "intent_response_key_target": "faq/stock",
+    "intent_response_key_prediction": {
+      "name": "faq/delivery_UK_standard",
+      "confidence": 0.5027986168861389
+    }
+  },
+  {
+    "text": "Can I order from outside of the UK?",
+    "intent_response_key_target": "faq/delivery_international",
+    "intent_response_key_prediction": {
+      "name": "faq/delivery_UK_standard",
+      "confidence": 0.8633043169975281
+    }
+  },
+  {
+    "text": "Can you tell me more about shipping fees in UK?",
+    "intent_response_key_target": "faq/delivery_UK_standard",
+    "intent_response_key_prediction": {
+      "name": "faq/delivery_international",
+      "confidence": 0.3249965012073517
+    }
+  },
+  {
+    "text": "Where do carbon emissions from ASOS Deliveries come from?",
+    "intent_response_key_target": "faq/carbon_emissions",
+    "intent_response_key_prediction": {
+      "name": "faq/missing_comms",
+      "confidence": 0.4515126943588257
+    }
+  },
+  {
+    "text": "Can I change my delivery address after ordering?",
+    "intent_response_key_target": "faq/order_amend",
+    "intent_response_key_prediction": {
+      "name": "faq/delivery_address",
+      "confidence": 0.8116515278816223
+    }
+  },
+  {
+    "text": "Is it safe to pay online?",
+    "intent_response_key_target": "faq/payment_secure",
+    "intent_response_key_prediction": {
+      "name": "faq/refund_delivery_charge",
+      "confidence": 0.2621515393257141
+    }
+  },
+  {
+    "text": "Can I choose a specific time tomorrow to have my order delivered?",
+    "intent_response_key_target": "faq/delivery_slot",
+    "intent_response_key_prediction": {
+      "name": "faq/track_delivery",
+      "confidence": 0.3122097849845886
+    }
+  },
+  {
+    "text": "i got an email saying my order would be delivered thursday but i'm not in from 2",
+    "intent_response_key_target": "faq/delivery_slot",
+    "intent_response_key_prediction": {
+      "name": "faq/missing_order",
+      "confidence": 0.19778266549110413
+    }
+  },
+  {
+    "text": "I'd like to return this perfume as the lid has come off and the scent is no longer as strong",
+    "intent_response_key_target": "faq/return_prohibited_items",
+    "intent_response_key_prediction": {
+      "name": "faq/returns_policy",
+      "confidence": 0.41662371158599854
+    }
+  },
+  {
+    "text": "How long does the prime order to receive your order take?",
+    "intent_response_key_target": "faq/enquire_premier",
+    "intent_response_key_prediction": {
+      "name": "faq/missing_order",
+      "confidence": 0.7267968058586121
+    }
+  },
+  {
+    "text": "How can I get a free 1 day delivery?",
+    "intent_response_key_target": "faq/enquire_premier",
+    "intent_response_key_prediction": {
+      "name": "faq/track_delivery",
+      "confidence": 0.3882359266281128
+    }
+  },
+  {
+    "text": "How are clothes made?",
+    "intent_response_key_target": "faq/responsible_shopping",
+    "intent_response_key_prediction": {
+      "name": "faq/payment_options",
+      "confidence": 0.29857122898101807
+    }
+  },
+  {
+    "text": "It has been more than 14 days since I made a return",
+    "intent_response_key_target": "faq/return_received",
+    "intent_response_key_prediction": {
+      "name": "faq/refund_delivery_charge",
+      "confidence": 0.43698209524154663
+    }
+  },
+  {
+    "text": "Where is my return?",
+    "intent_response_key_target": "faq/return_received",
+    "intent_response_key_prediction": {
+      "name": "faq/refund_delivery_charge",
+      "confidence": 0.7765622138977051
+    }
+  },
+  {
+    "text": "do you accept Indian Rupees?",
+    "intent_response_key_target": "faq/payment_currency",
+    "intent_response_key_prediction": {
+      "name": "faq/payment_options",
+      "confidence": 0.7545442581176758
+    }
+  },
+  {
+    "text": "Can I pay the bill in gps?",
+    "intent_response_key_target": "faq/payment_currency",
+    "intent_response_key_prediction": {
+      "name": "faq/payment_options",
+      "confidence": 0.7782658934593201
+    }
+  },
+  {
+    "text": "How can I return a piece of my jewelry back to you?",
+    "intent_response_key_target": "faq/return_format",
+    "intent_response_key_prediction": {
+      "name": "faq/refund_delivery_charge",
+      "confidence": 0.4396445155143738
+    }
+  },
+  {
+    "text": "Is it the responsibility to create an account in order to buy?",
+    "intent_response_key_target": "faq/account_sign_in",
+    "intent_response_key_prediction": {
+      "name": "faq/payment_card_refund",
+      "confidence": 0.38822701573371887
+    }
+  },
+  {
+    "text": "I can't log in website. How can I fix this?",
+    "intent_response_key_target": "faq/change_password",
+    "intent_response_key_prediction": {
+      "name": "faq/account_sign_in",
+      "confidence": 0.40881964564323425
+    }
+  },
+  {
+    "text": "I ordered an iPhone, and it's in good condition, I get a new phone. But my order was damaged. Why?",
+    "intent_response_key_target": "faq/faulty_item",
+    "intent_response_key_prediction": {
+      "name": "faq/returns_policy",
+      "confidence": 0.7740640044212341
+    }
+  },
+  {
+    "text": "I haven't received a Shipping confirmation email from the UPS. If that email is not delivered yet, where do I order it from?",
+    "intent_response_key_target": "faq/missing_comms",
+    "intent_response_key_prediction": {
+      "name": "faq/missing_order",
+      "confidence": 0.7446260452270508
+    }
+  },
+  {
+    "text": "Is ASOS vegan?",
+    "intent_response_key_target": "faq/animal_welfare",
+    "intent_response_key_prediction": {
+      "name": "faq/fur",
+      "confidence": 0.8296234607696533
+    }
+  },
+  {
+    "text": "My item arrived damaged",
+    "intent_response_key_target": "faq/returns_policy",
+    "intent_response_key_prediction": {
+      "name": "faq/faulty_item",
+      "confidence": 0.9402257204055786
+    }
+  },
+  {
+    "text": "How long do I have to wait for my return address to be processed?",
+    "intent_response_key_target": "faq/returns_policy",
+    "intent_response_key_prediction": {
+      "name": "faq/missing_order",
+      "confidence": 0.889218807220459
+    }
+  },
+  {
+    "text": "When can I receive a phone call if I order online and get a quote?",
+    "intent_response_key_target": "faq/delivery_UK_standard",
+    "intent_response_key_prediction": {
+      "name": "faq/payment_card_refund",
+      "confidence": 0.27488648891448975
+    }
+  },
+  {
+    "text": "Can I amend my order after I've placed it?",
+    "intent_response_key_target": "faq/order_amend",
+    "intent_response_key_prediction": {
+      "name": "faq/missing_order",
+      "confidence": 0.6167661547660828
+    }
+  },
+  {
+    "text": "I want to change the details of my order.",
+    "intent_response_key_target": "faq/order_amend",
+    "intent_response_key_prediction": {
+      "name": "faq/payment_card_refund",
+      "confidence": 0.3898567259311676
+    }
+  },
+  {
+    "text": "Which currencies can I use on the app?",
+    "intent_response_key_target": "faq/app_currency",
+    "intent_response_key_prediction": {
+      "name": "faq/size_guide",
+      "confidence": 0.44807368516921997
+    }
+  },
+  {
+    "text": "I want my parcel to arrive on time. I can't find out, what time I should allow it.",
+    "intent_response_key_target": "faq/delivery_slot",
+    "intent_response_key_prediction": {
+      "name": "faq/missing_order",
+      "confidence": 0.6075001358985901
+    }
+  },
+  {
+    "text": "I ordered the wrong size and i made a mistake. I wish I had a bigger version of my size.",
+    "intent_response_key_target": "faq/exchange_items",
+    "intent_response_key_prediction": {
+      "name": "faq/delivery_address",
+      "confidence": 0.19231009483337402
+    }
+  },
+  {
+    "text": "Can I order the same order again without restocking the whole order?",
+    "intent_response_key_target": "faq/return_multiple_orders",
+    "intent_response_key_prediction": {
+      "name": "faq/track_delivery",
+      "confidence": 0.5260118842124939
+    }
+  },
+  {
+    "text": "How do I find out where my order is?",
+    "intent_response_key_target": "faq/track_delivery",
+    "intent_response_key_prediction": {
+      "name": "faq/missing_order",
+      "confidence": 0.9229571223258972
+    }
+  },
+  {
+    "text": "What time will my order arrive?",
+    "intent_response_key_target": "faq/track_delivery",
+    "intent_response_key_prediction": {
+      "name": "faq/missing_order",
+      "confidence": 0.9321328997612
+    }
+  },
+  {
+    "text": "What should I do with my old clothes?",
+    "intent_response_key_target": "faq/responsible_shopping",
+    "intent_response_key_prediction": {
+      "name": "faq/faulty_item",
+      "confidence": 0.2613244950771332
+    }
+  },
+  {
+    "text": "Why can't I return a used item back to you?",
+    "intent_response_key_target": "faq/responsible_shopping",
+    "intent_response_key_prediction": {
+      "name": "faq/return_received",
+      "confidence": 0.640301525592804
+    }
+  },
+  {
+    "text": "I want to return a single item. You can't return many, what you purchased?",
+    "intent_response_key_target": "faq/refund_delivery_charge",
+    "intent_response_key_prediction": {
+      "name": "faq/return_received",
+      "confidence": 0.8913350701332092
+    }
+  },
+  {
+    "text": "I can't find order material for return address. I searched for order sheet online. I called back. I have been confused for 5 days for my order document. I cant find order paper online. I looked through to find order sheet.",
+    "intent_response_key_target": "faq/return_slip",
+    "intent_response_key_prediction": {
+      "name": "faq/missing_order",
+      "confidence": 0.6816344857215881
+    }
+  },
+  {
+    "text": "i don't want to be contacted by text",
+    "intent_response_key_target": "faq/unsubscribe_email",
+    "intent_response_key_prediction": {
+      "name": "faq/payment_options",
+      "confidence": 0.5985643863677979
+    }
+  },
+  {
+    "text": "How do I return some of my items to you?",
+    "intent_response_key_target": "faq/return_format",
+    "intent_response_key_prediction": {
+      "name": "faq/refund_delivery_charge",
+      "confidence": 0.3843144476413727
+    }
+  },
+  {
+    "text": "I don't want my favorite products. I really want them!",
+    "intent_response_key_target": "faq/return_format",
+    "intent_response_key_prediction": {
+      "name": "faq/returns_policy",
+      "confidence": 0.5844807624816895
+    }
+  },
+  {
+    "text": "My voucher code says there are no products or services. I want to get one. I can not do that.",
+    "intent_response_key_target": "faq/gift_voucher",
+    "intent_response_key_prediction": {
+      "name": "faq/return_received",
+      "confidence": 0.36217358708381653
+    }
+  },
+  {
+    "text": "Is it the next day to purchase your food?",
+    "intent_response_key_target": "faq/next_day_delivery",
+    "intent_response_key_prediction": {
+      "name": "faq/track_delivery",
+      "confidence": 0.4151919186115265
+    }
+  },
+  {
+    "text": "how long does it take to get my order?",
+    "intent_response_key_target": "faq/missing_order",
+    "intent_response_key_prediction": {
+      "name": "faq/track_delivery",
+      "confidence": 0.8846852779388428
+    }
+  },
+  {
+    "text": "How can I find where my order is?",
+    "intent_response_key_target": "faq/missing_order",
+    "intent_response_key_prediction": {
+      "name": "faq/track_delivery",
+      "confidence": 0.5837434530258179
+    }
+  },
+  {
+    "text": "When will this movie, \"End of the Ring\" get its release?",
+    "intent_response_key_target": "faq/missing_order",
+    "intent_response_key_prediction": {
+      "name": "faq/return_received",
+      "confidence": 0.2853549122810364
+    }
+  },
+  {
+    "text": "How can I reset a memory?",
+    "intent_response_key_target": "faq/change_password",
+    "intent_response_key_prediction": {
+      "name": "faq/account_sign_in",
+      "confidence": 0.7296102643013
+    }
+  },
+  {
+    "text": "What is your animal protection policy?",
+    "intent_response_key_target": "faq/animal_welfare",
+    "intent_response_key_prediction": {
+      "name": "faq/track_delivery",
+      "confidence": 0.28915640711784363
+    }
+  },
+  {
+    "text": "I changed my mind, what should I change in order to get paid?",
+    "intent_response_key_target": "faq/returns_policy",
+    "intent_response_key_prediction": {
+      "name": "faq/delivery_address",
+      "confidence": 0.4100722372531891
+    }
+  },
+  {
+    "text": "How much is the standard delivery in the UK?",
+    "intent_response_key_target": "faq/delivery_UK_standard",
+    "intent_response_key_prediction": {
+      "name": "faq/next_day_delivery",
+      "confidence": 0.7522475719451904
+    }
+  },
+  {
+    "text": "If I order today, when will I receive it",
+    "intent_response_key_target": "faq/delivery_UK_standard",
+    "intent_response_key_prediction": {
+      "name": "faq/track_delivery",
+      "confidence": 0.8644671440124512
+    }
+  },
+  {
+    "text": "Is it too late to order now?",
+    "intent_response_key_target": "faq/order_amend",
+    "intent_response_key_prediction": {
+      "name": "faq/payment_options",
+      "confidence": 0.3036101162433624
+    }
+  },
+  {
+    "text": "My card has been used without my authorisation.",
+    "intent_response_key_target": "faq/payment_secure",
+    "intent_response_key_prediction": {
+      "name": "faq/return_received",
+      "confidence": 0.38273265957832336
+    }
+  }
+]

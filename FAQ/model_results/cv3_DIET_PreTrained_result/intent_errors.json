@@ -1,0 +1,18 @@
+[
+  {
+    "text": "Do you use real fur in your products?",
+    "intent": "faq_animal_welfare",
+    "intent_prediction": {
+      "name": "faq_fur",
+      "confidence": 0.8044632077217102
+    }
+  },
+  {
+    "text": "when will my order arrive?",
+    "intent": "faq_order_not_received",
+    "intent_prediction": {
+      "name": "faq_track_delivery",
+      "confidence": 0.6425747871398926
+    }
+  }
+]

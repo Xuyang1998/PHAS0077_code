@@ -1,0 +1,200 @@
+version: '2.0'
+nlu:
+- intent: faq_fur
+  examples: |
+    - Does your company use real fur?
+    - Is your fur cruelty free?
+- intent: faq_delivery_slot
+  examples: |
+    - Can you deliver my parcel on a specific date?
+    - Can you deliver my parcel on a specific date and time?
+- intent: faq_delivery_address
+  examples: |
+    - I want to ship my order to my daughter's address
+    - I want to ship my order to my parents house
+- intent: faq_return_prohibited_items
+  examples: |
+    - I'd like to return this perfume as the lid has come off and the scent is no longer as strong
+    - I don't like this perfume can I send it back?
+- intent: faq_exchange_item
+  examples: |
+    - I want to exchange my item for a different size
+    - I would like to swap my item for a different size
+- intent: faq_return_multiple_orders
+  examples: |
+    - Do you allow combined returns?
+    - Can I send more than one order back in one parcel?
+- intent: faq_track_delivery
+  examples: |
+    - When will my order come?
+    - When will my order be delivered?
+- intent: faq_enquire_premier
+  examples: |
+    - How do I pay for delivery with premier?
+    - Can I have my items delivered on a specific day with premier?
+- intent: faq_responsible_shopping
+  examples: |
+    - How do you recycle your packaging?
+    - Can I recycle my packaging?
+- intent: faq_refund_delivery_charge
+  examples: |
+    - What is the return policy?
+    - Can I return something and you pay the postage?
+- intent: faq_return_received
+  examples: |
+    - I haven't received my refund on my account
+    - I returned my stuff more than 14 days ago, where is my refund
+- intent: faq_return_slip
+  examples: |
+    - How can I get a new returns note?
+    - Can I get a new return slip?
+- intent: faq_payment_options
+  examples: |
+    - Can I pay with MoneyGram?
+    - Can I pay with Postepay?
+- intent: faq_unsubscribe_email
+  examples: |
+    - I no longer wish to receive emails from ASOS
+    - I don't want to receive emails from ASOS
+- intent: faq_payment_currency
+  examples: |
+    - I am in Germany and want to pay in Euros
+    - do you accept British pounds?
+- intent: faq_return_format
+  examples: |
+    - Can I return with DPD?
+    - How do I return an item to DPD?
+- intent: faq_gift_voucher
+  examples: |
+    - My discount code isnt working
+    - I am a new customer and I want to use my discount code
+- intent: faq_next_day_delivery
+  examples: |
+    - Next day delivery?
+    - How do I track my next day delivery parcel?
+- intent: faq_account_sign_in
+  examples: |
+    - how do i get into my account
+    - I can't login to my account
+- intent: faq_missing_item
+  examples: |
+    - I havent' received my t-shirt in my parcel
+    - I ordered a brand new coat with many other items, received everything but not the coat
+- intent: faq_change_password
+  examples: |
+    - How do I update my passephrase
+    - What is my pass phrase
+- intent: faq_faulty_item
+  examples: |
+    - I've received a faulty item, what should I do?
+    - What if my item is damaged?
+- intent: faq_wrong_item_received
+  examples: |
+    - I have received the wrong style
+    - I have received the incorrect item
+- intent: faq_student_discount
+  examples: |
+    - I have been trying to login with my student discount code but I have not received a validation email
+    - How do I get a student discount code
+- intent: faq_missing_comms
+  examples: |
+    - I haven't received a payment confirmation email from ASOS
+    - I haven't received a refund confirmation email from ASOS
+- intent: faq_payment_card_refund
+  examples: |
+    - What happens to my refund if my bank details have changed?
+    - Can I change my card details after I have requested a refund?
+- intent: faq_animal_welfare
+  examples: |
+    - Do you use animal skin in your products?
+    - Is ASOS vegan?
+- intent: faq_returns_policy
+  examples: |
+    - What can I do if an item doesn't fit me?
+    - Do I need to return all items in an order?
+- intent: faq_order_not_received
+  examples: |
+    - when will it get here?
+    - do i have to wait long for my order?
+- intent: faq_size_guide
+  examples: |
+    - Do you have EU size guides?
+    - Where can I find specific details about sizing?
+- intent: faq_marketplace_app
+  examples: |
+    - I cant see market place on the app
+    - Does the app have Market Place?
+- intent: faq_stock
+  examples: |
+    - Will you be getting more in?
+    - Do you know when you get more stock?
+
+- intent: chitchat
+  examples: |
+    - StephanieYeboah tilpze5 tilpze5 just hire Steph as a model already or give her chance to design her own line! It’s what the people want
+    -  SarahGarrettSPM  Awwww Saz thank you so much for having me present the ‘brand award’ to tn1ugvr24mw &amp; also for having me. I am humbled by your tweet. Was super lovely to meet you. EthnicityAwards 2020IMY
+    - Tredarious for 8swqiputa   Shot by me.
+    - We have far more in common than the things that divide us. Now more than ever  we need to celebrate our shared humanity. Help spread the chooselove message get yours from btk. 100% of profits go to supporting refugees around the world
+    - So theachippendale’s post on the riseatseven blog got the attention of the CEO of zruj7 on LinkedIn.   Amazing work Thea    Here’s the post in case you missed it
+    - 9htj 9htj don't toy with my emotions and gullibility like this... I'm at work with my phone on my forehead.
+    - 45rz9dpvc Get me a Glastonbury ticket
+    - Jake Gyllenhaal just said nice sweater to me. Thank you te4mhioryj0d I would love free clothes xoxo
+    - I rave about pa1n8o6mhlf to the high heavens and they’ve only gone and sent me a worn pair of shoes  broken inall
+    - Thanks l3o
+    - co12i How much did that tea cost  £30 RRP?
+    - GarciaTravels vsatkins lottyburns ze0cfks You got to admit that Amazon devices do get cheaper buddy.
+    - tq25iwekd Lol I’ve been looking at this for the past five minutes  and all I seemed to get was weird stares from people around me and also a headache from staring too long.
+    - Thanks boohoo for doing me dirty like this  one of ma bfs presents = ruined
+    - It was an honour to play at the LeCure charityBall last night. Thank you for having me   This wonderful dress is also from c5dlm
+    - Rhianmarie 2cb4pukag7yi Mine only started growing recently.
+    - This eye look by stephharwoodx is POPPIN' using our Liquid Foil eye paint in shade 'Wildin Out'  Available at ldk68m2gfu SgjotvulxkMakeUP
+    - How to own NationalPunctuationDay: After printing 17 000 bags with a spelling mistake – ‘onilne’ 6roy2u reacted by owning up to their error in a tweet. The format of the post allowed them to establish themselves as a company with a fun personality GoodMarketing MarketingDigital
+    - Very happy to announce that my good friends over at 2wx will gifting you guys with Goodie bags this Saturday   If you haven’t bought your tickets to my event  what are you waiting for?
+    - These human legs are $8 at ⁦utvx3qlh4m7k⁩
+    - tfhgmqk Show the other items in the outfit the model is wearing so you can purchase them too
+    - v28fugan It says that I win a black Friday treat! v28fuganBlackFriday
+    - kritisanon for Housefull 4 promotions sizzling in   Outfit &amp; heels od0zq1n95  Housefull4 KritiSanon Hf4 2daystogo Kritians bollywoodstyle bollywoodfashion
+    - amyw2523 ap5gwql I much prefer your discount
+    - why doesn’t this man have a job offer already this the second time i had to  yall like come on now q3tk4
+    - Finally found some thigh high boots that fit!! e3br6im4290d petite thank you!
+    - Oh my god  the worst email from tldg56 you could get. Why me
+    - Shop your weekend look and lingerie in one go with Curvy Kate on k9lcntxgo  The Curvy Kate Lifestyle fuller bust sheer mesh plunge bra in black is available for those busty babes who like to take pluunge!
+    - Let the leopard free.  new Bigdirtyrock attire  thanks to 5lhmdvb31a • bigdirtywailer bigdirtyaxeman bigdirtybassman leopard thebigdirty sexrock
+    - CandiceC_W vlrj7pqwui vlrj7pqwui SELLS BOOKS AS WELL AS LOOKS?
+    - Meet me at the London Tipton...  christiancowan x 8c0dew2in
+    - s3d9ilaf2c7h Shareable wishlists/gift list so I could share with my other half so he doesnt have to ask what I want for Christmas/birthday. He can just see my savedlist/wishlist
+    - Come through with the stretch mark representation 26bhg we see you!!!
+    - Not to stress anyone out but there's up to 50% off EVERYTHING on the hm1 website right now
+    - vwrmkblaz if it's select items only i dont want it
+    - .boohoo is tapping into a generation of younger consumers who shop on their mobile phones and share fashion tips through social media.
+    - So much fun performing hz683t2lfvwb x Beauty Awards last night ! Yes I did kick the bottle of water by my stand over...  like every other time  somethingsneverchange
+    - Forever wishing they stocked ZARA on rqvje2640da  plz
+    - o2cnz0gxa13 A notification when something on the wishlist is on sale or black in stock
+    - What the website shows vs what you get anr1tj0c
+    - I waited a really long time for these to come back in stock 7g4ukyve8
+    - Still on  9  got a lil something up my sbjpxw68evve for you guys this week   xy5a NastyGal beyondretrouk LM5TheTour
+    - SheaCou528ygqa0co9u dygt6sbi510 When someone with a check mark next to their name tweets at the brand..... OUUUU U IN TROUBto15nadEEEEE
+    - WhatKateWore katesclosetau It looks like Kate is wearing this pair of newlook faux suede pointed slingbacks  available at lsfjx.  The shoes have the same criss-cross ankle strap fastening  pointed toe and low block heel.
+    - Send me screenshots of your jshfbeux8 baskets. I’ll send a gift card for one girl in around 30 mins. You can block me after I send. I don’t deserve your time or attention.   paypig findom
+    - What's your sign?
+    - Missboredom98 vsatkins bonitasaph uvce OfficialPLT_CS isawitfirst_CS Nasty Gal is also guilty  50% 60% off yeah right like a basic crop top was £30 before the 50% off  NastyGal
+    - Absolutely love my freebie off ljhwgr0  always wanted a real life Stuart Little xxx freebie
+    - 8kwroe374h0 Not show me maternity wear when I’m just browsing  esp when purchasing for a postmiscarriage break. If people want maternity they’ll proactively choose that option. I did email you about it but no reply
+    - Thanks mtozl could do with a new pair of legs for a fiver tbf x
+    - It’s always so surreal walking the ARIA_Official red carpet and remembering that 12 years ago  I was singing in pubs to nobody and had just written my first song. Life is amazing when you work hard and back yourself.  ARIAs  Suit: zd0  Top: brasNthings  Glam: ReneeSayed
+    - Curvy Kate has officially launched on uw087h4kas6  The Curvy Kate edit of D+ lingerie creates natural curves with exceptional fit  so shop our most loved strapless  full cup and plunge bras providing versatility  lift and shape for the girls now
+    - 11 incredible new ChooseLove designs. Get yours now.  With the support of 11 unbelievable designers and the BFC  we launched a new range of tees.  They are sustainably produced  organic and all profit goes to help refugees. Get yours on kqj01abco:
+    - a honda because they are affordable and reliable
+    - i love the oscar mier wiener-mobile. it reminds me of snacking when i'm not having a meal. would you drive the oscar meir weiner mobile?
+    - i do not think so, what about you?
+    - i lost my driver's liscense, ufortunately, but i would if i could
+    - how did you lose it?
+    - i did some bad stuff, but that's not important
+    - im saving up to buy a new camera to take pictures of people who lost their licenses actually
+    - do you take pictures of people with curly hair like mine?
+    - no, only people with long hair like mine
+    - well, you got to do you, brother. i'm proud of you anyway!
+    - i always answer my cellphone.
+    - i work in sales.
+    - that is good . i'm nursing a cold and vitamin c does nothing lol
+    - oh sorry about that . taking lots of fluids ?

@@ -1,0 +1,10 @@
+[
+  {
+    "text": "Is ASOS vegan?",
+    "intent": "faq_animal_welfare",
+    "intent_prediction": {
+      "name": "faq_fur",
+      "confidence": 0.6285293102264404
+    }
+  }
+]

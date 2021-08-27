@@ -1,0 +1,10 @@
+[
+  {
+    "text": "When will my order be delivered?",
+    "intent": "faq_track_delivery",
+    "intent_prediction": {
+      "name": "faq_order_not_received",
+      "confidence": 0.6312019228935242
+    }
+  }
+]

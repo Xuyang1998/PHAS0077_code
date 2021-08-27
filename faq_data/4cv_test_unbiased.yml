@@ -1,0 +1,198 @@
+version: '2.0'
+nlu:
+- intent: faq_fur
+  examples: |
+    - Is your fur fake?
+    - Is your fur real?
+- intent: faq_delivery_slot
+  examples: |
+    - I need my parcel to arrive on a specific time on a specific day
+    - I will be out of the country on delivery date, can you deliver on another date?
+- intent: faq_delivery_address
+  examples: |
+    - I want to change my delivery address
+    - I want to ship my order to my friends house
+- intent: faq_return_prohibited_items
+  examples: |
+    - I want to return this perfume
+    - I don't like this perfume can I send it back?
+- intent: faq_exchange_item
+  examples: |
+    - I would like to return and exchange for a different size
+    - I would like to return the item and exchange for a different size
+- intent: faq_return_multiple_orders
+  examples: |
+    - Is it OK to combine returns?
+    - Can I send multiple returns in one parcel?
+- intent: faq_track_delivery
+  examples: |
+    - What is the tracking number to my order?
+    - What time will my order arrive?
+- intent: faq_enquire_premier
+  examples: |
+    - I am a premier customer but I have not received my premier discount code?
+    - Can I get my premier delivery for free?
+- intent: faq_responsible_shopping
+  examples: |
+    - How does ASOS dispose of unsold inventory?
+    - Why can't I return my used items to your stores?
+- intent: faq_refund_delivery_charge
+  examples: |
+    - I want to return my items but don't want to pay the return fees
+    - I only want to return one item!
+- intent: faq_return_received
+  examples: |
+    - I want to check if any of my returns are with you
+    - What does "awaiting collection" mean
+- intent: faq_return_slip
+  examples: |
+    - I did not receive my returns slip
+    - Can I get a new return slip?
+- intent: faq_payment_options
+  examples: |
+    - What payment method do you accept?
+    - Which credit card do you accept?
+- intent: faq_unsubscribe_email
+  examples: |
+    - stop sending me emails from ASOS
+    - can you stop sending me emails
+- intent: faq_payment_currency
+  examples: |
+    - can I pay in euros?
+    - accept euros?
+- intent: faq_return_format
+  examples: |
+    - How can I return to ASOS?
+    - Can I return with Hermes?
+- intent: faq_gift_voucher
+  examples: |
+    - My voucher code has been used but I havent bought anything
+    - My discount code does not get recognized
+- intent: faq_next_day_delivery
+  examples: |
+    - What is next day delivery?
+    - How much does next day delivery to Europe cost?
+- intent: faq_account_sign_in
+  examples: |
+    - I can't access my account
+    - My account says it's blocked
+- intent: faq_missing_item
+  examples: |
+    - The jeans are missing in my parcel!
+    - I received the t-shirt and the socks but not the dress
+- intent: faq_change_password
+  examples: |
+    - What is my passephrase
+    - I forgot my passphrase
+- intent: faq_faulty_item
+  examples: |
+    - My order was damaged
+    - There is a mark on my product
+- intent: faq_wrong_item_received
+  examples: |
+    - I have received the wrong colour
+    - I have received the wrong size
+- intent: faq_student_discount
+  examples: |
+    - I'm a student but I don't have the validation email
+    - I'm a student but I never received the validation email
+- intent: faq_missing_comms
+  examples: |
+    - I haven't received an order confirmation email
+    - I haven't received a shipping confirmation email
+- intent: faq_payment_card_refund
+  examples: |
+    - If my bank details change will you refund my order?
+    - Can I get a refund to a different card?
+- intent: faq_animal_welfare
+  examples: |
+    - Is your whole collection vegan?
+    - Does ASOS use animal fur?
+- intent: faq_returns_policy
+  examples: |
+    - How long can I return items for?
+    - My item arrived damaged
+- intent: faq_order_not_received
+  examples: |
+    - what do i do if my order hasn't arrived?
+    - how long does it take to get my order?
+- intent: faq_size_guide
+  examples: |
+    - How can I make sure I order the right size?
+    - Do you have US size guides?
+- intent: faq_marketplace_app
+  examples: |
+    - ASOS Why can't I find marketplace on the app?
+    - Where is Market Place on the app?
+- intent: faq_stock
+  examples: |
+    - Do you know when you get more stock?
+    - When will you be getting more?
+
+- intent: chitchat
+  examples: |
+    - vsatkins 9mu0 I know all retailers do it but the second picture was the price a week ago.. they’ve put the price up £12  shameful!!
+    - Dress 5gbzdy3t curves vinyl mix hoodie gac1w6fux plussize judilove size20 KingGarySreening TV BBC BBC Actress Comedienne BBCpresnter Radioshow Realtalk
+    - This is what a breakup really looks like slfoid23tkv  RetailTherapy
+    - These boots will look just as good on the dance floor as they will on your living room floor with a takeaway when the night's over.
+    - Thank you waitrose magazine for a lovely article  MyBespokeRoom    interiordesign veganhome   aplaceinthesun DFSOfficial votchwatch AmaraLiving GrahamandGreen HabitatUK avd7ixzfrtsu lgraceinteriors
+    - qkyce9 100% discount????
+    - lz7b Customer reviews on products
+    - Amber_Davies7 24ohviz5yf0 oh hey bbz xx
+    - So last week I shitposted on LinkedIn about 0rhjqav targeting advertising... and this morning some anonymous joker sent the offending items to our studio.
+    - Kate’s faux fur collars by ⁦TroyLondonUK⁩   ⁦InsideJigsaw⁩ and ⁦6ebizodjg1w8⁩ . Which one do you like the most? KateMiddleton duchessofcambridge
+    - I'll keep my hat on  hat by hm jacket c1xf3 adecrook
+    - Been invited to the aiw beauty awards tonight super excited  I’ve put on a suit &amp; trainers on for this C’MON!! Will share full outfit later
+    - u4pgfbn8hr93 Black Friday won't be happy for me anymore now that I've lost my sight  u4pgfbn8hr93BlackFriday
+    - Thanks afw  I needed some new shins
+    - wfjvp Me squinting at the picture to see it says: Happy Black Friday wfjvpBlackFriday
+    - Fringe &amp; Snake Skin  dress: z9wgbckpe61  boots: SteveMadden  jewels: jillzaleski  decodrive SFTs
+    - thbrksbrthr did my makeup for the if9gn27 beauty awards tonight... CAN WE JUST?
+    - rqp167y2weo Looking for rqp167y2weo sale items like...
+    - Houghton Main Colliery  May 1989. The train is on what is now Park Spring Road.  The shed like structure alongside the train is a covered conveyor belt taking coal from Dearne Valley Colliery.  6ypc5xjlbav warehouse run by XPOLogistics_Eu now sits where the colliery once stood.
+    - Hahah thisisinsider quoted me talking about rb31sgjaflk5 making plastic bags for clothing  insider insiders
+    - cn8142b32mwvm My neck  my back  give me an Asos voucher you tw*t
+    - Well done boohoo you were really discreet on raising your prices within a couple of hours. I had these in my basket this morning and went to buy just now. Even look at the top of each screenshot to show what times I went online. Actual disgusting
+    - GRYFFINDOOOOOR. After a day off from outfitsoctober (period pains BORING)I’m back with my house’s colour  burgundy&amp;gold  a nod to the main man HP himself with hairslide from etsy trousers newlook boots depop top primark jacket 8i61tac0ef2 latbootd ootd midsizestyle gryffindor
+    - Exciting news   SLAY IN YOUR LANE: The Journal is now available for purchase on 85nyqw !   It’s a perfect stocking filler  so make sure to grab your copy in time for Christmas  ‍
+    - doing gal’s a favour  missguided is doing this co ord and heels all for £10!!! Missguided  missguided
+    - s9h740xe6a I am OBSESSED with this.
+    - Check out mine and NicoleRaquel_D interview with Topshop
+    -  LOVE IS THE ANSWER    Thank you for being part of a movement that speaks up  that builds bridges  that takes action. Now more than ever  we need to spread the chooselove message get yours from 4bv. 100% of profits go to supporting refugees around the world
+    - I'm currently on 5gdklsmu at that stage in the online shopping process where you've added everything you want to the cart  shipping and billing info set  then you close the browser
+    - Blue w/ a splash of Orange    Jacket : 6azm2   Pants : Topman  Shoes : Topman  Socks : GHBass
+    - I STILL have not forgot that 8wae1 promised us “something better” when it took away our loyalty points/gift cards and we STILL haven’t gotten anything.    8wae1 please explain
+    - The team is headed to Chicago and I'm getting pics of the travel attire... It's not great.   The entire BlockWorksGroup team is decked out in di8gcw7 and lululemon gear.   Thanks—I guess—to trylolli for turning our team into into a bunch of Bitcoin loving fashionistas.
+    - Babe  SPARKS will FLY in our new showstopping body! Now available on the f247pj0c9 website
+    - The girls at Topshop HQ told us what they want for Christmas...
+    - Honestly what even is the point in u1cxlo Premier anymore?  No points system  and my stuff is literally NEVER delivered on time anyway. Think I'll save myself the cash next year!
+    - Suited &amp; booted 8srmve beauty awards   thanks for having me  ps OvieSoko is tall
+    - makeupbyjaack lie30ywuqsj OH BITCH look at you!!! insane
+    - This WMHDay we’ve been working together with samaritans jlpartnership namh waitrose tesconews coopukpress marksandspencer nextofficial and have today launched an online training guide to provide mentalhealth support to all retail colleagues
+    - 1h7i6lwdkxfr on how to ruin a birthday gift 1h7i6lwdkxfr
+    - a2d58 : How rude
+    - I will die on this hill h2839wuec
+    - When the CEO himself of 3om sees and shares your content  theachippendale   3om has landed over 300 links back to their product pages just for being different.   We all know when it comes to landing links in a competitive marketyou need to think more creatively.
+    - mitchgrassi wore a pair of z5p9h24 green glitter tuxedo pants during night 1 and 2 of APTXChristmasTour2019 Styled by cdicelove13
+    - Ugh  I love this dress ksi54
+    - MOOD because I just posted a boohoo haul on my channel
+    - Greyhound shirt on top of a greyhound.   Shirt from tv80qolhda
+    - Honoured to accept this award on behalf of the amazing team candocodance who made this vital project happen. A big thanks to nabz for their partnership &amp; AchatesPrize for the recognition. Proud doesn’t cover it x whatdancecanbe firsttimefunders
+    - Saw qp80ijmeha sheep shoes didn't know if they were real! I can confirm .... they are    And this is how many links the brand is getting from their "unique" products and PR stunts
+    - We did it! Thank you AchatesPrize for recognising our amazing partnership with mcgulxo. Thank you Asos for making the Training Intensive a reality. We  working with you all! firsttimefunders whatdancecanbe
+    - These cheap but expensive-looking bcnqfjde4uo are hiding at hu5ig1by  Mango  and UrbanOutfitters:
+    - NationalOvieDay  A collab worth celebrating! Thanks for having me 7su6mkn9o8
+    - My snakes are both pythons. I feed them mice. Do you have any pets?
+    - No, but I would love to have a cat for it to hunt mice in my house lol
+    - You have mice running around your house? Yikes! I think I'd rather have the barking dogs than that.
+    - Lol, but they do make great companions at times.I give them bread and they leave me alone for the most part.
+    - Have you given them names? If not, maybe we can come up with some.
+    - i just called them all Jerry, Big Jerry, Always hungry Jerry and then there's the Tiny Jerry.
+    - Now you really do need to get a cat and call him Tom.
+    - Yep that would completely the collection! I am widow so I need all the companions I can get haha
+    - i have blue eyes and curly brown hair.
+    - i love to snack between meals.
+    - I took the train to work the other day and it was so crowded. I was feeling really claustrophobic.
+    - I would have been too! Do you always take it to work?
+    - yes i do because i do not have a car
+    - if you could have a car what would it be?

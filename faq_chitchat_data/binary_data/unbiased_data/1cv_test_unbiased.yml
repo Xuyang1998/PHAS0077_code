@@ -1,0 +1,138 @@
+version: '2.0'
+nlu:
+- intent: faq
+  examples: |
+    - is the fur used in your products real?
+    - are all ASOS products vegan?
+    - do you use vegan fur?
+    - I need my parcel by the latest on Thursday
+    - I need my parcel by the latest on Friday
+    - I am going on holiday and want my order delivered to my hotel
+    - I live in a different country to my billing address
+    - I don't like this perfume can I send it back?
+    - Can I return this perfume?
+    - I would like to change my order to a different item
+    - I want to change the item for a different size
+    - Can I send multiple orders back in one bag?
+    - I have multiple returns, can I combine them all in the same bag?
+    - How do I track my order?
+    - How do I find out where my order is?
+    - How long does it take for my order to arrive with premier?
+    - Why do I have to pay for delivery with premier?
+    - How can I do to guarantee that the materials in my clothing are sourced sustainably?
+    - How can I be sure that the cotton I buy is ethically sourced?
+    - Can I send something back to you and you refund me the delivery charges?
+    - Do you refund the postage if I return something?
+    - It has been more than 14 days since I made a return
+    - Where is my return?
+    - I need a new returns note
+    - How do I get a new returns slip?
+    - Can I put in my card on the website?
+    - Can I pay with Visa?
+    - I'm sick of receiving emails from ASOS, how do I unsubscribe?
+    - how do I stop getting these emails?
+    - I am in the USA and would like to pay in US dollars
+    - I am in China and would like to pay in China yuan
+    - Can i return with Hermes?
+    - Can i return with DPD?
+    - I am a new customer and I want to use my voucher
+    - My voucher code has been used but I havent bought anything
+    - How can I track my next day delivery parcel?
+    - How long will it take for next day delivery?
+    - how do i log in to my account
+    - How to unlock your account
+    - I ordered a coat and a scarf but I received only one of them
+    - My order wasn't delivered, whats going on?
+    - I can't change my password
+    - I can't remember my pass phrase
+    - My jeans ripped after 3 washes
+    - The zip on my jeans is faulty
+    - I ordered a dress but you sent me the wrong size
+    - The item is the wrong color
+    - Im a student I did not receive a confirmation email for my coupon
+    - How do I activate my student code
+    - I received a confirmation email but I've never received an order number
+    - I got an order number for an order but I haven't received a confirmation email
+    - What do I do if I've changed my card details?
+    - Where will my refund go if my card details have changed?
+    - What do you consider animal welfare?
+    - Are you cruelty-free?
+    - What if I have a question about my order?
+    - How long do I have to return an item?
+    - How long do I have to wait for my order?
+    - Also what can I do if my order has not arrived?
+    - Does ASOS have plus size?
+    - Why doesn't ASOS have plus sizes?
+    - Why isn't there an app for marketplace?
+    - Why doesn't the marketplace have an app?
+    - Have you got any more stock coming in?
+    - Do you have any more stock coming in?
+
+- intent: chitchat
+  examples: |
+    - why are you putting prices up to make discounts look better cd5baol7vy cd5baol7vyblackfriday full price yesterday! discount today  scam
+    - Had a great time tonight 3hc7pr0zv8  thanks for having me
+    - So jonathanjoly picked 5 outfits for me from db7lzm6itq...we filmed the whole try-on haul &amp; our reactions which will be up tomorrow!  But here’s a preview of what to expect  this was the “office look”  Underneath I am wearing a boob tube
+    - Front cover of dbm
+    - I really think bgtn need to calm down with the discount m27keudshBlackFriday
+    - me at the event vs me as soon as the event finishes  thanks for a lovely evening qkupymjahvz
+    - Another bulk buy on 498h2w  I have no money but their clothes just MAKE me buy them!  As always  I’ve gone for a lot of colour  plussizefashion 498h2wcurve   AND YES  I am fully aware my bed is NOT made. I like it like that. Please don’t  me   SundayFunday
+    - AnnaSaccone 1dy0zt3hcro8 My dream girl  can’t wait for the rest of my picks to shown
+    - At what age do your boobs stop growing?   Asking for a friend .   zedu6cbr coming up trumps with their lingerie  zedu6cbr zedu6cbrfullerbust
+    - the difference in length between these L30 and L32 rmxuw5c farleigh jeans... last time I checked  2 inches wasn’t half a foot  (I’m 5”2 for reference so thought length 30 would be good!)
+    - my first red carpet event  oqb65mxyg beauty awards 2019  makeup by thbrksbrthr  styling by me!!
+    - About last night....   So many of you beauts have asked where I got me dress from and as always it’s hl34fvt857gw  hl34fvt857gwBlackFriday   By now I should have shares I swear
+    -   1nef4 I love you but lmaoooo.
+    - These Brands Have Banned Fur:   Macys  gucci  Versace  4t62ifc8u  CHANEL  jimmychoo  hm  RalphLauren  Burberry  MichaelKors  UrbanOutfitters  TommyHilfiger Bloomingdales  Gap  Coach  bjpvey  ZARA  CalvinKlein  jcrew  Topshop  BCBGMAXAZRIA   And so many others!
+    - q3tgahs4c78 what yall are doing is cheeky increasing the actual price and making it seem like we’re getting a bargain when where paying the actual price.OUT OF POCKET q3tgahs4c78BlackFriday
+    - *petite girls* I was looking on j9f and their models are actually petite so you can see how the clothes are going to fit. I’m so happy with this j9f
+    - Felt kinda cute at The Beauty Awards last night with jfup
+    - I’m so happy I signed up for du6wn3sig9t two day shipping only to have my items not show up. So now I have nothing to wear to my friends wedding tomorrow  cuz all my formal wear is packed for my move...
+    - SheaCouc9gah8 ihgxvyj7fw3 I’m fuckin dead sis
+    - Erm  4sqd8c3b6h5a What is this please? Why would you stock something that is clearly marketed towards laughing at a body that looks like mine?
+    - THE DAY OF DRIP     IS FINALLY UPON US  u2mhgq0el nationalovieday
+    - stevebartlettsc WiktoriaRyczko_ aimouj23x6sr FashionNova OfficialPLT also if ur worried about this threatening your life for the new outfit that you’ll wear once please also consider the 70 million people worldwide that make your clothes in terrible conditions for $3 per day. you probs won’t be effected but glad this makes u all go round screaming
+    - I love the new boards feature on cgr96e1z08v4
+    - Hey bj5i1h8sxz9l I hope this means you’re joining us in the fight to decriminalize sex work?
+    - Love 2ahi even more today
+    - Seen a post going viral about the chemicals in your fast-fashion clothes giving you cancer.  You have nothing to worry about! Every major Fashion brand nv24eyos8  FashionNova  OfficialPLT etc has to write that on their website as a LEGAL requirement! They all have it on there:
+    - My new shirt from 9th by Hermano for the redhot calendar launch party in London next week   What do you all think? Hot or not?  9th 9th_Menswear
+    - Literally how I feel about 034e7q right now.
+    - last night for the oaqd6zb beauty awards  link to dress ~
+    - New dress ( nht68ge90fr ) new day  new hope    Thank you all for being so lovely... and thanks for the well wishes
+    - I do love to serve a look.  Three guesses as to where the entire outfit is from.   Yes  byqsuv26 Curve.
+    - Just lil me on 4s5x3cf0i c8ltpw4b
+    - I was just browsing siqef and was surprised to see Queenie living her best life and doing up AESTHETIC
+    - Who remembers this wgfs9261ql Autumn Haul I did last year!? This was a BIG ONE!    Do you want to see more video hauls like this? Lemme know what Plus Size brands you'd love to see me try on xxx
+    - that’s a wrap  09q5
+    - zvyax3dqi40 Bring back the points vouchers!
+    - Excited to announce our partnership with p9c7j!   We're collaborating with one of the world's leading fashion retailers  p9c7j  to give you 6% sats back on online purchases.
+    - Shout out to 5wmb4 and riverisland for making me feel like a million dollars the last two years at the BFA's  that's who I will continue to support and will continue to spend my coin at
+    - I see what you did there gqlviu59rp
+    - qj760gfd Bloody reviews on products
+    - Luxury Papi   Suit by ot1m0
+    - FALL OUTFIT SNAPPED  Outfit details:  High neck dress Missguided  Cord Dress “jacket” Missguided  Shoes FashionNova  Scarf kipm  Bag Primark
+    - SheaCou9t487k1f5yx6 rvu And I officially OOOp
+    - scamming people about the black friday sales huh??? 8eylj3gdzn5 8eylj3gdzn5BlackFriday
+    - Ganzer fit von 02gkp and it Shows
+    - If you see me wearing men’s clothes from now on just mind your business...  cvn OvieSoko NationalOvieDay
+    - eydwbtj07 Not have separate listings for different colours of the same clothes p9bf3eeeeease! Just pop a wee “x other colours available” on the photo!
+    - Just seen a really nice dress on obpuye8htg4 and then realised it was a maternity dress but then I thought ... CHRISTMAS DINNER DRESS.
+    - Last nights Attire for the 4op6 Beauty Awards
+    - Jheezeeeeee! Got the opportunity to collaborate with 6pk5 and choose some of my favourite garms for Autumn! Big love to the team that made this happen
+    - On WMHDay and a UK retail industry first  we’re working with tesconews SainsburysNews p68ytzxmksw coopukpress marksandspencer nextofficial &amp; samaritans to launch an online training guide to support the mentalhealth of retail workers.   Read more here:
+    - stevebartlettsc WiktoriaRyczko_ q8dj0wa2v5z9 FashionNova OfficialPLT and if you don’t know  here are some easily digestible facts. PLEASE don’t just care when it effects you  people DO die from your fast fashion clothing  it’s just not you and your friends.
+    - Also my look for last night’s benefit gala for FuriousFlowerPC ! d7x please sponsor my suit game/obsession . K  thx.
+    - I love live music, that's why I try to go to concerts
+    - I do too. Wat do you like?
+    - I like acting, I hope to be an actor, what about you?
+    - that is ok.  have any kids?
+    - No, but someday.
+    - I heard Mount Tom Ski Area in Holyoke, Mass is a great resort to visit
+    - After I am done with school I plan to have a family.
+    - that is great! you will be ready
+    - I hope so, how old are your kids?
+    - i was once offered to play basketball professionally.
+    - I would imagine. I am sure they a great kids.
+    - luckily, they love flowers just as much as I do.  we spend a lot of time in the garden
+    - I wish I had more time to do stuff like that. Medical school is exhausting.
